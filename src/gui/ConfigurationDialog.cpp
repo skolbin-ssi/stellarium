@@ -45,7 +45,7 @@
 #include "StarMgr.hpp"
 #include "NebulaMgr.hpp"
 #include "Planet.hpp"
-#ifndef DISABLE_SCRIPTING
+#ifdef ENABLE_SCRIPTING
 #include "StelScriptMgr.hpp"
 #endif
 #include "StelJsonParser.hpp"
@@ -118,7 +118,7 @@ void ConfigurationDialog::retranslate()
 
 		//Script information
 		//(trigger re-displaying the description of the current item)
-		#ifndef DISABLE_SCRIPTING
+		#ifdef ENABLE_SCRIPTING
 		scriptSelectionChanged(ui->scriptListWidget->currentItem()->text());
 		#endif
 
@@ -164,6 +164,7 @@ void ConfigurationDialog::createDialogContent()
 	connect(ui->TitleBar, SIGNAL(movedTo(QPoint)), this, SLOT(handleMovedTo(QPoint)));
 
 	// Main tab
+	#ifdef ENABLE_NLS
 	// Fill the language list widget from the available list
 	QComboBox* cb = ui->programLanguageComboBox;
 	cb->clear();
@@ -180,6 +181,9 @@ void ConfigurationDialog::createDialogContent()
 	updateCurrentSkyLanguage();
 	connect(cb->lineEdit(), SIGNAL(editingFinished()), this, SLOT(updateCurrentSkyLanguage()));
 	connect(cb, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(selectSkyLanguage(const QString&)));
+	#else
+	ui->groupBox_LanguageSettings->hide();
+	#endif
 
 	connect(ui->getStarsButton, SIGNAL(clicked()), this, SLOT(downloadStars()));
 	connect(ui->downloadCancelButton, SIGNAL(clicked()), this, SLOT(cancelDownload()));
@@ -375,24 +379,16 @@ void ConfigurationDialog::createDialogContent()
 	connect(ui->screenshotDirEdit, SIGNAL(editingFinished()), this, SLOT(selectScreenshotDir()));
 	connect(ui->screenshotBrowseButton, SIGNAL(clicked()), this, SLOT(browseForScreenshotDir()));
 	connectBoolProperty(ui->invertScreenShotColorsCheckBox, "MainView.flagInvertScreenShotColors");
-#ifdef USE_OLD_QGLWIDGET
-	ui->useCustomScreenshotSizeCheckBox->setEnabled(false);
-	ui->useCustomScreenshotSizeCheckBox->hide();
-	ui->customScreenshotWidthLineEdit->hide();
-	ui->label_times->hide();
-	ui->customScreenshotHeightLineEdit->hide();
-#else
 	connectBoolProperty(ui->useCustomScreenshotSizeCheckBox, "MainView.flagUseCustomScreenshotSize");
 	ui->customScreenshotWidthLineEdit->setValidator(new MinMaxIntValidator(128, 16384, this));
 	ui->customScreenshotHeightLineEdit->setValidator(new MinMaxIntValidator(128, 16384, this));
 	connectIntProperty(ui->customScreenshotWidthLineEdit, "MainView.customScreenshotWidth");
 	connectIntProperty(ui->customScreenshotHeightLineEdit, "MainView.customScreenshotHeight");
-#endif
 	connectBoolProperty(ui->autoEnableEnvironmentCheckBox, "LandscapeMgr.flagEnvironmentAutoEnabling");
 	connectBoolProperty(ui->autoChangeLandscapesCheckBox, "LandscapeMgr.flagLandscapeAutoSelection");
 
 	// script tab controls
-	#ifndef DISABLE_SCRIPTING
+	#ifdef ENABLE_SCRIPTING
 	StelScriptMgr& scriptMgr = StelApp::getInstance().getScriptMgr();
 	connect(ui->scriptListWidget, SIGNAL(currentTextChanged(const QString&)), this, SLOT(scriptSelectionChanged(const QString&)));
 	connect(ui->runScriptButton, SIGNAL(clicked()), this, SLOT(runScriptClicked()));
@@ -406,6 +402,9 @@ void ConfigurationDialog::createDialogContent()
 	ui->scriptListWidget->setSortingEnabled(true);
 	populateScriptsList();
 	connect(this, SIGNAL(visibleChanged(bool)), this, SLOT(populateScriptsList()));
+	#else
+	ui->configurationStackedWidget->removeWidget(ui->page_Scripts);
+	delete ui->stackListWidget->takeItem(5);
 	#endif
 
 	// plugins control
@@ -791,11 +790,16 @@ void ConfigurationDialog::saveAllSettings()
 	conf->setValue("viewing/flag_isolated_orbits",			propMgr->getStelPropertyValue("SolarSystem.flagIsolatedOrbits").toBool());
 	conf->setValue("viewing/flag_planets_orbits_only",		propMgr->getStelPropertyValue("SolarSystem.flagPlanetsOrbitsOnly").toBool());
 	conf->setValue("astro/flag_light_travel_time",			propMgr->getStelPropertyValue("SolarSystem.flagLightTravelTime").toBool());
-	conf->setValue("viewing/flag_moon_scaled",				propMgr->getStelPropertyValue("SolarSystem.flagMoonScale").toBool());
 	conf->setValue("viewing/flag_draw_moon_halo",			propMgr->getStelPropertyValue("SolarSystem.flagDrawMoonHalo").toBool());
+	conf->setValue("viewing/flag_draw_sun_halo",			propMgr->getStelPropertyValue("SolarSystem.flagDrawSunHalo").toBool());
+	conf->setValue("viewing/flag_moon_scaled",				propMgr->getStelPropertyValue("SolarSystem.flagMoonScale").toBool());
 	conf->setValue("viewing/moon_scale",					QString::number(propMgr->getStelPropertyValue("SolarSystem.moonScale").toDouble(), 'f', 2));
 	conf->setValue("viewing/flag_minorbodies_scaled",		propMgr->getStelPropertyValue("SolarSystem.flagMinorBodyScale").toBool());
 	conf->setValue("viewing/minorbodies_scale",			QString::number(propMgr->getStelPropertyValue("SolarSystem.minorBodyScale").toDouble(), 'f', 2));
+	conf->setValue("viewing/flag_planets_scaled",				propMgr->getStelPropertyValue("SolarSystem.flagPlanetScale").toBool());
+	conf->setValue("viewing/planets_scale",					QString::number(propMgr->getStelPropertyValue("SolarSystem.planetScale").toDouble(), 'f', 2));
+	conf->setValue("viewing/flag_sun_scaled",				propMgr->getStelPropertyValue("SolarSystem.flagSunScale").toBool());
+	conf->setValue("viewing/sun_scale",					QString::number(propMgr->getStelPropertyValue("SolarSystem.sunScale").toDouble(), 'f', 2));
 	conf->setValue("astro/meteor_zhr",						propMgr->getStelPropertyValue("SporadicMeteorMgr.zhr").toInt());
 	conf->setValue("astro/flag_milky_way",					propMgr->getStelPropertyValue("MilkyWay.flagMilkyWayDisplayed").toBool());
 	conf->setValue("astro/milky_way_intensity",				QString::number(propMgr->getStelPropertyValue("MilkyWay.intensity").toDouble(), 'f', 2));
@@ -806,6 +810,7 @@ void ConfigurationDialog::saveAllSettings()
 	conf->setValue("astro/grs_longitude",					propMgr->getStelPropertyValue("SolarSystem.customGrsLongitude").toInt());
 	conf->setValue("astro/grs_drift",						propMgr->getStelPropertyValue("SolarSystem.customGrsDrift").toDouble());
 	conf->setValue("astro/grs_jd",							propMgr->getStelPropertyValue("SolarSystem.customGrsJD").toDouble());
+	conf->setValue("astro/shadow_enlargement_danjon",			propMgr->getStelPropertyValue("SolarSystem.earthShadowEnlargementDanjon").toBool());
 	conf->setValue("astro/flag_planets_labels",				propMgr->getStelPropertyValue("SolarSystem.labelsDisplayed").toBool());
 	conf->setValue("astro/labels_amount",					propMgr->getStelPropertyValue("SolarSystem.labelsAmount").toDouble());
 	conf->setValue("viewing/flag_planets_native_names",		propMgr->getStelPropertyValue("SolarSystem.flagNativePlanetNames").toBool());
@@ -832,6 +837,10 @@ void ConfigurationDialog::saveAllSettings()
 	conf->setValue("viewing/flag_ecliptic_J2000_line",		propMgr->getStelPropertyValue("GridLinesMgr.eclipticJ2000LineDisplayed").toBool());
 	conf->setValue("viewing/flag_ecliptic_J2000_parts",		propMgr->getStelPropertyValue("GridLinesMgr.eclipticJ2000PartsDisplayed").toBool());
 	conf->setValue("viewing/flag_ecliptic_J2000_labels",		propMgr->getStelPropertyValue("GridLinesMgr.eclipticJ2000PartsLabeled").toBool());
+	conf->setValue("viewing/flag_invariable_plane_line",		propMgr->getStelPropertyValue("GridLinesMgr.invariablePlaneLineDisplayed").toBool());
+	conf->setValue("viewing/flag_solar_equator_line",		propMgr->getStelPropertyValue("GridLinesMgr.solarEquatorLineDisplayed").toBool());
+	conf->setValue("viewing/flag_solar_equator_parts",		propMgr->getStelPropertyValue("GridLinesMgr.solarEquatorPartsDisplayed").toBool());
+	conf->setValue("viewing/flag_solar_equator_labels",		propMgr->getStelPropertyValue("GridLinesMgr.solarEquatorPartsLabeled").toBool());
 	conf->setValue("viewing/flag_ecliptic_grid",				propMgr->getStelPropertyValue("GridLinesMgr.eclipticGridDisplayed").toBool());
 	conf->setValue("viewing/flag_ecliptic_J2000_grid",		propMgr->getStelPropertyValue("GridLinesMgr.eclipticJ2000GridDisplayed").toBool());
 	conf->setValue("viewing/flag_meridian_line",			propMgr->getStelPropertyValue("GridLinesMgr.meridianLineDisplayed").toBool());
@@ -862,6 +871,8 @@ void ConfigurationDialog::saveAllSettings()
 	conf->setValue("viewing/flag_precession_parts",			propMgr->getStelPropertyValue("GridLinesMgr.precessionPartsDisplayed").toBool());
 	conf->setValue("viewing/flag_precession_labels",			propMgr->getStelPropertyValue("GridLinesMgr.precessionPartsLabeled").toBool());
 	conf->setValue("viewing/flag_circumpolar_circles",		propMgr->getStelPropertyValue("GridLinesMgr.circumpolarCirclesDisplayed").toBool());
+	conf->setValue("viewing/flag_umbra_circle",			propMgr->getStelPropertyValue("GridLinesMgr.umbraCircleDisplayed").toBool());
+	conf->setValue("viewing/flag_penumbra_circle",			propMgr->getStelPropertyValue("GridLinesMgr.penumbraCircleDisplayed").toBool());
 	conf->setValue("viewing/flag_supergalactic_grid",		propMgr->getStelPropertyValue("GridLinesMgr.supergalacticGridDisplayed").toBool());
 	conf->setValue("viewing/flag_supergalactic_equator_line",	propMgr->getStelPropertyValue("GridLinesMgr.supergalacticEquatorLineDisplayed").toBool());
 	conf->setValue("viewing/flag_supergalactic_equator_parts",	propMgr->getStelPropertyValue("GridLinesMgr.supergalacticEquatorPartsDisplayed").toBool());
@@ -994,18 +1005,20 @@ void ConfigurationDialog::saveAllSettings()
 	// DO NOT SAVE CURRENT LANDSCAPE ID! There is a dedicated button in the landscape tab of the View dialog.
 	//conf->setValue("init_location/landscape_name",                     propMgr->getStelPropertyValue("LandscapeMgr.currentLandscapeID").toString());
 	conf->setValue("landscape/flag_landscape_sets_location",	propMgr->getStelPropertyValue("LandscapeMgr.flagLandscapeSetsLocation").toBool());
-	conf->setValue("landscape/flag_landscape",				propMgr->getStelPropertyValue("LandscapeMgr.landscapeDisplayed").toBool());
-	conf->setValue("landscape/flag_atmosphere",				propMgr->getStelPropertyValue("LandscapeMgr.atmosphereDisplayed").toBool());
-	conf->setValue("landscape/flag_fog",					propMgr->getStelPropertyValue("LandscapeMgr.fogDisplayed").toBool());
+	conf->setValue("landscape/flag_landscape",			propMgr->getStelPropertyValue("LandscapeMgr.landscapeDisplayed").toBool());
+	conf->setValue("landscape/flag_atmosphere",			propMgr->getStelPropertyValue("LandscapeMgr.atmosphereDisplayed").toBool());
+	conf->setValue("landscape/flag_fog",				propMgr->getStelPropertyValue("LandscapeMgr.fogDisplayed").toBool());
 	conf->setValue("landscape/flag_enable_illumination_layer",	propMgr->getStelPropertyValue("LandscapeMgr.illuminationDisplayed").toBool());
 	conf->setValue("landscape/flag_enable_labels",			propMgr->getStelPropertyValue("LandscapeMgr.labelsDisplayed").toBool());
 	conf->setValue("landscape/flag_minimal_brightness",		propMgr->getStelPropertyValue("LandscapeMgr.flagLandscapeUseMinimalBrightness").toBool());
 	conf->setValue("landscape/flag_landscape_sets_minimal_brightness", propMgr->getStelPropertyValue("LandscapeMgr.flagLandscapeSetsMinimalBrightness").toBool());
 	conf->setValue("landscape/minimal_brightness",			propMgr->getStelPropertyValue("LandscapeMgr.defaultMinimalBrightness").toFloat());
-	conf->setValue("stars/init_bortle_scale",					propMgr->getStelPropertyValue("StelSkyDrawer.bortleScaleIndex").toInt());
+	conf->setValue("landscape/flag_polyline_only",			propMgr->getStelPropertyValue("LandscapeMgr.flagPolyLineDisplayedOnly").toBool());
+	conf->setValue("landscape/polyline_thickness",			propMgr->getStelPropertyValue("LandscapeMgr.polyLineThickness").toInt());
+	conf->setValue("stars/init_bortle_scale",			propMgr->getStelPropertyValue("StelSkyDrawer.bortleScaleIndex").toInt());
 	conf->setValue("landscape/atmospheric_extinction_coefficient",	propMgr->getStelPropertyValue("StelSkyDrawer.extinctionCoefficient").toFloat());
-	conf->setValue("landscape/pressure_mbar",				propMgr->getStelPropertyValue("StelSkyDrawer.atmospherePressure").toFloat());
-	conf->setValue("landscape/temperature_C",				propMgr->getStelPropertyValue("StelSkyDrawer.atmosphereTemperature").toFloat());
+	conf->setValue("landscape/pressure_mbar",			propMgr->getStelPropertyValue("StelSkyDrawer.atmospherePressure").toFloat());
+	conf->setValue("landscape/temperature_C",			propMgr->getStelPropertyValue("StelSkyDrawer.atmosphereTemperature").toFloat());
 
 	// view dialog / starlore tab
 	QObject* scmgr = reinterpret_cast<QObject*>(&StelApp::getInstance().getSkyCultureMgr());
@@ -1268,7 +1281,7 @@ void ConfigurationDialog::loadAtStartupChanged(int state)
 	}
 }
 
-#ifndef DISABLE_SCRIPTING
+#ifdef ENABLE_SCRIPTING
 void ConfigurationDialog::populateScriptsList(void)
 {
 	QListWidget *scripts = ui->scriptListWidget;
@@ -1658,9 +1671,7 @@ void ConfigurationDialog::updateTabBarListWidgetWidth()
 
 	QAbstractItemModel* model = ui->stackListWidget->model();
 	if (!model)
-	{
 		return;
-	}
 
 	// stackListWidget->font() does not work properly!
 	// It has a incorrect fontSize in the first loading, which produces the bug#995107.
@@ -1681,6 +1692,7 @@ void ConfigurationDialog::updateTabBarListWidgetWidth()
 
 	// Hack to force the window to be resized...
 	ui->stackListWidget->setMinimumWidth(width);
+	ui->stackListWidget->updateGeometry();
 }
 
 void ConfigurationDialog::populateDeltaTAlgorithmsList()

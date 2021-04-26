@@ -3,15 +3,14 @@
 #
 name: "AppImage"
 
-on:
-  push:
-    branches: [release]
+on: [push]
 
 jobs:
   # AppImage x86_64
   appimage-amd64:
     name: "x86_64"
     runs-on: ubuntu-18.04
+    if: "contains(github.event.head_commit.message, '[publish]') || contains(github.ref, 'heads/release')"
 
     steps:
     - name: Checkout repository
@@ -22,10 +21,14 @@ jobs:
       shell: bash
       run: |
         # Update installed packages
-        sudo apt-get update -y
-        sudo apt-get upgrade -y
+        sudo apt remove php7.* -y
+        sudo apt remove php8.* -y
+        sudo apt update
+        # using force-overwrite due to
+        # https://github.com/actions/virtual-environments/issues/2703
+        sudo ACCEPT_EULA=Y apt upgrade -o Dpkg::Options::="--force-overwrite" --yes
         # Installing dependencies
-        sudo apt-get install -y qtbase5-dev qtscript5-dev libqt5svg5-dev qttools5-dev-tools qttools5-dev libqt5opengl5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5serialport5 libqt5serialport5-dev qtpositioning5-dev libgps-dev libqt5positioning5 libqt5positioning5-plugins zlib1g-dev libgl1-mesa-dev libdrm-dev cmake python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot wget
+        sudo apt install -y qtbase5-dev qtscript5-dev libqt5svg5-dev qttools5-dev-tools qttools5-dev libqt5opengl5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5serialport5 libqt5serialport5-dev qtpositioning5-dev libgps-dev libqt5positioning5 libqt5positioning5-plugins zlib1g-dev libgl1-mesa-dev libdrm-dev cmake python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot wget
         sudo pip3 install appimage-builder
         sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
         sudo chmod +x /usr/local/bin/appimagetool
@@ -46,9 +49,6 @@ jobs:
 
   # AppImage ARM
   appimage-arm:
-    name: "${{ matrix.arch }}"
-    runs-on: ubuntu-18.04
-
     strategy:
       matrix:
         include:
@@ -58,6 +58,9 @@ jobs:
           - arch: armv7
             qarch: arm
             march: armhf
+    name: "${{ matrix.arch }}"
+    runs-on: ubuntu-18.04
+    if: "contains(github.event.head_commit.message, '[publish]') || contains(github.ref, 'heads/release')"
 
     steps:
     - name: Checkout repository
@@ -65,7 +68,7 @@ jobs:
 
     - name: Download static QEMU (${{ matrix.qarch }})
       run: |
-        wget https://github.com/multiarch/qemu-user-static/releases/download/v5.1.0-7/qemu-${{ matrix.qarch }}-static -O ${{ runner.temp }}/qemu-static
+        wget https://github.com/multiarch/qemu-user-static/releases/download/v5.2.0-2/qemu-${{ matrix.qarch }}-static -O ${{ runner.temp }}/qemu-static
         chmod +x ${{ runner.temp }}/qemu-static
 
     - name: Build AppImage
@@ -100,7 +103,7 @@ jobs:
         install: |
           # Update installed packages
           apt-get update -y
-          apt-get upgrade -y
+          ACCEPT_EULA=Y apt-get upgrade -y
           # Installing dependencies
           apt-get install -y qtbase5-dev qtscript5-dev libqt5svg5-dev qttools5-dev-tools qttools5-dev libqt5opengl5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5serialport5 libqt5serialport5-dev qtpositioning5-dev libgps-dev libqt5positioning5 libqt5positioning5-plugins zlib1g-dev libgl1-mesa-dev libdrm-dev cmake wget python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot
           pip3 install appimage-builder
@@ -125,3 +128,4 @@ jobs:
       with:
         name: 'Stellarium-edge-${{ matrix.arch }}'
         path: ${{ github.workspace }}/artifact/*.AppImage
+

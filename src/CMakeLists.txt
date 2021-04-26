@@ -155,7 +155,6 @@ SET(stellarium_lib_SRCS
      core/planetsephems/jpleph.cpp
      core/planetsephems/EphemWrapper.cpp
      core/planetsephems/EphemWrapper.hpp
-
      core/planetsephems/tass17.c
      core/planetsephems/tass17.h
      core/planetsephems/vsop87.c
@@ -164,7 +163,6 @@ SET(stellarium_lib_SRCS
      core/planetsephems/de430.hpp
      core/planetsephems/de431.cpp
      core/planetsephems/de431.hpp
-
      core/modules/Atmosphere.cpp
      core/modules/Atmosphere.hpp
      core/modules/Asterism.cpp
@@ -210,6 +208,8 @@ SET(stellarium_lib_SRCS
      core/modules/Orbit.hpp
      core/modules/Planet.cpp
      core/modules/Planet.hpp
+     core/modules/RotationElements.cpp
+     core/modules/RotationElements.hpp
      core/modules/MinorPlanet.cpp
      core/modules/MinorPlanet.hpp
      core/modules/Comet.cpp
@@ -451,10 +451,6 @@ IF(ENABLE_MEDIA)
 ENDIF()
 IF(ENABLE_SCRIPTING)
      SET(STELLARIUM_QT_LIBRARIES ${STELLARIUM_QT_LIBRARIES} Qt5::Script)
-ENDIF()
-IF(USE_OLD_QGLWIDGET)
-     # The Qt5OpenGL library is only required when using the legacy viewport
-     SET(STELLARIUM_QT_LIBRARIES ${STELLARIUM_QT_LIBRARIES} Qt5::OpenGL)
 ENDIF()
 IF(ENABLE_GPS)
      SET(STELLARIUM_QT_LIBRARIES ${STELLARIUM_QT_LIBRARIES} Qt5::Positioning Qt5::SerialPort)

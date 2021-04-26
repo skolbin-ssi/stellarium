@@ -667,6 +667,7 @@ void StarMgr::populateHipparcosLists()
 	variableHipStars.clear();
 	algolTypeStars.clear();
 	classicalCepheidsTypeStars.clear();
+	carbonStars.clear();
 	const int pmLimit = 1; // arc-second per year!
 	for (int hip=0; hip<=NR_OF_HIP; hip++)
 	{
@@ -677,6 +678,10 @@ void StarMgr::populateHipparcosLists()
 			const SpecialZoneData<Star1> *const z = hipIndex[hip].z;
 			StelObjectP so = s->createStelObject(a,z);
 			hipparcosStars.push_back(so);
+			// Carbon stars have spectral type, which start with C letter
+			if (convertToSpectralType(s->getSpInt()).startsWith("C", Qt::CaseInsensitive))
+				carbonStars.push_back(so);
+
 			if (!getGcvsVariabilityType(s->getHip()).isEmpty())
 			{
 				QMap<StelObjectP, float> sa;
@@ -897,7 +902,13 @@ void StarMgr::loadSciNames(const QString& sciNameFile)
 			{
 				if (sciAdditionalNamesMapI18n.find(hip)!=sciAdditionalNamesMapI18n.end())
 				{
-					sciAdditionalDblNamesMapI18n[hip] = sci_name_i18n;
+					if (sciAdditionalDblNamesMapI18n.find(hip)!=sciAdditionalDblNamesMapI18n.end())
+					{
+						QString sname = sciAdditionalDblNamesMapI18n[hip].append(" - " + sci_name_i18n);
+						sciAdditionalDblNamesMapI18n[hip] = sname;
+					}
+					else
+						sciAdditionalDblNamesMapI18n[hip] = sci_name_i18n;
 					sciAdditionalDblNamesIndexI18n[sci_name_i18n] = hip;
 				}
 				else
@@ -1513,86 +1524,102 @@ StelObjectP StarMgr::searchByID(const QString &id) const
 }
 
 //! Find and return the list of at most maxNbItem objects auto-completing the passed object name.
-QStringList StarMgr::listMatchingObjects(const QString& objPrefix, int maxNbItem, bool useStartOfWords, bool inEnglish) const
+QStringList StarMgr::listMatchingObjects(const QString& objPrefix, int maxNbItem, bool useStartOfWords) const
 {
 	QStringList result;
 	if (maxNbItem <= 0)
-	{
 		return result;
-	}
 
 	QString objw = objPrefix.toUpper();
-
-	QMap<QString, int> cNamesIdx = inEnglish ? commonNamesIndex : commonNamesIndexI18n;
-	QMap<QString, int> aNamesIdx;
-	if (getFlagAdditionalNames())
-		aNamesIdx = inEnglish ? additionalNamesIndex : additionalNamesIndexI18n;
+	bool found;
 
 	// Search for common names
-	if (useStartOfWords)
+	QMapIterator<QString, int> i(commonNamesIndexI18n);
+	while (i.hasNext())
 	{
-		for (auto it = cNamesIdx.lowerBound(objw); it != cNamesIdx.end(); ++it)
+		i.next();
+		if (useStartOfWords && i.key().startsWith(objw))
+			found = true;
+		else if (!useStartOfWords && i.key().contains(objw))
+			found = true;
+		else
+			found = false;
+
+		if (found)
 		{
-			if (it.key().startsWith(objw))
-			{
-				if (maxNbItem<=0)
-					break;
-				result.append(inEnglish ? getCommonEnglishName(it.value()) : getCommonName(it.value()));
-				--maxNbItem;
-			}
-			else
+			if (maxNbItem<=0)
 				break;
-		}
-		for (auto ita = aNamesIdx.lowerBound(objw); ita != aNamesIdx.end(); ++ita)
-		{
-			if (ita.key().startsWith(objw))
-			{
-				if (maxNbItem<=0)
-					break;
-				QStringList names = (inEnglish ? getAdditionalEnglishNames(ita.value()) : getAdditionalNames(ita.value())).split(" - ");
-				for (auto name : names)
-				{
-					if (name.contains(objw, Qt::CaseInsensitive))
-					{
-						result.append(name);
-						--maxNbItem;
-					}
-				}
-			}
-			else
-				break;
+			result.append(getCommonName(i.value()));
+			--maxNbItem;
 		}
 	}
-	else
+
+	QMapIterator<QString, int> j(commonNamesIndex);
+	while (j.hasNext())
 	{
-		QMapIterator<QString, int> i(cNamesIdx);
-		while (i.hasNext())
+		j.next();
+		if (useStartOfWords && j.key().startsWith(objw))
+			found = true;
+		else if (!useStartOfWords && j.key().contains(objw))
+			found = true;
+		else
+			found = false;
+
+		if (found)
 		{
-			i.next();
-			if (i.key().contains(objw))
+			if (maxNbItem<=0)
+				break;
+			result.append(getCommonEnglishName(j.value()));
+			--maxNbItem;
+		}
+	}
+
+	if (getFlagAdditionalNames())
+	{
+		QMapIterator<QString, int> k(additionalNamesIndexI18n);
+		while (k.hasNext())
+		{
+			k.next();
+			QStringList names = getAdditionalNames(k.value()).split(" - ");
+			for (const auto &name : qAsConst(names))
 			{
-				if (maxNbItem<=0)
-					break;
-				result.append(inEnglish ? getCommonEnglishName(i.value()) : getCommonName(i.value()));
-				--maxNbItem;
+				if (useStartOfWords && name.startsWith(objw, Qt::CaseInsensitive))
+					found = true;
+				else if (!useStartOfWords && name.contains(objw, Qt::CaseInsensitive))
+					found = true;
+				else
+					found = false;
+
+				if (found)
+				{
+					if (maxNbItem<=0)
+						break;
+					result.append(name);
+					--maxNbItem;
+				}
 			}
 		}
-		QMapIterator<QString, int> j(aNamesIdx);
-		while (j.hasNext())
+
+		QMapIterator<QString, int> l(additionalNamesIndex);
+		while (l.hasNext())
 		{
-			j.next();
-			if (j.key().contains(objw))
+			l.next();
+			QStringList names = getAdditionalNames(l.value()).split(" - ");
+			for (const auto &name : qAsConst(names))
 			{
-				if (maxNbItem<=0)
-					break;
-				QStringList names = (inEnglish ? getAdditionalEnglishNames(j.value()) : getAdditionalNames(j.value())).split(" - ");
-				for (auto name : names)
+				if (useStartOfWords && name.startsWith(objw, Qt::CaseInsensitive))
+					found = true;
+				else if (!useStartOfWords && name.contains(objw, Qt::CaseInsensitive))
+					found = true;
+				else
+					found = false;
+
+				if (found)
 				{
-					if (name.contains(objw, Qt::CaseInsensitive))
-					{
-						result.append(name);
-						--maxNbItem;
-					}
+					if (maxNbItem<=0)
+						break;
+					result.append(name);
+					--maxNbItem;
 				}
 			}
 		}
@@ -1668,9 +1695,25 @@ QStringList StarMgr::listMatchingObjects(const QString& objPrefix, int maxNbItem
 		if (it.key().indexOf(bayerRegEx)==0 || it.key().indexOf(objPrefix)==0)
 		{
 			if (maxNbItem<=0)
-				break;
-			result << getSciAdditionalDblName(it.value());
-			--maxNbItem;
+				break;			
+			QStringList names = getSciAdditionalDblName(it.value()).split(" - ");
+			for (const auto &name : qAsConst(names))
+			{
+				if (useStartOfWords && name.startsWith(objPrefix, Qt::CaseInsensitive))
+					found = true;
+				else if (!useStartOfWords && name.contains(objPrefix, Qt::CaseInsensitive))
+					found = true;
+				else
+					found = false;
+
+				if (found)
+				{
+					if (maxNbItem<=0)
+						break;
+					result.append(name);
+					--maxNbItem;
+				}
+			}
 		}
 		else if (it.key().at(0) != objPrefix.at(0))
 			break;
@@ -1682,8 +1725,24 @@ QStringList StarMgr::listMatchingObjects(const QString& objPrefix, int maxNbItem
 		{
 			if (maxNbItem<=0)
 				break;
-			result << getSciAdditionalDblName(it.value());
-			--maxNbItem;
+			QStringList names = getSciAdditionalDblName(it.value()).split(" - ");
+			for (const auto &name : qAsConst(names))
+			{
+				if (useStartOfWords && name.startsWith(objPrefix, Qt::CaseInsensitive))
+					found = true;
+				else if (!useStartOfWords && name.contains(objPrefix, Qt::CaseInsensitive))
+					found = true;
+				else
+					found = false;
+
+				if (found)
+				{
+					if (maxNbItem<=0)
+						break;
+					result.append(name);
+					--maxNbItem;
+				}
+			}
 		}
 		else if (it.key().at(0) != objw.at(0))
 			break;
@@ -1917,7 +1976,7 @@ QStringList StarMgr::listAllObjectsByType(const QString &objType, bool inEnglish
 			}
 			else
 			{
-				for (auto star : doubleStars)
+				for (const auto &star : doubleStars)
 				{
 					result << trans.qtranslate(star);
 				}
@@ -1943,7 +2002,7 @@ QStringList StarMgr::listAllObjectsByType(const QString &objType, bool inEnglish
 			}
 			else
 			{
-				for (auto star : variableStars)
+				for (const auto &star : variableStars)
 				{
 					result << trans.qtranslate(star);
 				}
@@ -1980,6 +2039,39 @@ QStringList StarMgr::listAllObjectsByType(const QString &objType, bool inEnglish
 					result << star.firstKey()->getEnglishName();
 				else
 					result << star.firstKey()->getNameI18n();
+			}
+			break;
+		}
+		case 5: // Variable stars: Algol-type eclipsing systems
+		{
+			for (const auto& star : algolTypeStars)
+			{
+				if (inEnglish)
+					result << star.firstKey()->getEnglishName();
+				else
+					result << star.firstKey()->getNameI18n();
+			}
+			break;
+		}
+		case 6: // Variable stars: the classical cepheids
+		{
+			for (const auto& star : classicalCepheidsTypeStars)
+			{
+				if (inEnglish)
+					result << star.firstKey()->getEnglishName();
+				else
+					result << star.firstKey()->getNameI18n();
+			}
+			break;
+		}
+		case 7: // Bright carbon stars
+		{
+			for (const auto& star : carbonStars)
+			{
+				if (inEnglish)
+					result << star->getEnglishName();
+				else
+					result << star->getNameI18n();
 			}
 			break;
 		}

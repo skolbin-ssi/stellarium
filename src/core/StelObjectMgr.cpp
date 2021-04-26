@@ -198,8 +198,7 @@ void StelObjectMgr::registerStelObjectMgr(StelObjectModule* m)
 
 	objModulesMap.insert(m->objectName(), m->getName());
 
-	//TODO: there should probably be a better way to specify the sub-types
-	// instead of hardcoding them here
+	//TODO: there should probably be a better way to specify the sub-types instead of hardcoding them here
 
 	// Celestial objects from Solar system by type
 	if (m->objectName()=="SolarSystem")
@@ -296,6 +295,9 @@ void StelObjectMgr::registerStelObjectMgr(StelObjectModule* m)
 		objModulesMap["StarMgr:2"] = "Bright double stars";
 		objModulesMap["StarMgr:3"] = "Bright variable stars";
 		objModulesMap["StarMgr:4"] = "Bright stars with high proper motion";
+		objModulesMap["StarMgr:5"] = "Variable stars: Algol-type eclipsing systems";
+		objModulesMap["StarMgr:6"] = "Variable stars: the classical cepheids";
+		objModulesMap["StarMgr:7"] = "Bright carbon stars";
 	}
 	// Nomenclature...
 	if (m->objectName()=="NomenclatureMgr")
@@ -610,21 +612,18 @@ QList<StelObjectP> StelObjectMgr::getSelectedObject(const QString& type) const
 /*****************************************************************************************
  Find and return the list of at most maxNbItem objects auto-completing passed object name
 *******************************************************************************************/
-QStringList StelObjectMgr::listMatchingObjects(const QString& objPrefix, int maxNbItem, bool useStartOfWords, bool inEnglish) const
+QStringList StelObjectMgr::listMatchingObjects(const QString& objPrefix, int maxNbItem, bool useStartOfWords) const
 {
 	QStringList result;
 	if (maxNbItem <= 0)
-	{
 		return result;
-	}
 
 	// For all StelObjectmodules..
 	for (const auto* m : objectsModules)
 	{
 		// Get matching object for this module
-		QStringList matchingObj = m->listMatchingObjects(objPrefix, maxNbItem, useStartOfWords, inEnglish);
+		QStringList matchingObj = m->listMatchingObjects(objPrefix, maxNbItem, useStartOfWords);
 		result += matchingObj;
-		maxNbItem-=matchingObj.size();
 	}
 
 	result.sort();

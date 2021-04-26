@@ -260,25 +260,25 @@ void Oculars::deinit()
 	settings->remove("telescope");
 	settings->remove("lens");
 	int index = 0;
-	for (auto* ccd : ccds)
+	for (auto* ccd : qAsConst(ccds))
 	{
 		ccd->writeToSettings(settings, index);
 		index++;
 	}
 	index = 0;
-	for (auto* ocular : oculars)
+	for (auto* ocular : qAsConst(oculars))
 	{
 		ocular->writeToSettings(settings, index);
 		index++;
 	}
 	index = 0;
-	for (auto* telescope : telescopes)
+	for (auto* telescope : qAsConst(telescopes))
 	{
 		telescope->writeToSettings(settings, index);
 		index++;
 	}
 	index = 0;
-	for (auto* lens : lenses)
+	for (auto* lens : qAsConst(lenses))
 	{
 		lens->writeToSettings(settings, index);
 		index++;
@@ -1367,7 +1367,7 @@ void Oculars::toggleCCD(bool show)
 		if (show)
 		{
 			qWarning() << "Oculars plugin: Unable to display a sensor boundary: No sensors or telescopes are defined.";
-			QMessageBox::warning(Q_NULLPTR, q_("Warning!"), q_("Unable to display a sensor boundary: No sensors or telescopes are defined."), QMessageBox::Ok);
+			QMessageBox::warning(&StelMainView::getInstance(), q_("Warning!"), q_("Unable to display a sensor boundary: No sensors or telescopes are defined."), QMessageBox::Ok);
 		}
 		flagShowCCD = false;
 		selectedCCDIndex = -1;

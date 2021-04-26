@@ -167,7 +167,7 @@ public:
 	//! @param maxNbItem the maximum number of returned object names
 	//! @param useStartOfWords the autofill mode for returned objects names
 	//! @return a list of matching object name by order of relevance, or an empty list if nothing match
-	virtual QStringList listMatchingObjects(const QString& objPrefix, int maxNbItem=5, bool useStartOfWords=false, bool inEnglish=false) const;
+	virtual QStringList listMatchingObjects(const QString& objPrefix, int maxNbItem=5, bool useStartOfWords=false) const;
 	//! @note Loading stars with the common names only.
 	virtual QStringList listAllObjects(bool inEnglish) const;	
 	virtual QStringList listAllObjectsByType(const QString& objType, bool inEnglish) const;
@@ -365,10 +365,11 @@ public:
 	//! Get the list of all Hipparcos stars.
 	const QList<StelObjectP>& getHipparcosStars() const { return hipparcosStars; }	
 	const QList<QMap<StelObjectP, float>>& getHipparcosHighPMStars() const { return hipStarsHighPM; }
-	const QList<QMap<StelObjectP, float>>& getHipparcosDoubleStars() const { return doubleHipStars; }
+	const QList<QMap<StelObjectP, float>>& getHipparcosDoubleStars() const { return doubleHipStars; }	
 	const QList<QMap<StelObjectP, float>>& getHipparcosVariableStars() const { return variableHipStars; }
 	const QList<QMap<StelObjectP, float>>& getHipparcosAlgolTypeStars() const { return algolTypeStars; }
 	const QList<QMap<StelObjectP, float>>& getHipparcosClassicalCepheidsTypeStars() const { return classicalCepheidsTypeStars; }
+	const QList<StelObjectP>& getHipparcosCarbonStars() const { return carbonStars; }
 
 private slots:
 	//! Translate text.
@@ -437,7 +438,7 @@ private:
 	void populateStarsDesignations();
 
 	//! List of all Hipparcos stars.
-	QList<StelObjectP> hipparcosStars;
+	QList<StelObjectP> hipparcosStars, carbonStars;
 	QList<QMap<StelObjectP, float>> doubleHipStars, variableHipStars, algolTypeStars, classicalCepheidsTypeStars, hipStarsHighPM;
 
 	LinearFader labelsFader;
