@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: stellarium@googlegroups.com\n"
-"POT-Creation-Date: 2021-05-08 00:16+0700\n"
+"POT-Creation-Date: 2021-05-29 17:46+0700\n"
 "PO-Revision-Date: 2017-11-29 01:17+0000\n"
 "Last-Translator: Víctor Vega <vegadark@protonmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/stellarium/teams/80998/es/)\n"
@@ -1819,7 +1819,7 @@ msgstr "Pulsar de Vela"
 #. https://en.wikipedia.org/wiki/PSR_B1257%2B12)
 #. TRANSLATORS: Proper name of pulsar PSR 1257+12
 #. TRANSLATORS: https://en.wikipedia.org/wiki/PSR_B1257%2B12
-#: skycultures/translations.fab:818 skycultures/translations.fab:945
+#: skycultures/translations.fab:818 skycultures/translations.fab:955
 msgid "Lich"
 msgstr "Lich"
 
@@ -1866,277 +1866,308 @@ msgstr "Nebulosa de la Guitarra"
 msgid "LGM-1"
 msgstr "LGM-1"
 
+#. TRANSLATORS: Proper name of pulsar PSR J1418-6058 (Source:
+#. https://www.nasa.gov/mission_pages/GLAST/news/pulsar_passel.html)
+#: skycultures/translations.fab:836
+msgid "Rabbit"
+msgstr "Rabbit"
+
+#. TRANSLATORS: Proper name of pulsar PSR J1826-1256 (Source:
+#. https://www.nasa.gov/mission_pages/GLAST/news/pulsar_passel.html)
+#: skycultures/translations.fab:838
+msgid "Eel"
+msgstr "Eel"
+
+#. TRANSLATORS: Proper name of pulsar PSR J1420-6048 (Source:
+#. http://www.physics.mcgill.ca/~pulsar/pwncat_notes.html)
+#: skycultures/translations.fab:840
+msgid "Kookaburra"
+msgstr "Kookaburra"
+
+#. TRANSLATORS: Proper name of pulsar PSR J1747-2958 (Source:
+#. http://www.physics.mcgill.ca/~pulsar/pwncat_notes.html)
+#: skycultures/translations.fab:842
+#: skycultures/mulapin/constellation_names.eng.fab:51
+msgid "Mouse"
+msgstr "Ratón"
+
+#. TRANSLATORS: Proper name of pulsar PSR J1801-2451 (Source:
+#. http://www.physics.mcgill.ca/~pulsar/pwncat_notes.html)
+#: skycultures/translations.fab:844
+msgid "Duck"
+msgstr "Duck"
+
 #. TRANSLATORS: Proper name of star 14 Andromedae
 #. TRANSLATORS: https://en.wikipedia.org/wiki/14_Andromedae
-#: skycultures/translations.fab:840 skycultures/western/star_names.fab:13
+#: skycultures/translations.fab:850 skycultures/western/star_names.fab:13
 msgid "Veritate"
 msgstr "Veritate"
 
 #. TRANSLATORS: Proper name of exoplanet 14 Andromedae b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/14_Andromedae_b
-#: skycultures/translations.fab:843
+#: skycultures/translations.fab:853
 msgid "Spe"
 msgstr "Spe"
 
 #. TRANSLATORS: Proper name of star 18 Delphini
 #. TRANSLATORS: https://en.wikipedia.org/wiki/18_Delphini
-#: skycultures/translations.fab:846 skycultures/western/star_names.fab:436
+#: skycultures/translations.fab:856 skycultures/western/star_names.fab:436
 msgid "Musica"
 msgstr "Musica"
 
 #. TRANSLATORS: Proper name of exoplanet 18 Delphini b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/18_Delphini_b
-#: skycultures/translations.fab:849
+#: skycultures/translations.fab:859
 msgid "Arion"
 msgstr "Arion"
 
 #. TRANSLATORS: Proper name of star 42 Draconis
 #. TRANSLATORS: https://en.wikipedia.org/wiki/42_Draconis
-#: skycultures/translations.fab:852 skycultures/western/star_names.fab:484
+#: skycultures/translations.fab:862 skycultures/western/star_names.fab:484
 msgid "Fafnir"
 msgstr "Fafnir"
 
 #. TRANSLATORS: Proper name of exoplanet 42 Draconis b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/42_Draconis_b
-#: skycultures/translations.fab:855
+#: skycultures/translations.fab:865
 msgid "Orbitar"
 msgstr "Orbitar"
 
 #. TRANSLATORS: Proper name of star 47 Ursae Majoris
 #. TRANSLATORS: https://en.wikipedia.org/wiki/47_Ursae_Majoris
-#: skycultures/translations.fab:858 skycultures/western/star_names.fab:1103
+#: skycultures/translations.fab:868 skycultures/western/star_names.fab:1103
 msgid "Chalawan"
 msgstr "Chalawan"
 
 #. TRANSLATORS: Proper name of exoplanet 47 Ursae Majoris b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/47_Ursae_Majoris_b
-#: skycultures/translations.fab:861
+#: skycultures/translations.fab:871
 msgid "Taphao Thong"
 msgstr "Taphao Thong"
 
 #. TRANSLATORS: Proper name of exoplanet 47 Ursae Majoris c
 #. TRANSLATORS: https://en.wikipedia.org/wiki/47_Ursae_Majoris_c
-#: skycultures/translations.fab:864
+#: skycultures/translations.fab:874
 msgid "Taphao Kaew"
 msgstr "Taphao Kaew"
 
 #. TRANSLATORS: Proper name of star 51 Pegasi
 #. TRANSLATORS: https://en.wikipedia.org/wiki/51_Pegasi
-#: skycultures/translations.fab:867 skycultures/western/star_names.fab:828
+#: skycultures/translations.fab:877 skycultures/western/star_names.fab:828
 msgid "Helvetios"
 msgstr "Helvetios"
 
 #. TRANSLATORS: Proper name of exoplanet 51 Pegasi b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/51_Pegasi_b
-#: skycultures/translations.fab:870
+#: skycultures/translations.fab:880
 msgid "Dimidium"
 msgstr "Dimidium"
 
 #. TRANSLATORS: Proper name of star 55 Cancri
 #. TRANSLATORS: https://en.wikipedia.org/wiki/55_Cancri
-#: skycultures/translations.fab:873 skycultures/western/star_names.fab:163
+#: skycultures/translations.fab:883 skycultures/western/star_names.fab:163
 msgid "Copernicus"
 msgstr "Copernico"
 
 #. TRANSLATORS: Proper name of exoplanet 55 Cancri b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/55_Cancri_b
-#: skycultures/translations.fab:876
+#: skycultures/translations.fab:886
 msgid "Galileo"
 msgstr "Galileo"
 
 #. TRANSLATORS: Proper name of exoplanet 55 Cancri c
 #. TRANSLATORS: https://en.wikipedia.org/wiki/55_Cancri_c
-#: skycultures/translations.fab:879
+#: skycultures/translations.fab:889
 msgid "Brahe"
 msgstr "Brahe"
 
 #. TRANSLATORS: Proper name of exoplanet 55 Cancri d
 #. TRANSLATORS: https://en.wikipedia.org/wiki/55_Cancri_d
-#: skycultures/translations.fab:882
+#: skycultures/translations.fab:892
 msgid "Lipperhey"
 msgstr "Lipperhey"
 
 #. TRANSLATORS: Proper name of exoplanet 55 Cancri e
 #. TRANSLATORS: https://en.wikipedia.org/wiki/55_Cancri_e
-#: skycultures/translations.fab:885
+#: skycultures/translations.fab:895
 msgid "Janssen"
 msgstr "Janssen"
 
 #. TRANSLATORS: Proper name of exoplanet 55 Cancri f
 #. TRANSLATORS: https://en.wikipedia.org/wiki/55_Cancri_f
-#: skycultures/translations.fab:888
+#: skycultures/translations.fab:898
 msgid "Harriot"
 msgstr "Harriot"
 
 #. TRANSLATORS: Proper name of exoplanet Ain b (epsilon Tauri b)
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Epsilon_Tauri_b
-#: skycultures/translations.fab:891
+#: skycultures/translations.fab:901
 msgid "Amateru"
 msgstr "Amateru"
 
 #. TRANSLATORS: Proper name of exoplanet Edasich b (iota Draconis b)
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Iota_Draconis_b
-#: skycultures/translations.fab:894
+#: skycultures/translations.fab:904
 msgid "Hypatia"
 msgstr "Hypatia"
 
 #. TRANSLATORS: Proper name of star epsilon Eridani
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Epsilon_Eridani
-#: skycultures/translations.fab:897 skycultures/western/star_names.fab:526
+#: skycultures/translations.fab:907 skycultures/western/star_names.fab:526
 msgid "Ran"
 msgstr "Ran"
 
 #. TRANSLATORS: Proper name of exoplanet epsilon Eridani b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Epsilon_Eridani_b
-#: skycultures/translations.fab:900
+#: skycultures/translations.fab:910
 msgid "AEgir"
 msgstr "AEgir"
 
 #. TRANSLATORS: Proper name of exoplanet Errai b (gamma Cephei Ab)
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Gamma_Cephei_Ab
-#: skycultures/translations.fab:903
+#: skycultures/translations.fab:913
 msgid "Tadmor"
 msgstr "Tadmor"
 
 #. TRANSLATORS: Proper name of exoplanet Fomalhaut b (alpha Piscis Austrini b)
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Fomalhaut_b
-#: skycultures/translations.fab:906
+#: skycultures/translations.fab:916
 msgid "Dagon"
 msgstr "Dagon"
 
 #. TRANSLATORS: Proper name of star HD 104985
 #. TRANSLATORS: https://en.wikipedia.org/wiki/HD_104985
-#: skycultures/translations.fab:909 skycultures/western/star_names.fab:151
+#: skycultures/translations.fab:919 skycultures/western/star_names.fab:151
 msgid "Tonatiuh"
 msgstr "Tonatiuh"
 
 #. TRANSLATORS: Proper name of exoplanet HD 104985 b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/HD_104985_b
-#: skycultures/translations.fab:912
+#: skycultures/translations.fab:922
 msgid "Meztli"
 msgstr "Meztli"
 
 #. TRANSLATORS: Proper name of star HD 149026
 #. TRANSLATORS: https://en.wikipedia.org/wiki/HD_149026
-#: skycultures/translations.fab:915 skycultures/western/star_names.fab:594
+#: skycultures/translations.fab:925 skycultures/western/star_names.fab:594
 msgid "Ogma"
 msgstr "Ogma"
 
 #. TRANSLATORS: Proper name of exoplanet HD 149026 b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/HD_149026_b
-#: skycultures/translations.fab:918
+#: skycultures/translations.fab:928
 msgid "Smertrios"
 msgstr "Smertrios"
 
 #. TRANSLATORS: Proper name of star HD 81688
 #. TRANSLATORS: https://en.wikipedia.org/wiki/41_Lyncis
-#: skycultures/translations.fab:921 skycultures/western/star_names.fab:1102
+#: skycultures/translations.fab:931 skycultures/western/star_names.fab:1102
 msgid "Intercrus"
 msgstr "Intercrus"
 
 #. TRANSLATORS: Proper name of exoplanet HD 81688 b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/41_Lyncis_b
-#: skycultures/translations.fab:924
+#: skycultures/translations.fab:934
 msgid "Arkas"
 msgstr "Arkas"
 
 #. TRANSLATORS: Proper name of star mu Arae
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Mu_Arae
-#: skycultures/translations.fab:927 skycultures/western/star_names.fab:70
+#: skycultures/translations.fab:937 skycultures/western/star_names.fab:70
 msgid "Cervantes"
 msgstr "Cervantes"
 
 #. TRANSLATORS: Proper name of exoplanet mu Arae b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Mu_Arae_b
-#: skycultures/translations.fab:930
+#: skycultures/translations.fab:940
 msgid "Quijote"
 msgstr "Quijote"
 
 #. TRANSLATORS: Proper name of exoplanet mu Arae c
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Mu_Arae_c
-#: skycultures/translations.fab:933
+#: skycultures/translations.fab:943
 msgid "Dulcinea"
 msgstr "Dulcinea"
 
 #. TRANSLATORS: Proper name of exoplanet mu Arae d
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Mu_Arae_d
-#: skycultures/translations.fab:936
+#: skycultures/translations.fab:946
 msgid "Rocinante"
 msgstr "Rocinante"
 
 #. TRANSLATORS: Proper name of exoplanet mu Arae e
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Mu_Arae_e
-#: skycultures/translations.fab:939
+#: skycultures/translations.fab:949
 msgid "Sancho"
 msgstr "Sancho"
 
 #. TRANSLATORS: Proper name of exoplanet Pollux b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Pollux_b
-#: skycultures/translations.fab:942
+#: skycultures/translations.fab:952
 msgid "Thestias"
 msgstr "Thestias"
 
 #. TRANSLATORS: Proper name of exoplanet PSR 1257+12 b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/PSR_B1257%2B12_b
-#: skycultures/translations.fab:948
+#: skycultures/translations.fab:958
 msgid "Draugr"
 msgstr "Draugr"
 
 #. TRANSLATORS: Proper name of exoplanet PSR 1257+12 c
 #. TRANSLATORS: https://en.wikipedia.org/wiki/PSR_B1257%2B12_c
-#: skycultures/translations.fab:951
+#: skycultures/translations.fab:961
 msgid "Poltergeist"
 msgstr "Poltergeist"
 
 #. TRANSLATORS: Proper name of exoplanet PSR 1257+12 d
 #. TRANSLATORS: https://en.wikipedia.org/wiki/PSR_B1257%2B12_d
-#: skycultures/translations.fab:954
+#: skycultures/translations.fab:964
 msgid "Phobetor"
 msgstr "Phobetor"
 
 #. TRANSLATORS: Proper name of star upsilon Andromedae
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Upsilon_Andromedae
-#: skycultures/translations.fab:957 skycultures/western/star_names.fab:12
+#: skycultures/translations.fab:967 skycultures/western/star_names.fab:12
 msgid "Titawin"
 msgstr "Titawin"
 
 #. TRANSLATORS: Proper name of exoplanet upsilon Andromedae b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Upsilon_Andromedae_b
-#: skycultures/translations.fab:960
+#: skycultures/translations.fab:970
 msgid "Saffar"
 msgstr "Saffar"
 
 #. TRANSLATORS: Proper name of exoplanet upsilon Andromedae c
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Upsilon_Andromedae_c
-#: skycultures/translations.fab:963
+#: skycultures/translations.fab:973
 msgid "Samh"
 msgstr "Samh"
 
 #. TRANSLATORS: Proper name of exoplanet upsilon Andromedae d
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Upsilon_Andromedae_d
-#: skycultures/translations.fab:966
+#: skycultures/translations.fab:976
 msgid "Majriti"
 msgstr "Majriti"
 
 #. TRANSLATORS: Proper name of star xi Aquilae
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Xi_Aquilae
-#: skycultures/translations.fab:969 skycultures/western/star_names.fab:53
+#: skycultures/translations.fab:979 skycultures/western/star_names.fab:53
 msgid "Libertas"
 msgstr "Libertas"
 
 #. TRANSLATORS: Proper name of exoplanet xi Aquilae b
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Xi_Aquilae_b
-#: skycultures/translations.fab:972
+#: skycultures/translations.fab:982
 msgid "Fortitudo"
 msgstr "Fortitudo"
 
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Teegarden%27s_Star
-#: skycultures/translations.fab:974
+#: skycultures/translations.fab:984
 msgid "Teegarden's"
 msgstr "Teegarden's"
 
 #. TRANSLATORS: https://en.wikipedia.org/wiki/Teegarden%27s_Star
-#: skycultures/translations.fab:976
+#: skycultures/translations.fab:986
 msgid "Teegarden's Star"
 msgstr "Estrella de Teegarden"
 
@@ -2144,7 +2175,7 @@ msgstr "Estrella de Teegarden"
 #. TRANSLATORS: Historians largely believe that the Albanians are descendants
 #. of the Illyrians, a term Albanians proudly call themselves.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:980 skycultures/western/star_names.fab:678
+#: skycultures/translations.fab:990 skycultures/western/star_names.fab:678
 msgid "Illyrian"
 msgstr "Illyrian"
 
@@ -2152,7 +2183,7 @@ msgstr "Illyrian"
 #. TRANSLATORS: Arber is the term for the inhabitants of Albania during the
 #. middle ages.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:984
+#: skycultures/translations.fab:994
 msgid "Arber"
 msgstr "Arber"
 
@@ -2160,7 +2191,7 @@ msgstr "Arber"
 #. TRANSLATORS: Hoggar is the name of the main mountain range in the Sahara
 #. Desert in southern Algeria.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:988 skycultures/western/star_names.fab:1056
+#: skycultures/translations.fab:998 skycultures/western/star_names.fab:1056
 msgid "Hoggar"
 msgstr "Hoggar"
 
@@ -2169,7 +2200,7 @@ msgstr "Hoggar"
 #. Desert and is renowned for its prehistoric cave art and scenic geological
 #. formations.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:992
+#: skycultures/translations.fab:1002
 msgid "Tassili"
 msgstr "Tassili"
 
@@ -2179,7 +2210,7 @@ msgstr "Tassili"
 #. was used as a primitive solar calendar and reference point for shepherds
 #. and early inhabitants of Andorra.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:996 skycultures/western/star_names.fab:148
+#: skycultures/translations.fab:1006 skycultures/western/star_names.fab:148
 msgid "Arcalís"
 msgstr "Arcalís"
 
@@ -2189,7 +2220,7 @@ msgstr "Arcalís"
 #. it in the southeast of Andorra. It is the main part of the Madriu-Perafita-
 #. Claror UNESCO World Heritage Site.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1000
+#: skycultures/translations.fab:1010
 msgid "Madriu"
 msgstr "Madriu"
 
@@ -2198,7 +2229,7 @@ msgstr "Madriu"
 #. from a combination of nosahuec, which means renew, and ñaaxa, which means
 #. year.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1004 skycultures/western/star_names.fab:907
+#: skycultures/translations.fab:1014 skycultures/western/star_names.fab:907
 msgid "Nosaxa"
 msgstr "Nosaxa"
 
@@ -2206,7 +2237,7 @@ msgstr "Nosaxa"
 #. TRANSLATORS: Naqaỹa means brother-family-relative in the Moqoit language
 #. and leads us to call all humans, indigenous or non-indigenous, brother.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1008
+#: skycultures/translations.fab:1018
 msgid "Naqaỹa"
 msgstr "Naqaỹa"
 
@@ -2216,7 +2247,7 @@ msgstr "Naqaỹa"
 #. the coast. Its shallow clear Caribbean waters make it a popular snorkelling
 #. spot.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1012
+#: skycultures/translations.fab:1022
 msgid "Malmok"
 msgstr "Malmok"
 
@@ -2225,21 +2256,21 @@ msgstr "Malmok"
 #. scenery situated in Arikok National Park along the northeast coast of
 #. Aruba. It is named after Plantation Prins where coconuts are cultivated.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1016
+#: skycultures/translations.fab:1026
 msgid "Bocaprins"
 msgstr "Bocaprins"
 
 #. TRANSLATORS: Proper name of star HD 38283
 #. TRANSLATORS: Bubup is the Boonwurrung word for child.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1020 skycultures/western/star_names.fab:728
+#: skycultures/translations.fab:1030 skycultures/western/star_names.fab:728
 msgid "Bubup"
 msgstr "Bubup"
 
 #. TRANSLATORS: Proper name of exoplanet HD 38283 b
 #. TRANSLATORS: YanYan is the Boonwurrung word for boy.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1024
+#: skycultures/translations.fab:1034
 msgid "Yanyan"
 msgstr "Yanyan"
 
@@ -2248,7 +2279,7 @@ msgstr "Yanyan"
 #. of Austria in the XIXth century. The role is played by the actor Karlheinz
 #. Böhm.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1028
+#: skycultures/translations.fab:1038
 msgid "Franz"
 msgstr "Franz"
 
@@ -2256,7 +2287,7 @@ msgstr "Franz"
 #. TRANSLATORS: Sissi is a character in the movie 'Sissi', who is married with
 #. Franz. The role is played by the actress Romy Schneider.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1032
+#: skycultures/translations.fab:1042
 msgid "Sissi"
 msgstr "Sissi"
 
@@ -2266,7 +2297,7 @@ msgstr "Sissi"
 #. Khayyam and Nizami and was well educated and talented and played numerous
 #. musical instruments.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1036 skycultures/western/star_names.fab:756
+#: skycultures/translations.fab:1046 skycultures/western/star_names.fab:756
 msgid "Mahsati"
 msgstr "Mahsati"
 
@@ -2276,7 +2307,7 @@ msgstr "Mahsati"
 #. ancient capital of Azerbaijan, the first capital of the Azerbaijan
 #. Democratic Republic and the city with the spirit of wisdom and freedom.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1040
+#: skycultures/translations.fab:1050
 msgid "Ganja"
 msgstr "Ganja"
 
@@ -2284,7 +2315,7 @@ msgstr "Ganja"
 #. TRANSLATORS: Timir means darkness in Bengali language, alluding to the star
 #. being far away in the darkness of space.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1044 skycultures/western/star_names.fab:757
+#: skycultures/translations.fab:1054 skycultures/western/star_names.fab:757
 msgid "Timir"
 msgstr "Timir"
 
@@ -2292,7 +2323,7 @@ msgstr "Timir"
 #. TRANSLATORS: Tondra means nap in Bengali language, alluding to the symbolic
 #. notion that the planet was asleep until discovered.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1048
+#: skycultures/translations.fab:1058
 msgid "Tondra"
 msgstr "Tondra"
 
@@ -2300,7 +2331,7 @@ msgstr "Tondra"
 #. TRANSLATORS: Nervia, adapted from Nervii, was a prominent Belgian Celtic
 #. tribe.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1052 skycultures/western/star_names.fab:119
+#: skycultures/translations.fab:1062 skycultures/western/star_names.fab:119
 msgid "Nervia"
 msgstr "Nervia"
 
@@ -2308,7 +2339,7 @@ msgstr "Nervia"
 #. TRANSLATORS: Eburonia, adapted from Eburones, was a prominent Belgian
 #. Celtic tribe.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1056
+#: skycultures/translations.fab:1066
 msgid "Eburonia"
 msgstr "Eburonia"
 
@@ -2317,7 +2348,7 @@ msgstr "Eburonia"
 #. development philosophy conceived and followed in Bhutan and is one of
 #. Bhutan's contributions to the world.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1060 skycultures/western/star_names.fab:169
+#: skycultures/translations.fab:1070 skycultures/western/star_names.fab:169
 msgid "Gakyid"
 msgstr "Gakyid"
 
@@ -2326,7 +2357,7 @@ msgstr "Gakyid"
 #. Bhutan, the country that came up with the philosophy of Gross National
 #. Happiness.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1064
+#: skycultures/translations.fab:1074
 msgid "Drukyul"
 msgstr "Drukyul"
 
@@ -2335,7 +2366,7 @@ msgstr "Drukyul"
 #. Way through which the first inhabitants of the Earth arrived and could
 #. return.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1068 skycultures/western/star_names.fab:237
+#: skycultures/translations.fab:1078 skycultures/western/star_names.fab:237
 msgid "Tapecue"
 msgstr "Tapecue"
 
@@ -2343,7 +2374,7 @@ msgstr "Tapecue"
 #. TRANSLATORS: Yvaga means paradise for the Guarani and the Milky Way was
 #. known as the road to Yvaga or paradise.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1072
+#: skycultures/translations.fab:1082
 msgid "Yvaga"
 msgstr "Yvaga"
 
@@ -2352,7 +2383,7 @@ msgstr "Yvaga"
 #. 10th century. Later, the name was transformed to Bosnia originating from
 #. the name of the Bosna river.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1076 skycultures/western/star_names.fab:44
+#: skycultures/translations.fab:1086 skycultures/western/star_names.fab:44
 msgid "Bosona"
 msgstr "Bosona"
 
@@ -2361,7 +2392,7 @@ msgstr "Bosona"
 #. Herzegovina (and partly in Croatia) in antiquity orginating with the Celts
 #. who called it Nera Etwa which means the Flowing Divinity.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1080
+#: skycultures/translations.fab:1090
 msgid "Naron"
 msgstr "Naron"
 
@@ -2370,7 +2401,7 @@ msgstr "Naron"
 #. on the eastern coast of South America, before the Portuguese arrived in the
 #. 16th century.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1084 skycultures/western/star_names.fab:909
+#: skycultures/translations.fab:1094 skycultures/western/star_names.fab:909
 msgid "Tupi"
 msgstr "Tupi"
 
@@ -2378,7 +2409,7 @@ msgstr "Tupi"
 #. TRANSLATORS: Guarani is the name of the most populous Indigenous people
 #. living in South Brazil and parts of Argentina, Paraguay and Uruguay.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1088
+#: skycultures/translations.fab:1098
 msgid "Guarani"
 msgstr "Guarani"
 
@@ -2386,7 +2417,7 @@ msgstr "Guarani"
 #. TRANSLATORS: Gumala is a Malay word, which means a magic bezoar stone found
 #. in snakes, dragons, etc.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1092 skycultures/western/star_names.fab:954
+#: skycultures/translations.fab:1102 skycultures/western/star_names.fab:954
 msgid "Gumala"
 msgstr "Gumala"
 
@@ -2394,7 +2425,7 @@ msgstr "Gumala"
 #. TRANSLATORS: Mastika is a Malay word, which means a gem, precious stone,
 #. jewel or the prettiest, the most beautiful.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1096
+#: skycultures/translations.fab:1106
 msgid "Mastika"
 msgstr "Mastika"
 
@@ -2402,7 +2433,7 @@ msgstr "Mastika"
 #. TRANSLATORS: Tangra is the supreme celestial god that early Bulgars
 #. worshiped.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1100
+#: skycultures/translations.fab:1110
 msgid "Tangra"
 msgstr "Tangra"
 
@@ -2410,7 +2441,7 @@ msgstr "Tangra"
 #. TRANSLATORS: Bendida is the Great Mother Goddess of the Thracians. She was
 #. especially revered as a goddess of marriage and living nature.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1104
+#: skycultures/translations.fab:1114
 msgid "Bendida"
 msgstr "Bendida"
 
@@ -2419,7 +2450,7 @@ msgstr "Bendida"
 #. Burkina Faso and plays an important role in the lives of the people in the
 #. areas it passes through.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1108 skycultures/western/star_names.fab:535
+#: skycultures/translations.fab:1118 skycultures/western/star_names.fab:535
 msgid "Mouhoun"
 msgstr "Mouhoun"
 
@@ -2428,7 +2459,7 @@ msgstr "Mouhoun"
 #. river in Burkina Faso. Its source is in the heart of the Sahara Burkinabe
 #. and ends in Ghana.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1112
+#: skycultures/translations.fab:1122
 msgid "Nakanbé"
 msgstr "Nakanbé"
 
@@ -2436,7 +2467,7 @@ msgstr "Nakanbé"
 #. TRANSLATORS: Nikawiy is the word for mother in the Indigenous Cree language
 #. of Canada.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1116 skycultures/western/star_names.fab:149
+#: skycultures/translations.fab:1126 skycultures/western/star_names.fab:149
 msgid "Nikawiy"
 msgstr "Nikawiy"
 
@@ -2444,7 +2475,7 @@ msgstr "Nikawiy"
 #. TRANSLATORS: Awasis is the word for child in the Indigenous Cree language
 #. of Canada.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1120
+#: skycultures/translations.fab:1130
 msgid "Awasis"
 msgstr "Awasis"
 
@@ -2453,7 +2484,7 @@ msgstr "Awasis"
 #. mythology who is said to bring drowned sailors to the Caleuche so that they
 #. can live in the afterlife.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1124 skycultures/western/star_names.fab:955
+#: skycultures/translations.fab:1134 skycultures/western/star_names.fab:955
 msgid "Pincoya"
 msgstr "Pincoya"
 
@@ -2461,7 +2492,7 @@ msgstr "Pincoya"
 #. TRANSLATORS: Caleuche is a large ghost ship from southern Chilean mythology
 #. which sails the seas around the island of Chiloé at night.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1128
+#: skycultures/translations.fab:1138
 msgid "Caleuche"
 msgstr "Caleuche"
 
@@ -2469,7 +2500,7 @@ msgstr "Caleuche"
 #. TRANSLATORS: Lion Rock is a lion-shaped peak overlooking Hong Kong and is a
 #. cultural symbol with deep respect from the local community.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1132 skycultures/western/star_names.fab:45
+#: skycultures/translations.fab:1142 skycultures/western/star_names.fab:45
 msgid "Lionrock"
 msgstr "Lionrock"
 
@@ -2478,7 +2509,7 @@ msgstr "Lionrock"
 #. regarded as an ambassadorial gateway for foreign visitors wishing to
 #. experience Hong Kong first hand.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1136
+#: skycultures/translations.fab:1146
 msgid "Victoriapeak"
 msgstr "Victoriapeak"
 
@@ -2487,7 +2518,7 @@ msgstr "Victoriapeak"
 #. and also represents the earliest astronomers and developers of calendars in
 #. ancient China.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1140 skycultures/western/star_names.fab:726
+#: skycultures/translations.fab:1150 skycultures/western/star_names.fab:726
 msgid "Xihe"
 msgstr "Xihe"
 
@@ -2495,7 +2526,7 @@ msgstr "Xihe"
 #. TRANSLATORS: Wangshu (望舒) is the goddess who drives for the Moon and also
 #. represents the Moon in Chinese mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1144
+#: skycultures/translations.fab:1154
 msgid "Wangshu"
 msgstr "Wangshu"
 
@@ -2503,7 +2534,7 @@ msgstr "Wangshu"
 #. TRANSLATORS: Formosa is the historical name of Taiwan used in the 17th
 #. century, meaning beautiful in Latin.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1148 skycultures/western/star_names.fab:663
+#: skycultures/translations.fab:1158 skycultures/western/star_names.fab:663
 msgid "Formosa"
 msgstr "Formosa"
 
@@ -2513,7 +2544,7 @@ msgstr "Formosa"
 #. language of the Thao people who are a tribe of Taiwanese aborigines who
 #. lived in the region for hundreds of years.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1152
+#: skycultures/translations.fab:1162
 msgid "Sazum"
 msgstr "Sazum"
 
@@ -2522,7 +2553,7 @@ msgstr "Sazum"
 #. of Solitude (Cien años de soledad) the classic novel by Gabriel García
 #. Marquez. Macondo is a fictional place where magic and reality are mixed.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1156 skycultures/western/star_names.fab:17
+#: skycultures/translations.fab:1166 skycultures/western/star_names.fab:17
 msgid "Macondo"
 msgstr "Macondo"
 
@@ -2531,7 +2562,7 @@ msgstr "Macondo"
 #. like a planet orbiting a star, connecting it with the external world by
 #. introducing new knowledge using his inventions as well as his stories.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1160
+#: skycultures/translations.fab:1170
 msgid "Melquíades"
 msgstr "Melquíades"
 
@@ -2539,7 +2570,7 @@ msgstr "Melquíades"
 #. TRANSLATORS: Poerava is the word in the Cook Islands Maori language for a
 #. large mystical black pearl of utter beauty and perfection.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1164 skycultures/western/star_names.fab:1067
+#: skycultures/translations.fab:1174 skycultures/western/star_names.fab:1067
 msgid "Poerava"
 msgstr "Poerava"
 
@@ -2547,7 +2578,7 @@ msgstr "Poerava"
 #. TRANSLATORS: Pipitea is a small, white and gold pearl found in Penrhyn
 #. lagoon in the northern group of the Cook Islands.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1168
+#: skycultures/translations.fab:1178
 msgid "Pipitea"
 msgstr "Pipitea"
 
@@ -2555,7 +2586,7 @@ msgstr "Pipitea"
 #. TRANSLATORS: Dìwö in Bribri language means the sun (bigger than the sun we
 #. know) and that never turns off.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1172
+#: skycultures/translations.fab:1182
 msgid "Dìwö"
 msgstr "Dìwö"
 
@@ -2563,7 +2594,7 @@ msgstr "Dìwö"
 #. TRANSLATORS: Ditsö̀ is the name that the god Sibö̀ gave to the first Bribri
 #. people.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1176
+#: skycultures/translations.fab:1186
 msgid "Ditsö̀"
 msgstr "Ditsö̀"
 
@@ -2572,7 +2603,7 @@ msgstr "Ditsö̀"
 #. literature character in the book Priče iz davnine (Croatian Tales of Long
 #. Ago) by the Croatian author Ivana Brlić-Mažuranić.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1180 skycultures/western/star_names.fab:705
+#: skycultures/translations.fab:1190 skycultures/western/star_names.fab:705
 msgid "Stribor"
 msgstr "Stribor"
 
@@ -2580,7 +2611,7 @@ msgstr "Stribor"
 #. TRANSLATORS: Veles is a major Slavic god of earth, waters and the
 #. underworld.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1184
+#: skycultures/translations.fab:1194
 msgid "Veles"
 msgstr "Veles"
 
@@ -2589,7 +2620,7 @@ msgstr "Veles"
 #. Cuba at the San Carlos and San Ambrosio Seminary. He opened the way to
 #. education for all, and began the experimental teaching of physics in Cuba.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1188 skycultures/western/star_names.fab:339
+#: skycultures/translations.fab:1198 skycultures/western/star_names.fab:339
 msgid "Felixvarela"
 msgstr "Felixvarela"
 
@@ -2598,7 +2629,7 @@ msgstr "Felixvarela"
 #. recognized as a pioneer in the research of yellow fever, determining that
 #. it was transmitted through mosquitoes.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1192
+#: skycultures/translations.fab:1202
 msgid "Finlay"
 msgstr "Finlay"
 
@@ -2606,7 +2637,7 @@ msgstr "Finlay"
 #. TRANSLATORS: Alasia is the first historically recorded name of Cyprus,
 #. dating back to mid-fifteenth century BC.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1196 skycultures/western/star_names.fab:1017
+#: skycultures/translations.fab:1206 skycultures/western/star_names.fab:1017
 msgid "Alasia"
 msgstr "Alasia"
 
@@ -2616,7 +2647,7 @@ msgstr "Alasia"
 #. Onasilou Plate, it is considered as the oldest legal contract found in the
 #. world.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1200
+#: skycultures/translations.fab:1210
 msgid "Onasilos"
 msgstr "Onasilos"
 
@@ -2625,7 +2656,7 @@ msgstr "Onasilos"
 #. novel Továrna na absolutno (The Factory for the Absolute) by influential
 #. Czech writer Karel Čapek.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1204
+#: skycultures/translations.fab:1214
 msgid "Absolutno"
 msgstr "Absolutno"
 
@@ -2634,7 +2665,7 @@ msgstr "Absolutno"
 #. (The Makropulos Affair), dealing with problems of immortality and
 #. consequences of an artificial prolongation of life.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1208
+#: skycultures/translations.fab:1218
 msgid "Makropulos"
 msgstr "Makropulos"
 
@@ -2643,7 +2674,7 @@ msgstr "Makropulos"
 #. gods used the sparks of Muspelheim to form the sun, moon, planets, and
 #. stars.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1212
+#: skycultures/translations.fab:1222
 msgid "Muspelheim"
 msgstr "Muspelheim"
 
@@ -2652,7 +2683,7 @@ msgstr "Muspelheim"
 #. Norse mythology. At Ragnarok, the end of the world, he will lead the attack
 #. on our world and destroy it in flames.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1216
+#: skycultures/translations.fab:1226
 msgid "Surt"
 msgstr "Surt"
 
@@ -2661,7 +2692,7 @@ msgstr "Surt"
 #. engraved at a higher position on the stalagmite than Boinayel in the El
 #. Puente cave, where the Sun makes its way down every 21 December.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1220
+#: skycultures/translations.fab:1230
 msgid "Márohu"
 msgstr "Márohu"
 
@@ -2669,7 +2700,7 @@ msgstr "Márohu"
 #. TRANSLATORS: Boinayel the god of rain that fertilizes the soil is engraved
 #. on the stalagmite at a lower position than Márohu in the El Puente cave.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1224
+#: skycultures/translations.fab:1234
 msgid "Boinayel"
 msgstr "Boinayel"
 
@@ -2677,7 +2708,7 @@ msgstr "Boinayel"
 #. TRANSLATORS: Nenque means the Sun in the language spoken by the Indigenous
 #. Waorani tribes of the Amazon regions of Ecuador
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1228 skycultures/western/star_names.fab:867
+#: skycultures/translations.fab:1238 skycultures/western/star_names.fab:867
 msgid "Nenque"
 msgstr "Nenque"
 
@@ -2686,14 +2717,14 @@ msgstr "Nenque"
 #. Waorani tribes of the Amazon regions of Ecuador. This word is suggested for
 #. the exoplanet owing to the proximity of the planet to the host star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1232
+#: skycultures/translations.fab:1242
 msgid "Eyeke"
 msgstr "Eyeke"
 
 #. TRANSLATORS: Proper name of star HD 52265
 #. TRANSLATORS: Citalá means River of stars in the native Nahuat language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1236 skycultures/western/star_names.fab:732
+#: skycultures/translations.fab:1246 skycultures/western/star_names.fab:732
 msgid "Citalá"
 msgstr "Citalá"
 
@@ -2701,7 +2732,7 @@ msgstr "Citalá"
 #. TRANSLATORS: Cayahuanca means The rock looking at the stars in the native
 #. Nahuat language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1240
+#: skycultures/translations.fab:1250
 msgid "Cayahuanca"
 msgstr "Cayahuanca"
 
@@ -2709,7 +2740,7 @@ msgstr "Cayahuanca"
 #. TRANSLATORS: Koit is Estonian for the time when the Sun rises in the
 #. morning (dawn).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1244
+#: skycultures/translations.fab:1254
 msgid "Koit"
 msgstr "Koit"
 
@@ -2717,14 +2748,14 @@ msgstr "Koit"
 #. TRANSLATORS: Hämarik is Estonian for the time when the Sun goes down in the
 #. evening (twilight).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1248
+#: skycultures/translations.fab:1258
 msgid "Hämarik"
 msgstr "Hämarik"
 
 #. TRANSLATORS: Proper name of star HD 16175
 #. TRANSLATORS: Buna is the commonly used word for coffee in Ethiopia.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1252 skycultures/western/star_names.fab:15
+#: skycultures/translations.fab:1262 skycultures/western/star_names.fab:15
 msgid "Buna"
 msgstr "Buna"
 
@@ -2732,14 +2763,14 @@ msgstr "Buna"
 #. TRANSLATORS: Abol is the first of three rounds of coffee in the Ethiopian
 #. traditional coffee ceremony.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1256
+#: skycultures/translations.fab:1266
 msgid "Abol"
 msgstr "Abol"
 
 #. TRANSLATORS: Proper name of star HAT-P-38
 #. TRANSLATORS: Horna is hell or the underworld from Finnic mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1260
+#: skycultures/translations.fab:1270
 msgid "Horna"
 msgstr "Horna"
 
@@ -2747,7 +2778,7 @@ msgstr "Horna"
 #. TRANSLATORS: Hiisi represents sacred localities and later evil spirits from
 #. Finnic mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1264
+#: skycultures/translations.fab:1274
 msgid "Hiisi"
 msgstr "Hiisi"
 
@@ -2755,7 +2786,7 @@ msgstr "Hiisi"
 #. TRANSLATORS: Bélénos was the god of light, of the Sun, and of health in
 #. Gaulish mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1268 skycultures/western/star_names.fab:889
+#: skycultures/translations.fab:1278 skycultures/western/star_names.fab:889
 msgid "Bélénos"
 msgstr "Bélénos"
 
@@ -2763,7 +2794,7 @@ msgstr "Bélénos"
 #. TRANSLATORS: Bélisama was the goddess of fire, notably of the hearth and of
 #. metallurgy and glasswork, in Gaulish mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1272
+#: skycultures/translations.fab:1282
 msgid "Bélisama"
 msgstr "Bélisama"
 
@@ -2771,7 +2802,7 @@ msgstr "Bélisama"
 #. TRANSLATORS: Itonda, in the Myene tongue, corresponds to all that is
 #. beautiful.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1276 skycultures/western/star_names.fab:577
+#: skycultures/translations.fab:1286 skycultures/western/star_names.fab:577
 msgid "Itonda"
 msgstr "Itonda"
 
@@ -2779,7 +2810,7 @@ msgstr "Itonda"
 #. TRANSLATORS: Mintome, in the Fang tongue, is a mythical land where a
 #. brotherhood of brave men live.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1280
+#: skycultures/translations.fab:1290
 msgid "Mintome"
 msgstr "Mintome"
 
@@ -2788,7 +2819,7 @@ msgstr "Mintome"
 #. The star also happens to be in the constellation of Camelopardis (the
 #. giraffe).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1284 skycultures/western/star_names.fab:152
+#: skycultures/translations.fab:1294 skycultures/western/star_names.fab:152
 msgid "Mago"
 msgstr "Mago"
 
@@ -2796,7 +2827,7 @@ msgstr "Mago"
 #. TRANSLATORS: The Neri river in Ethiopia runs through parts of the Mago
 #. National park.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1288
+#: skycultures/translations.fab:1298
 msgid "Neri"
 msgstr "Neri"
 
@@ -2804,14 +2835,14 @@ msgstr "Neri"
 #. TRANSLATORS: Sika means gold in the Ewe language and gold is one of Ghana's
 #. principal exports.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1292 skycultures/western/star_names.fab:956
+#: skycultures/translations.fab:1302 skycultures/western/star_names.fab:956
 msgid "Sika"
 msgstr "Sika"
 
 #. TRANSLATORS: Proper name of exoplanet HD 181720 b
 #. TRANSLATORS: Toge means earring in the Ewe language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1296
+#: skycultures/translations.fab:1306
 msgid "Toge"
 msgstr "Toge"
 
@@ -2820,7 +2851,7 @@ msgstr "Toge"
 #. the Lernaean Hydra, an immortal mythical nine-headed beast lived. The star
 #. lies in the constellation of Hydra.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1300
+#: skycultures/translations.fab:1310
 msgid "Lerna"
 msgstr "Lerna"
 
@@ -2830,7 +2861,7 @@ msgstr "Lerna"
 #. Similarly this exoplanet in the constellation of Hydra moves around its
 #. parent star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1304
+#: skycultures/translations.fab:1314
 msgid "Iolaus"
 msgstr "Iolaus"
 
@@ -2838,7 +2869,7 @@ msgstr "Iolaus"
 #. TRANSLATORS: Tojil is the name of one of the Mayan deities related to rain,
 #. storms, and fire.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1308
+#: skycultures/translations.fab:1318
 msgid "Tojil"
 msgstr "Tojil"
 
@@ -2846,7 +2877,7 @@ msgstr "Tojil"
 #. TRANSLATORS: Koyopa' is the word associated with lightning in K'iche'
 #. (Quiché) Mayan language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1312
+#: skycultures/translations.fab:1322
 msgid "Koyopa'"
 msgstr "Koyopa'"
 
@@ -2855,7 +2886,7 @@ msgstr "Koyopa'"
 #. built after Haiti's independence, and was designated a UNESCO World
 #. Heritage site along with the nearby Sans-Souci Palace.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1316 skycultures/western/star_names.fab:890
+#: skycultures/translations.fab:1326 skycultures/western/star_names.fab:890
 msgid "Citadelle"
 msgstr "Citadelle"
 
@@ -2864,7 +2895,7 @@ msgstr "Citadelle"
 #. Independence on 1 January 1804, when Haiti became the first independent
 #. black republic.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1320
+#: skycultures/translations.fab:1330
 msgid "Indépendance"
 msgstr "Indépendance"
 
@@ -2872,7 +2903,7 @@ msgstr "Indépendance"
 #. TRANSLATORS: Hunahpú was one of the twin gods who became the Sun in K'iche'
 #. (Quiché) Mayan mythology as recounted in the Popol Vuh.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1324 skycultures/western/star_names.fab:390
+#: skycultures/translations.fab:1334 skycultures/western/star_names.fab:390
 msgid "Hunahpú"
 msgstr "Hunahpú"
 
@@ -2880,7 +2911,7 @@ msgstr "Hunahpú"
 #. TRANSLATORS: Ixbalanqué was one of the twin gods who became the Moon in
 #. K'iche' (Quiché) Mayan mythology as recounted in the Popol Vuh.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1328
+#: skycultures/translations.fab:1338
 msgid "Ixbalanqué"
 msgstr "Ixbalanqué"
 
@@ -2888,7 +2919,7 @@ msgstr "Ixbalanqué"
 #. TRANSLATORS: Hunor was a legendary ancestor of the Huns and the Hungarian
 #. nation, and brother of Magor.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1332 skycultures/western/star_names.fab:596
+#: skycultures/translations.fab:1342 skycultures/western/star_names.fab:596
 msgid "Hunor"
 msgstr "Hunor"
 
@@ -2896,21 +2927,21 @@ msgstr "Hunor"
 #. TRANSLATORS: Magor was a legendary ancestor of the Magyar people and the
 #. Hungarian nation, and brother of Hunor.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1336
+#: skycultures/translations.fab:1346
 msgid "Magor"
 msgstr "Magor"
 
 #. TRANSLATORS: Proper name of star HD 109246
 #. TRANSLATORS: Funi is an old Icelandic word meaning fire or blaze.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1340 skycultures/western/star_names.fab:501
+#: skycultures/translations.fab:1350 skycultures/western/star_names.fab:501
 msgid "Funi"
 msgstr "Funi"
 
 #. TRANSLATORS: Proper name of exoplanet HD 109246 b
 #. TRANSLATORS: Fold is an old Icelandic word meaning earth or soil.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1344
+#: skycultures/translations.fab:1354
 msgid "Fold"
 msgstr "Fold"
 
@@ -2918,7 +2949,7 @@ msgstr "Fold"
 #. TRANSLATORS: Bibhā [/bɪbɦa/] is the Bengali pronunciation of the Sanskrit
 #. word Vibha, which means a bright beam of light.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1348 skycultures/western/star_names.fab:1020
+#: skycultures/translations.fab:1358 skycultures/western/star_names.fab:1020
 msgid "Bibhā"
 msgstr "Bibhā"
 
@@ -2926,14 +2957,14 @@ msgstr "Bibhā"
 #. TRANSLATORS: Santamasa [/səntəməs/] in Sanskrit means clouded, which
 #. alludes to the exoplanet’s atmosphere.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1352
+#: skycultures/translations.fab:1362
 msgid "Santamasa"
 msgstr "Santamasa"
 
 #. TRANSLATORS: Proper name of star HD 117618
 #. TRANSLATORS: Dofida means our star in Nias language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1356 skycultures/western/star_names.fab:283
+#: skycultures/translations.fab:1366 skycultures/western/star_names.fab:283
 msgid "Dofida"
 msgstr "Dofida"
 
@@ -2942,7 +2973,7 @@ msgstr "Dofida"
 #. the word ifasui, meaning to revolve around, and no, indicating that the
 #. action occurred in the past and continued to the present time.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1360
+#: skycultures/translations.fab:1370
 msgid "Noifasui"
 msgstr "Noifasui"
 
@@ -2951,7 +2982,7 @@ msgstr "Noifasui"
 #. composed by Persian poet Ferdowsi between 977 and 1010 CE. Kaveh is a
 #. blacksmith who symbolises justice.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1364 skycultures/western/star_names.fab:1018
+#: skycultures/translations.fab:1374 skycultures/western/star_names.fab:1018
 msgid "Kaveh"
 msgstr "Kaveh"
 
@@ -2959,7 +2990,7 @@ msgstr "Kaveh"
 #. TRANSLATORS: Kaveh carries a banner called Derafsh Kaviani (Derafsh:
 #. banner, Kaviani: relating to Kaveh).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1368
+#: skycultures/translations.fab:1378
 msgid "Kavian"
 msgstr "Kavian"
 
@@ -2968,7 +2999,7 @@ msgstr "Kavian"
 #. civilizations in Mesopotamia situated along an ancient channel of the
 #. Euphrates river in modern-day Iraq.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1372 skycultures/western/star_names.fab:912
+#: skycultures/translations.fab:1382 skycultures/western/star_names.fab:912
 msgid "Uruk"
 msgstr "Uruk"
 
@@ -2977,7 +3008,7 @@ msgstr "Uruk"
 #. 18th to 6th centuries BC whose name-giving capital city was built on the
 #. Euphrates river.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1376
+#: skycultures/translations.fab:1386
 msgid "Babylonia"
 msgstr "Babylonia"
 
@@ -2985,7 +3016,7 @@ msgstr "Babylonia"
 #. TRANSLATORS: Tuiren was the aunt of the hunterwarrior Fionn mac Cumhaill of
 #. Irish legend, who was turned into a hound by the jealous fairy Uchtdealbh.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1380
+#: skycultures/translations.fab:1390
 msgid "Tuiren"
 msgstr "Tuiren"
 
@@ -2993,7 +3024,7 @@ msgstr "Tuiren"
 #. TRANSLATORS: Tuiren's son Bran was a hound and cousin of the hunterwarrior
 #. Fionn mac Cumhaill of Irish legend.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1384
+#: skycultures/translations.fab:1394
 msgid "Bran"
 msgstr "Bran"
 
@@ -3001,7 +3032,7 @@ msgstr "Bran"
 #. TRANSLATORS: Tevel means Universe or everything and begins with the letter
 #. Taf, the last letter in the Hebrew alphabet.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1388
+#: skycultures/translations.fab:1398
 msgid "Tevel"
 msgstr "Tevel"
 
@@ -3009,7 +3040,7 @@ msgstr "Tevel"
 #. TRANSLATORS: Alef is the first letter in the Hebrew alphabet and also means
 #. bull.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1392
+#: skycultures/translations.fab:1402
 msgid "Alef"
 msgstr "Alef"
 
@@ -3019,7 +3050,7 @@ msgstr "Alef"
 #. (Divine Commedy) by Dante Alighieri, chosen as an allusion to the star's
 #. fiery nature.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1396 skycultures/western/star_names.fab:1202
+#: skycultures/translations.fab:1406 skycultures/western/star_names.fab:1202
 msgid "Flegetonte"
 msgstr "Flegetonte"
 
@@ -3029,21 +3060,21 @@ msgstr "Flegetonte"
 #. Commedy) by Dante Alighieri, chosen as an allusion to the planet's gaseous
 #. nature.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1400
+#: skycultures/translations.fab:1410
 msgid "Lete"
 msgstr "Lete"
 
 #. TRANSLATORS: Proper name of star WASP-15
 #. TRANSLATORS: Nyamien refers to the supreme creator deity of Akan mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1404
+#: skycultures/translations.fab:1414
 msgid "Nyamien"
 msgstr "Nyamien"
 
 #. TRANSLATORS: Proper name of exoplanet WASP-15 b
 #. TRANSLATORS: Asye refers to the Earth goddess of Akan mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1408
+#: skycultures/translations.fab:1418
 msgid "Asye"
 msgstr "Asye"
 
@@ -3051,7 +3082,7 @@ msgstr "Asye"
 #. TRANSLATORS: Kamui is a word in the Ainu language denoting a supernatural
 #. entity possessing spiritual energy.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1412 skycultures/western/star_names.fab:371
+#: skycultures/translations.fab:1422 skycultures/western/star_names.fab:371
 msgid "Kamui"
 msgstr "Kamui"
 
@@ -3059,7 +3090,7 @@ msgstr "Kamui"
 #. TRANSLATORS: Chura is a word in the Ryukyuan/Okinawan language meaning
 #. natural beauty.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1416
+#: skycultures/translations.fab:1426
 msgid "Chura"
 msgstr "Chura"
 
@@ -3067,7 +3098,7 @@ msgstr "Chura"
 #. TRANSLATORS: Petra is a historical and archaeological city in southern
 #. Jordan and a UNESCO World Heritage site.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1420
+#: skycultures/translations.fab:1430
 msgid "Petra"
 msgstr "Petra"
 
@@ -3076,7 +3107,7 @@ msgstr "Petra"
 #. Jordan, it is the largest valley in Jordan, set on the high plateau at the
 #. western edge of the Arabian Desert.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1424
+#: skycultures/translations.fab:1434
 msgid "Wadirum"
 msgstr "Wadirum"
 
@@ -3084,7 +3115,7 @@ msgstr "Wadirum"
 #. TRANSLATORS: The word Kalausi means a very strong whirling column of wind
 #. in the Dholuo language of Kenya.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1428 skycultures/western/star_names.fab:1170
+#: skycultures/translations.fab:1438 skycultures/western/star_names.fab:1170
 msgid "Kalausi"
 msgstr "Kalausi"
 
@@ -3092,7 +3123,7 @@ msgstr "Kalausi"
 #. TRANSLATORS: Buru means dust in the Dholuo language of Kenya and is
 #. typically associated with wind storms.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1432
+#: skycultures/translations.fab:1442
 msgid "Buru"
 msgstr "Buru"
 
@@ -3100,7 +3131,7 @@ msgstr "Buru"
 #. TRANSLATORS: Liesma means flame, and it is the name of a character from the
 #. Latvian poem Staburags un Liesma.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1436 skycultures/western/star_names.fab:1127
+#: skycultures/translations.fab:1446 skycultures/western/star_names.fab:1127
 msgid "Liesma"
 msgstr "Liesma"
 
@@ -3109,7 +3140,7 @@ msgstr "Liesma"
 #. Staburags un Liesma, and denotes a rock with symbolic meaning in literature
 #. and history.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1440
+#: skycultures/translations.fab:1450
 msgid "Staburags"
 msgstr "Staburags"
 
@@ -3117,7 +3148,7 @@ msgstr "Staburags"
 #. TRANSLATORS: Phoenicia was an ancient thalassocratic civilisation of the
 #. Mediterranean that originated from the area of modern-day Lebanon.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1444 skycultures/western/star_names.fab:67
+#: skycultures/translations.fab:1454 skycultures/western/star_names.fab:67
 msgid "Phoenicia"
 msgstr "Phoenicia"
 
@@ -3126,7 +3157,7 @@ msgstr "Phoenicia"
 #. the world and was a Phoenician port. Beirut is now the capital and largest
 #. city of Lebanon.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1448
+#: skycultures/translations.fab:1458
 msgid "Beirut"
 msgstr "Beirut"
 
@@ -3134,7 +3165,7 @@ msgstr "Beirut"
 #. TRANSLATORS: In the local dialect of Triesenberg, Pipoltr is a bright and
 #. visible butterfly, alluding to the properties of a star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1452
+#: skycultures/translations.fab:1462
 msgid "Pipoltr"
 msgstr "Pipoltr"
 
@@ -3143,21 +3174,21 @@ msgstr "Pipoltr"
 #. small and barely visible ant, alluding to the properties of a planet with
 #. respect to its star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1456
+#: skycultures/translations.fab:1466
 msgid "Umbäässa"
 msgstr "Umbäässa"
 
 #. TRANSLATORS: Proper name of star HAT-P-40
 #. TRANSLATORS: Taika means peace in the Lithuanian language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1460
+#: skycultures/translations.fab:1470
 msgid "Taika"
 msgstr "Taika"
 
 #. TRANSLATORS: Proper name of exoplanet HAT-P-40 b
 #. TRANSLATORS: Vytis is the symbol of the Lithuanian coat of arms.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1464
+#: skycultures/translations.fab:1474
 msgid "Vytis"
 msgstr "Vytis"
 
@@ -3165,7 +3196,7 @@ msgstr "Vytis"
 #. TRANSLATORS: The Lucilinburhuc fortress was built in 963 by the founder of
 #. Luxembourg, Count Siegfried.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1468 skycultures/western/star_names.fab:120
+#: skycultures/translations.fab:1478 skycultures/western/star_names.fab:120
 msgid "Lucilinburhuc"
 msgstr "Lucilinburhuc"
 
@@ -3174,21 +3205,21 @@ msgstr "Lucilinburhuc"
 #. Pétrusse, with the river's bend around Lucilinburhuc fortress alluding to
 #. the orbit of the planet around its star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1472
+#: skycultures/translations.fab:1482
 msgid "Peitruss"
 msgstr "Peitruss"
 
 #. TRANSLATORS: Proper name of star HD 153950
 #. TRANSLATORS: Rapeto is a giant creature from Malagasy tales.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1476 skycultures/western/star_names.fab:998
+#: skycultures/translations.fab:1486 skycultures/western/star_names.fab:998
 msgid "Rapeto"
 msgstr "Rapeto"
 
 #. TRANSLATORS: Proper name of exoplanet HD 153950 b
 #. TRANSLATORS: Trimobe is a rich ogre from Malagasy tales.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1480
+#: skycultures/translations.fab:1490
 msgid "Trimobe"
 msgstr "Trimobe"
 
@@ -3196,7 +3227,7 @@ msgstr "Trimobe"
 #. TRANSLATORS: Intan means diamond in the Malay language (Bahasa Melayu),
 #. alluding to the shining of a star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1484 skycultures/western/star_names.fab:541
+#: skycultures/translations.fab:1494 skycultures/western/star_names.fab:541
 msgid "Intan"
 msgstr "Intan"
 
@@ -3204,7 +3235,7 @@ msgstr "Intan"
 #. TRANSLATORS: Baiduri means opal in Malay language (Bahasa Melayu), alluding
 #. to the mysterious beauty of the planet.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1488
+#: skycultures/translations.fab:1498
 msgid "Baiduri"
 msgstr "Baiduri"
 
@@ -3213,7 +3244,7 @@ msgstr "Baiduri"
 #. Maltese folk tales that carried the stones of the Gozo megalithic temples
 #. on her head.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1492
+#: skycultures/translations.fab:1502
 msgid "Sansuna"
 msgstr "Sansuna"
 
@@ -3221,7 +3252,7 @@ msgstr "Sansuna"
 #. TRANSLATORS: Ġgantija means giantess: the megalithic temple complex on the
 #. island of Gozo, which alludes to the grandeur of this gas giant exoplanet.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1496
+#: skycultures/translations.fab:1506
 msgid "Ġgantija"
 msgstr "Ġgantija"
 
@@ -3230,7 +3261,7 @@ msgstr "Ġgantija"
 #. Mauritius in the 1820's, and is used for lighting during special occasions,
 #. including the light festival of Diwali.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1500
+#: skycultures/translations.fab:1510
 msgid "Diya"
 msgstr "Diya"
 
@@ -3239,7 +3270,7 @@ msgstr "Diya"
 #. drying substances, that has long disappeared in Mauritius and has been
 #. replaced by more sophisticated ovens.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1504
+#: skycultures/translations.fab:1514
 msgid "Cuptor"
 msgstr "Cuptor"
 
@@ -3248,7 +3279,7 @@ msgstr "Cuptor"
 #. which is a unique and culturally significant endemic amphibious species
 #. from the basin of Mexico.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1508 skycultures/western/star_names.fab:340
+#: skycultures/translations.fab:1518 skycultures/western/star_names.fab:340
 msgid "Axólotl"
 msgstr "Axólotl"
 
@@ -3256,7 +3287,7 @@ msgstr "Axólotl"
 #. TRANSLATORS: Xólotl means animal in the native Nahuatl language and was an
 #. Aztec deity associated with the evening star (Venus).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1512
+#: skycultures/translations.fab:1522
 msgid "Xólotl"
 msgstr "Xólotl"
 
@@ -3265,7 +3296,7 @@ msgstr "Xólotl"
 #. Morocco. It means the bride in the Amazigh language and it is associated
 #. with a heartbroken beautiful girl in an ancient local legend.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1516
+#: skycultures/translations.fab:1526
 msgid "Tislit"
 msgstr "Tislit"
 
@@ -3274,7 +3305,7 @@ msgstr "Tislit"
 #. It means the groom in the Amazigh language and it is associated with a
 #. heartbroken handsome boy in an ancient local legend.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1520
+#: skycultures/translations.fab:1530
 msgid "Isli"
 msgstr "Isli"
 
@@ -3282,7 +3313,7 @@ msgstr "Isli"
 #. TRANSLATORS: Emiw represents love in the local Makhuwa language of the
 #. northern region of Mozambique.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1524 skycultures/western/star_names.fab:1068
+#: skycultures/translations.fab:1534 skycultures/western/star_names.fab:1068
 msgid "Emiw"
 msgstr "Emiw"
 
@@ -3290,14 +3321,14 @@ msgstr "Emiw"
 #. TRANSLATORS: Hairu represents unity in the local Makhuwa language of the
 #. northern region of Mozambique.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1528
+#: skycultures/translations.fab:1538
 msgid "Hairu"
 msgstr "Hairu"
 
 #. TRANSLATORS: Proper name of star HD 18742
 #. TRANSLATORS: Ayeyarwady is the largest and most important river in Myanmar.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1532 skycultures/western/star_names.fab:536
+#: skycultures/translations.fab:1542 skycultures/western/star_names.fab:536
 msgid "Ayeyarwady"
 msgstr "Ayeyarwady"
 
@@ -3305,7 +3336,7 @@ msgstr "Ayeyarwady"
 #. TRANSLATORS: Bagan is one of Myanmar's ancient cities that lies beside the
 #. Ayeyarwardy river.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1536
+#: skycultures/translations.fab:1546
 msgid "Bagan"
 msgstr "Bagan"
 
@@ -3313,7 +3344,7 @@ msgstr "Bagan"
 #. TRANSLATORS: Sagarmatha is the Nepali name for the highest peak in the
 #. world (also known as Mount Everest) and symbol of national pride of Nepal.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1540 skycultures/western/star_names.fab:664
+#: skycultures/translations.fab:1550 skycultures/western/star_names.fab:664
 msgid "Sagarmatha"
 msgstr "Sagarmatha"
 
@@ -3321,7 +3352,7 @@ msgstr "Sagarmatha"
 #. TRANSLATORS: Laligurans are the Nepali variation of the rhododendron flower
 #. and is the national flower of Nepal.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1544
+#: skycultures/translations.fab:1554
 msgid "Laligurans"
 msgstr "Laligurans"
 
@@ -3330,7 +3361,7 @@ msgstr "Laligurans"
 #. Dutch grand master Van Gogh that was painted in France in 1889 and now
 #. belongs to the permanent collection of New York's Museum of Modern Art.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1548
+#: skycultures/translations.fab:1558
 msgid "Sterrennacht"
 msgstr "Sterrennacht"
 
@@ -3339,7 +3370,7 @@ msgstr "Sterrennacht"
 #. Dutch grand master Rembrandt that was completed in 1642 and now belongs to
 #. the collection of the Rijksmuseum in Amsterdam.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1552
+#: skycultures/translations.fab:1562
 msgid "Nachtwacht"
 msgstr "Nachtwacht"
 
@@ -3347,7 +3378,7 @@ msgstr "Nachtwacht"
 #. TRANSLATORS: Karaka is the word in the Māori language for a plant endemic
 #. to New Zealand that produces a bright orange, fleshy fruit.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1556 skycultures/western/star_names.fab:19
+#: skycultures/translations.fab:1566 skycultures/western/star_names.fab:19
 msgid "Karaka"
 msgstr "Karaka"
 
@@ -3355,7 +3386,7 @@ msgstr "Karaka"
 #. TRANSLATORS: Kererū is the word in the Māori language for a large bush
 #. pigeon native to New Zealand.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1560
+#: skycultures/translations.fab:1570
 msgid "Kererū"
 msgstr "Kererū"
 
@@ -3363,7 +3394,7 @@ msgstr "Kererū"
 #. TRANSLATORS: Cocibolca is the Nahualt name for the largest lake in Central
 #. America in Nicaragua.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1564 skycultures/western/star_names.fab:1001
+#: skycultures/translations.fab:1574 skycultures/western/star_names.fab:1001
 msgid "Cocibolca"
 msgstr "Cocibolca"
 
@@ -3373,7 +3404,7 @@ msgstr "Cocibolca"
 #. settled in Nicaragua, which symbolises a native god and a refuge for
 #. animals.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1568
+#: skycultures/translations.fab:1578
 msgid "Xolotlan"
 msgstr "Xolotlan"
 
@@ -3381,7 +3412,7 @@ msgstr "Xolotlan"
 #. TRANSLATORS: Amadioha is the god of thunder in Igbo mythology. As well as
 #. representing justice, Amadioha is also a god of love, peace and unity.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1572 skycultures/western/star_names.fab:199
+#: skycultures/translations.fab:1582 skycultures/western/star_names.fab:199
 msgid "Amadioha"
 msgstr "Amadioha"
 
@@ -3389,21 +3420,21 @@ msgstr "Amadioha"
 #. TRANSLATORS: Equiano was a writer and abolitionist from Ihiala, Nigeria who
 #. fought injustice and the elimination of the slave trade.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1576
+#: skycultures/translations.fab:1586
 msgid "Equiano"
 msgstr "Equiano"
 
 #. TRANSLATORS: Proper name of star HD 68988
 #. TRANSLATORS: Násti means star in the Northern Sami language of Norway.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1580 skycultures/western/star_names.fab:1128
+#: skycultures/translations.fab:1590 skycultures/western/star_names.fab:1128
 msgid "Násti"
 msgstr "Násti"
 
 #. TRANSLATORS: Proper name of exoplanet HD 68988 b
 #. TRANSLATORS: Albmi means sky in the Northern Sami language of Norway.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1584
+#: skycultures/translations.fab:1594
 msgid "Albmi"
 msgstr "Albmi"
 
@@ -3411,7 +3442,7 @@ msgstr "Albmi"
 #. TRANSLATORS: Shama is an Urdu literary term meaning a small lamp or flame,
 #. symbolic of the light of the star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1588
+#: skycultures/translations.fab:1598
 msgid "Shama"
 msgstr "Shama"
 
@@ -3419,7 +3450,7 @@ msgstr "Shama"
 #. TRANSLATORS: Perwana means moth in Urdu, alluding to the eternal love of an
 #. object circling the source of light (the lamp).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1592
+#: skycultures/translations.fab:1602
 msgid "Perwana"
 msgstr "Perwana"
 
@@ -3427,7 +3458,7 @@ msgstr "Perwana"
 #. TRANSLATORS: Moriah is an ancient name for the mountain within the Old City
 #. of Jerusalem.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1596 skycultures/western/star_names.fab:665
+#: skycultures/translations.fab:1606 skycultures/western/star_names.fab:665
 msgid "Moriah"
 msgstr "Moriah"
 
@@ -3435,7 +3466,7 @@ msgstr "Moriah"
 #. TRANSLATORS: Jebus was the ancient name of Jerusalem in 2nd millennium BC
 #. when populated by the Canaanite tribe of Jebusites.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1600
+#: skycultures/translations.fab:1610
 msgid "Jebus"
 msgstr "Jebus"
 
@@ -3444,7 +3475,7 @@ msgstr "Jebus"
 #. Punto”, a Panamanian dance in which a man and woman dance to the sound of
 #. drums.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1604
+#: skycultures/translations.fab:1614
 msgid "Montuno"
 msgstr "Montuno"
 
@@ -3453,7 +3484,7 @@ msgstr "Montuno"
 #. Punto, a Panamanian dance in which a man and woman dance to the sound of
 #. drums.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1608
+#: skycultures/translations.fab:1618
 msgid "Pollera"
 msgstr "Pollera"
 
@@ -3462,7 +3493,7 @@ msgstr "Pollera"
 #. popular Paraguayan folklore that helped the supreme god Ñamandu to create
 #. the Universe.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1612 skycultures/western/star_names.fab:398
+#: skycultures/translations.fab:1622 skycultures/western/star_names.fab:398
 msgid "Tupã"
 msgstr "Tupã"
 
@@ -3471,7 +3502,7 @@ msgstr "Tupã"
 #. and woman of the Universe, who is known as the Father of Wisdom in popular
 #. Paraguayan folklore.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1616
+#: skycultures/translations.fab:1626
 msgid "Tumearandu"
 msgstr "Tumearandu"
 
@@ -3479,7 +3510,7 @@ msgstr "Tumearandu"
 #. TRANSLATORS: Inquil was one half of the couple involved in the tragic love
 #. story Way to the Sun by famous Peruvian writer Abraham Valdelomar.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1620 skycultures/western/star_names.fab:71
+#: skycultures/translations.fab:1630 skycultures/western/star_names.fab:71
 msgid "Inquill"
 msgstr "Inquill"
 
@@ -3487,7 +3518,7 @@ msgstr "Inquill"
 #. TRANSLATORS: Sumaj Majta was one half of the couple involved in a tragic
 #. love story Way to the Sun by famous Peruvian writer Abraham Valdelomar.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1624
+#: skycultures/translations.fab:1634
 msgid "Sumajmajta"
 msgstr "Sumajmajta"
 
@@ -3496,7 +3527,7 @@ msgstr "Sumajmajta"
 #. Philippine's Tagalog mythology, and is the primordial deity of the ocean
 #. and protector of fisherman.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1628
+#: skycultures/translations.fab:1638
 msgid "Amansinaya"
 msgstr "Amansinaya"
 
@@ -3504,7 +3535,7 @@ msgstr "Amansinaya"
 #. TRANSLATORS: Haik is the successor of the primordial Aman Sinaya as the God
 #. of the Sea of the Philippine's Tagalog mythology.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1632
+#: skycultures/translations.fab:1642
 msgid "Haik"
 msgstr "Haik"
 
@@ -3512,7 +3543,7 @@ msgstr "Haik"
 #. TRANSLATORS: Uklun means us or we in the Pitkern language of the people of
 #. Pitcairn Islands.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1636 skycultures/western/star_names.fab:284
+#: skycultures/translations.fab:1646 skycultures/western/star_names.fab:284
 msgid "Uklun"
 msgstr "Uklun"
 
@@ -3520,7 +3551,7 @@ msgstr "Uklun"
 #. TRANSLATORS: Lekl Sullun means child or children in the Pitkern language of
 #. the people of Pitcairn Islands.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1640
+#: skycultures/translations.fab:1650
 msgid "Leklsullun"
 msgstr "Leklsullun"
 
@@ -3528,7 +3559,7 @@ msgstr "Leklsullun"
 #. TRANSLATORS: Solaris is the title of a 1961 science fiction novel about an
 #. ocean-covered exoplanet by Polish writer Stanislaw Lem.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1644
+#: skycultures/translations.fab:1654
 msgid "Solaris"
 msgstr "Solaris"
 
@@ -3536,7 +3567,7 @@ msgstr "Solaris"
 #. TRANSLATORS: Pirx is a fictional character from books by Polish science-
 #. fiction writer Stanisław Lem.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1648
+#: skycultures/translations.fab:1658
 msgid "Pirx"
 msgstr "Pirx"
 
@@ -3545,7 +3576,7 @@ msgstr "Pirx"
 #. Iberic Peninsula where the Lusitanian people lived and where most of
 #. modern-day Portugal is situated.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1652 skycultures/western/star_names.fab:733
+#: skycultures/translations.fab:1662 skycultures/western/star_names.fab:733
 msgid "Lusitânia"
 msgstr "Lusitânia"
 
@@ -3554,7 +3585,7 @@ msgstr "Lusitânia"
 #. herdsman and hunter who led the resistance against Roman invaders during
 #. 2nd century B.C.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1656
+#: skycultures/translations.fab:1666
 msgid "Viriato"
 msgstr "Viriato"
 
@@ -3562,7 +3593,7 @@ msgstr "Viriato"
 #. TRANSLATORS: Koeia was the word for star in the language of the Taíno
 #. Indigenous People of the Caribbean.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1660 skycultures/western/star_names.fab:537
+#: skycultures/translations.fab:1670 skycultures/western/star_names.fab:537
 msgid "Koeia"
 msgstr "Koeia"
 
@@ -3570,7 +3601,7 @@ msgstr "Koeia"
 #. TRANSLATORS: Aumatex was the God of Wind in the mythology of the Taíno
 #. Indigenous People of the Caribbean.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1664
+#: skycultures/translations.fab:1674
 msgid "Aumatex"
 msgstr "Aumatex"
 
@@ -3578,7 +3609,7 @@ msgstr "Aumatex"
 #. TRANSLATORS: Moldoveanu is the highest peak in Romania of the Făgăraș
 #. mountain range with an altitude of 2544 metres.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1668
+#: skycultures/translations.fab:1678
 msgid "Moldoveanu"
 msgstr "Moldoveanu"
 
@@ -3586,7 +3617,7 @@ msgstr "Moldoveanu"
 #. TRANSLATORS: Negoiu is the second highest peak in Romania of the Făgăraș
 #. mountain range with an altitude of 2535 metres.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1672
+#: skycultures/translations.fab:1682
 msgid "Negoiu"
 msgstr "Negoiu"
 
@@ -3595,7 +3626,7 @@ msgstr "Negoiu"
 #. is enclosed by mountain forests and rich wildlife, including bears (as this
 #. star lies in the constellation Ursa Major, the great bear).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1676
+#: skycultures/translations.fab:1686
 msgid "Dombay"
 msgstr "Dombay"
 
@@ -3603,14 +3634,14 @@ msgstr "Dombay"
 #. TRANSLATORS: Teberda is a mountain river in Dombay region with a rapid
 #. water flow, symbolising the planet's rapid motion around its host star.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1680
+#: skycultures/translations.fab:1690
 msgid "Teberda"
 msgstr "Teberda"
 
 #. TRANSLATORS: Proper name of star HD 181342
 #. TRANSLATORS: Belel is a rare source of water in the north of Senegal.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1684 skycultures/western/star_names.fab:957
+#: skycultures/translations.fab:1694 skycultures/western/star_names.fab:957
 msgid "Belel"
 msgstr "Belel"
 
@@ -3618,14 +3649,14 @@ msgstr "Belel"
 #. TRANSLATORS: Dopere is an expansive historical area in the north of Senegal
 #. where Belel was located.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1688
+#: skycultures/translations.fab:1698
 msgid "Dopere"
 msgstr "Dopere"
 
 #. TRANSLATORS: Proper name of star WASP-60
 #. TRANSLATORS: Morava is the longest river system in Serbia.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1692
+#: skycultures/translations.fab:1702
 msgid "Morava"
 msgstr "Morava"
 
@@ -3633,7 +3664,7 @@ msgstr "Morava"
 #. TRANSLATORS: Vlasina is one of the most significant tributaries of the
 #. South Morava river.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1696
+#: skycultures/translations.fab:1706
 msgid "Vlasina"
 msgstr "Vlasina"
 
@@ -3641,7 +3672,7 @@ msgstr "Vlasina"
 #. TRANSLATORS: Parumleo is a Latin term for little lion, symbolising
 #. Singapore's struggle for independence.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1700
+#: skycultures/translations.fab:1710
 msgid "Parumleo"
 msgstr "Parumleo"
 
@@ -3649,21 +3680,21 @@ msgstr "Parumleo"
 #. TRANSLATORS: Viculus is a Latin term for little village, embodying the
 #. spirit of the Singaporean people.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1704
+#: skycultures/translations.fab:1714
 msgid "Viculus"
 msgstr "Viculus"
 
 #. TRANSLATORS: Proper name of star HAT-P-5
 #. TRANSLATORS: Chasoň is an ancient Slovak term for Sun.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1708
+#: skycultures/translations.fab:1718
 msgid "Chasoň"
 msgstr "Chasoň"
 
 #. TRANSLATORS: Proper name of exoplanet HAT-P-5 b
 #. TRANSLATORS: Kráľomoc is an ancient Slovak term for the planet Jupiter.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1712
+#: skycultures/translations.fab:1722
 msgid "Kráľomoc"
 msgstr "Kráľomoc"
 
@@ -3672,7 +3703,7 @@ msgstr "Kráľomoc"
 #. a Story of the Ancient Grandfathers by Slovene writer Fran Saleški Finžgar.
 #. Irena is a woman of the court.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1716
+#: skycultures/translations.fab:1726
 msgid "Irena"
 msgstr "Irena"
 
@@ -3681,7 +3712,7 @@ msgstr "Irena"
 #. a Story of the Ancient Grandfathers by Slovene writer Fran Saleški Finžgar.
 #. Iztok is a freedom fighter for the Slavic people.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1720
+#: skycultures/translations.fab:1730
 msgid "Iztok"
 msgstr "Iztok"
 
@@ -3690,7 +3721,7 @@ msgstr "Iztok"
 #. languages and is typically given as a name to girls in the hope that they
 #. will bring light, joy and peace to their communities.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1724
+#: skycultures/translations.fab:1734
 msgid "Naledi"
 msgstr "Naledi"
 
@@ -3699,7 +3730,7 @@ msgstr "Naledi"
 #. indigenous Khoi people, who was a community builder and educator during
 #. colonial times.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1728
+#: skycultures/translations.fab:1738
 msgid "Krotoa"
 msgstr "Krotoa"
 
@@ -3707,7 +3738,7 @@ msgstr "Krotoa"
 #. TRANSLATORS: Baekdu is the highest mountain on the Korean peninsula,
 #. situated in North Korea, and symbolises the national spirit of Korea.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1732 skycultures/western/star_names.fab:1129
+#: skycultures/translations.fab:1742 skycultures/western/star_names.fab:1129
 msgid "Baekdu"
 msgstr "Baekdu"
 
@@ -3715,7 +3746,7 @@ msgstr "Baekdu"
 #. TRANSLATORS: Halla is the highest mountain in South Korea and is regarded
 #. as a sacred place in the region.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1736
+#: skycultures/translations.fab:1746
 msgid "Halla"
 msgstr "Halla"
 
@@ -3724,7 +3755,7 @@ msgstr "Halla"
 #. and prominent Spanish writer, whose pioneeting work often referenced the
 #. night and celestial objects.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1740 skycultures/western/star_names.fab:758
+#: skycultures/translations.fab:1750 skycultures/western/star_names.fab:758
 msgid "Rosalíadecastro"
 msgstr "Rosalíadecastro"
 
@@ -3732,14 +3763,14 @@ msgstr "Rosalíadecastro"
 #. TRANSLATORS: Rio Sar is the name of a river that was present in much of the
 #. literary work of the pioneering Spanish author Rosalía de Castro.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1744
+#: skycultures/translations.fab:1754
 msgid "Riosar"
 msgstr "Riosar"
 
 #. TRANSLATORS: Proper name of star HD 205739
 #. TRANSLATORS: Sāmaya means peace in the Sinhalese language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1748 skycultures/western/star_names.fab:898
+#: skycultures/translations.fab:1758 skycultures/western/star_names.fab:898
 msgid "Sāmaya"
 msgstr "Sāmaya"
 
@@ -3747,7 +3778,7 @@ msgstr "Sāmaya"
 #. TRANSLATORS: Samagiya means togetherness and unity in the Sinhalese
 #. language.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1752
+#: skycultures/translations.fab:1762
 msgid "Samagiya"
 msgstr "Samagiya"
 
@@ -3755,7 +3786,7 @@ msgstr "Samagiya"
 #. TRANSLATORS: Aniara is the name of a spaceship in the epic poem Aniara by
 #. Swedish author Harry Martinson.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1756 skycultures/western/star_names.fab:1130
+#: skycultures/translations.fab:1766 skycultures/western/star_names.fab:1130
 msgid "Aniara"
 msgstr "Aniara"
 
@@ -3763,7 +3794,7 @@ msgstr "Aniara"
 #. TRANSLATORS: Isagel is the name of the spaceship pilot in the epic science
 #. fiction poem Aniara written by Swedish author Harry Martinson.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1760
+#: skycultures/translations.fab:1770
 msgid "Isagel"
 msgstr "Isagel"
 
@@ -3771,7 +3802,7 @@ msgstr "Isagel"
 #. TRANSLATORS: Mönch is one of the prominent peaks of the Bernese Alps in
 #. Switzerland.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1764 skycultures/western/star_names.fab:1203
+#: skycultures/translations.fab:1774 skycultures/western/star_names.fab:1203
 msgid "Mönch"
 msgstr "Mönch"
 
@@ -3779,7 +3810,7 @@ msgstr "Mönch"
 #. TRANSLATORS: Eiger is one of the prominent peaks of the Bernese Alps, in
 #. the Jungfrau-Aletsch protected area.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1768
+#: skycultures/translations.fab:1778
 msgid "Eiger"
 msgstr "Eiger"
 
@@ -3787,7 +3818,7 @@ msgstr "Eiger"
 #. TRANSLATORS: Ebla was one of the earliest kingdoms in Syria, and served as
 #. a prominent region in the 2nd and 3rd millenia B.C.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1772 skycultures/western/star_names.fab:891
+#: skycultures/translations.fab:1782 skycultures/western/star_names.fab:891
 msgid "Ebla"
 msgstr "Ebla"
 
@@ -3796,7 +3827,7 @@ msgstr "Ebla"
 #. alphabet around 1400 B.C. The alphabet was made up of thirty letters and
 #. was inscribed on clay tablets.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1776
+#: skycultures/translations.fab:1786
 msgid "Ugarit"
 msgstr "Ugarit"
 
@@ -3804,7 +3835,7 @@ msgstr "Ugarit"
 #. TRANSLATORS: Mpingo is a famous tree that grows in southern Tanzania and
 #. produces ebony wood used for musical instruments and curios.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1780
+#: skycultures/translations.fab:1790
 msgid "Mpingo"
 msgstr "Mpingo"
 
@@ -3812,14 +3843,14 @@ msgstr "Mpingo"
 #. TRANSLATORS: Tanzanite is the name of a precious stone mined in Tanzania
 #. and is treasured worldwide.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1784
+#: skycultures/translations.fab:1794
 msgid "Tanzanite"
 msgstr "Tanzanite"
 
 #. TRANSLATORS: Proper name of star WASP-50
 #. TRANSLATORS: Chao Phraya is the great river of Thailand.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1788
+#: skycultures/translations.fab:1798
 msgid "Chaophraya"
 msgstr "Chaophraya"
 
@@ -3827,7 +3858,7 @@ msgstr "Chaophraya"
 #. TRANSLATORS: Mae Ping is one of the tributaries of Thailand's great river
 #. Chao Phraya.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1792
+#: skycultures/translations.fab:1802
 msgid "Maeping"
 msgstr "Maeping"
 
@@ -3835,7 +3866,7 @@ msgstr "Maeping"
 #. TRANSLATORS: Atakoraka means the chain of the Atacora: the largest mountain
 #. range in Togo.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1796
+#: skycultures/translations.fab:1806
 msgid "Atakoraka"
 msgstr "Atakoraka"
 
@@ -3843,7 +3874,7 @@ msgstr "Atakoraka"
 #. TRANSLATORS: Agouto (Mount Agou) is the highest mountain in Togo and a
 #. treasured region of the Atakoraka.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1800
+#: skycultures/translations.fab:1810
 msgid "Agouto"
 msgstr "Agouto"
 
@@ -3852,7 +3883,7 @@ msgstr "Agouto"
 #. movements, symbolising the culture and language of the ancestors of the
 #. people of Trinidad and Tobago.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1804 skycultures/western/star_names.fab:666
+#: skycultures/translations.fab:1814 skycultures/western/star_names.fab:666
 msgid "Dingolay"
 msgstr "Dingolay"
 
@@ -3861,7 +3892,7 @@ msgstr "Dingolay"
 #. representing the love of culture and languages of the ancestors of the
 #. people of Trinidad and Tobago.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1808
+#: skycultures/translations.fab:1818
 msgid "Ramajay"
 msgstr "Ramajay"
 
@@ -3870,7 +3901,7 @@ msgstr "Ramajay"
 #. men and women, symbolising the country's rich traditions and is considered
 #. as the national headdress for in Tunisia.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1812 skycultures/western/star_names.fab:68
+#: skycultures/translations.fab:1822 skycultures/western/star_names.fab:68
 msgid "Chechia"
 msgstr "Chechia"
 
@@ -3879,7 +3910,7 @@ msgstr "Chechia"
 #. used in jewelry and decorations. It depicts an open right hand and is often
 #. found in modern designs.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1816
+#: skycultures/translations.fab:1826
 msgid "Khomsa"
 msgstr "Khomsa"
 
@@ -3887,7 +3918,7 @@ msgstr "Khomsa"
 #. TRANSLATORS: Anadolu is the primary homeland of Turkey and refers to the
 #. motherland in Turkish culture.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1820
+#: skycultures/translations.fab:1830
 msgid "Anadolu"
 msgstr "Anadolu"
 
@@ -3897,7 +3928,7 @@ msgstr "Anadolu"
 #. also the name of a Turkish satellite and is the combination of two words,
 #. of which 'Gök' means sky.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1824
+#: skycultures/translations.fab:1834
 msgid "Göktürk"
 msgstr "Göktürk"
 
@@ -3906,7 +3937,7 @@ msgstr "Göktürk"
 #. more recent times her status has been promoted to that of a national
 #. goddess — 'hearth mother, protectress of the earth'.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1828
+#: skycultures/translations.fab:1838
 msgid "Berehinya"
 msgstr "Berehinya"
 
@@ -3915,7 +3946,7 @@ msgstr "Berehinya"
 #. was minted on the coins of Prince Volodymyr the Great and today remains one
 #. of the country's state symbols (a small coat).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1832
+#: skycultures/translations.fab:1842
 msgid "Tryzub"
 msgstr "Tryzub"
 
@@ -3924,7 +3955,7 @@ msgstr "Tryzub"
 #. considered the city of knowledge due to its many educational centers,
 #. institutes, museums, libraries and heritage centers.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1836 skycultures/western/star_names.fab:999
+#: skycultures/translations.fab:1846 skycultures/western/star_names.fab:999
 msgid "Sharjah"
 msgstr "Sharjah"
 
@@ -3932,14 +3963,14 @@ msgstr "Sharjah"
 #. TRANSLATORS: A barajeel is a wind tower used to direct the flow of the wind
 #. so that air can be recirculated as a form of air conditioning.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1840
+#: skycultures/translations.fab:1850
 msgid "Barajeel"
 msgstr "Barajeel"
 
 #. TRANSLATORS: Proper name of star WASP-13
 #. TRANSLATORS: In Manx Gaelic, Gloas means to shine (like a star).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1844
+#: skycultures/translations.fab:1854
 msgid "Gloas"
 msgstr "Gloas"
 
@@ -3947,7 +3978,7 @@ msgstr "Gloas"
 #. TRANSLATORS: In Manx Gaelic, Cruinlagh means to orbit (like a planet around
 #. its star).
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1848
+#: skycultures/translations.fab:1858
 msgid "Cruinlagh"
 msgstr "Cruinlagh"
 
@@ -3955,7 +3986,7 @@ msgstr "Cruinlagh"
 #. TRANSLATORS: Nushagak is a regional river near Dilingham, Alaska, which is
 #. famous for its wild salmon that sustain local Indigenous communities.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1852 skycultures/western/star_names.fab:264
+#: skycultures/translations.fab:1862 skycultures/western/star_names.fab:264
 msgid "Nushagak"
 msgstr "Nushagak"
 
@@ -3963,7 +3994,7 @@ msgstr "Nushagak"
 #. TRANSLATORS: The Mulchatna River is a tributary of the Nushagak River in
 #. southwestern Alaska, USA.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1856
+#: skycultures/translations.fab:1866
 msgid "Mulchatna"
 msgstr "Mulchatna"
 
@@ -3971,7 +4002,7 @@ msgstr "Mulchatna"
 #. TRANSLATORS: Ceibo is the name of the native tree of Uruguay that gives
 #. rise to the national flower.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1860 skycultures/western/star_names.fab:342
+#: skycultures/translations.fab:1870 skycultures/western/star_names.fab:342
 msgid "Ceibo"
 msgstr "Ceibo"
 
@@ -3980,14 +4011,14 @@ msgstr "Ceibo"
 #. of the country of Uruguay, and is also known as Artigas' tree, after the
 #. national hero.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1864
+#: skycultures/translations.fab:1874
 msgid "Ibirapitá"
 msgstr "Ibirapitá"
 
 #. TRANSLATORS: Proper name of star HD 85390
 #. TRANSLATORS: Natasha means thank you in many languages of Zambia.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1868 skycultures/western/star_names.fab:1171
+#: skycultures/translations.fab:1878 skycultures/western/star_names.fab:1171
 msgid "Natasha"
 msgstr "Natasha"
 
@@ -3995,446 +4026,446 @@ msgstr "Natasha"
 #. TRANSLATORS: Madalitso means blessings in the native language of Nyanja in
 #. Zambia.
 #. TRANSLATORS: https://iau.org/news/pressreleases/detail/iau1912/
-#: skycultures/translations.fab:1872
+#: skycultures/translations.fab:1882
 msgid "Madalitso"
 msgstr "Madalitso"
 
-#: skycultures/translations.fab:1877
+#: skycultures/translations.fab:1887
 msgctxt "Genitive name of constellation"
 msgid "Andromedae"
 msgstr "Andromeda"
 
-#: skycultures/translations.fab:1878
+#: skycultures/translations.fab:1888
 msgctxt "Genitive name of constellation"
 msgid "Antliae"
 msgstr "Bomba Neumática"
 
-#: skycultures/translations.fab:1879
+#: skycultures/translations.fab:1889
 msgctxt "Genitive name of constellation"
 msgid "Apodis"
 msgstr "Ave del Paraíso"
 
-#: skycultures/translations.fab:1880
+#: skycultures/translations.fab:1890
 msgctxt "Genitive name of constellation"
 msgid "Aquarii"
 msgstr "Acuario"
 
-#: skycultures/translations.fab:1881
+#: skycultures/translations.fab:1891
 msgctxt "Genitive name of constellation"
 msgid "Aquilae"
 msgstr "Águila"
 
-#: skycultures/translations.fab:1882
+#: skycultures/translations.fab:1892
 msgctxt "Genitive name of constellation"
 msgid "Arae"
 msgstr "Cervantes"
 
-#: skycultures/translations.fab:1883
+#: skycultures/translations.fab:1893
 msgctxt "Genitive name of constellation"
 msgid "Arietis"
 msgstr "Aries"
 
-#: skycultures/translations.fab:1884
+#: skycultures/translations.fab:1894
 msgctxt "Genitive name of constellation"
 msgid "Aurigae"
 msgstr "Cochero"
 
-#: skycultures/translations.fab:1885
+#: skycultures/translations.fab:1895
 msgctxt "Genitive name of constellation"
 msgid "Bootis"
 msgstr "Boyero"
 
-#: skycultures/translations.fab:1886
+#: skycultures/translations.fab:1896
 msgctxt "Genitive name of constellation"
 msgid "Caeli"
 msgstr "Cincel"
 
-#: skycultures/translations.fab:1887
+#: skycultures/translations.fab:1897
 msgctxt "Genitive name of constellation"
 msgid "Camelopardalis"
 msgstr "Jirafa"
 
-#: skycultures/translations.fab:1888
+#: skycultures/translations.fab:1898
 msgctxt "Genitive name of constellation"
 msgid "Cancri"
 msgstr "Cancer"
 
-#: skycultures/translations.fab:1889
+#: skycultures/translations.fab:1899
 msgctxt "Genitive name of constellation"
 msgid "Canum Venaticorum"
 msgstr "Perros de caza"
 
-#: skycultures/translations.fab:1890
+#: skycultures/translations.fab:1900
 msgctxt "Genitive name of constellation"
 msgid "Canis Majoris"
 msgstr "Canis Majoris"
 
-#: skycultures/translations.fab:1891
+#: skycultures/translations.fab:1901
 msgctxt "Genitive name of constellation"
 msgid "Canis Minoris"
 msgstr "Canis Minoris"
 
-#: skycultures/translations.fab:1892
+#: skycultures/translations.fab:1902
 msgctxt "Genitive name of constellation"
 msgid "Capricorni"
 msgstr "Capricornio"
 
-#: skycultures/translations.fab:1893
+#: skycultures/translations.fab:1903
 msgctxt "Genitive name of constellation"
 msgid "Carinae"
 msgstr "Carinae"
 
-#: skycultures/translations.fab:1894
+#: skycultures/translations.fab:1904
 msgctxt "Genitive name of constellation"
 msgid "Cassiopeiae"
 msgstr "Cassiopeiae"
 
-#: skycultures/translations.fab:1895
+#: skycultures/translations.fab:1905
 msgctxt "Genitive name of constellation"
 msgid "Centauri"
 msgstr "Centauro"
 
-#: skycultures/translations.fab:1896
+#: skycultures/translations.fab:1906
 msgctxt "Genitive name of constellation"
 msgid "Cephei"
 msgstr "Cefeo"
 
-#: skycultures/translations.fab:1897
+#: skycultures/translations.fab:1907
 msgctxt "Genitive name of constellation"
 msgid "Ceti"
 msgstr "Ballena"
 
-#: skycultures/translations.fab:1898
+#: skycultures/translations.fab:1908
 msgctxt "Genitive name of constellation"
 msgid "Chamaeleontis"
 msgstr "Camaleón"
 
-#: skycultures/translations.fab:1899
+#: skycultures/translations.fab:1909
 msgctxt "Genitive name of constellation"
 msgid "Circini"
 msgstr "Compas"
 
-#: skycultures/translations.fab:1900
+#: skycultures/translations.fab:1910
 msgctxt "Genitive name of constellation"
 msgid "Columbae"
 msgstr "Columba"
 
-#: skycultures/translations.fab:1901
+#: skycultures/translations.fab:1911
 msgctxt "Genitive name of constellation"
 msgid "Comae Berenices"
 msgstr "Cabellera de Berenice"
 
-#: skycultures/translations.fab:1902
+#: skycultures/translations.fab:1912
 msgctxt "Genitive name of constellation"
 msgid "Coronae Australis"
 msgstr "Corona Austral"
 
-#: skycultures/translations.fab:1903
+#: skycultures/translations.fab:1913
 msgctxt "Genitive name of constellation"
 msgid "Coronae Borealis"
 msgstr "Corona Boreal"
 
-#: skycultures/translations.fab:1904
+#: skycultures/translations.fab:1914
 msgctxt "Genitive name of constellation"
 msgid "Corvi"
 msgstr "Cuervo"
 
-#: skycultures/translations.fab:1905
+#: skycultures/translations.fab:1915
 msgctxt "Genitive name of constellation"
 msgid "Crateris"
 msgstr "Taza"
 
-#: skycultures/translations.fab:1906
+#: skycultures/translations.fab:1916
 msgctxt "Genitive name of constellation"
 msgid "Crucis"
 msgstr "Cruz"
 
-#: skycultures/translations.fab:1907
+#: skycultures/translations.fab:1917
 msgctxt "Genitive name of constellation"
 msgid "Cygni"
 msgstr "Cisne"
 
-#: skycultures/translations.fab:1908
+#: skycultures/translations.fab:1918
 msgctxt "Genitive name of constellation"
 msgid "Delphini"
 msgstr "Delfín"
 
-#: skycultures/translations.fab:1909
+#: skycultures/translations.fab:1919
 msgctxt "Genitive name of constellation"
 msgid "Doradus"
 msgstr "Doradus"
 
-#: skycultures/translations.fab:1910
+#: skycultures/translations.fab:1920
 msgctxt "Genitive name of constellation"
 msgid "Draconis"
 msgstr "Dragón"
 
-#: skycultures/translations.fab:1911
+#: skycultures/translations.fab:1921
 msgctxt "Genitive name of constellation"
 msgid "Equulei"
 msgstr "Caballo"
 
-#: skycultures/translations.fab:1912
+#: skycultures/translations.fab:1922
 msgctxt "Genitive name of constellation"
 msgid "Eridani"
 msgstr "Eridani"
 
-#: skycultures/translations.fab:1913
+#: skycultures/translations.fab:1923
 msgctxt "Genitive name of constellation"
 msgid "Fornacis"
 msgstr "Fornacis"
 
-#: skycultures/translations.fab:1914
+#: skycultures/translations.fab:1924
 msgctxt "Genitive name of constellation"
 msgid "Geminorum"
 msgstr "Geminis"
 
-#: skycultures/translations.fab:1915
+#: skycultures/translations.fab:1925
 msgctxt "Genitive name of constellation"
 msgid "Gruis"
 msgstr "Gruis"
 
-#: skycultures/translations.fab:1916
+#: skycultures/translations.fab:1926
 msgctxt "Genitive name of constellation"
 msgid "Herculis"
 msgstr "Herculis"
 
-#: skycultures/translations.fab:1917
+#: skycultures/translations.fab:1927
 msgctxt "Genitive name of constellation"
 msgid "Horologii"
 msgstr "Horologii"
 
-#: skycultures/translations.fab:1918
+#: skycultures/translations.fab:1928
 msgctxt "Genitive name of constellation"
 msgid "Hydrae"
 msgstr "Hidra"
 
-#: skycultures/translations.fab:1919
+#: skycultures/translations.fab:1929
 msgctxt "Genitive name of constellation"
 msgid "Hydri"
 msgstr "Hydri"
 
-#: skycultures/translations.fab:1920
+#: skycultures/translations.fab:1930
 msgctxt "Genitive name of constellation"
 msgid "Indi"
 msgstr "Indi"
 
-#: skycultures/translations.fab:1921
+#: skycultures/translations.fab:1931
 msgctxt "Genitive name of constellation"
 msgid "Lacertae"
 msgstr "Lagarto"
 
-#: skycultures/translations.fab:1922
+#: skycultures/translations.fab:1932
 msgctxt "Genitive name of constellation"
 msgid "Leonis"
 msgstr "Leonis"
 
-#: skycultures/translations.fab:1923
+#: skycultures/translations.fab:1933
 msgctxt "Genitive name of constellation"
 msgid "Leonis Minoris"
 msgstr "Leonis Minoris"
 
-#: skycultures/translations.fab:1924
+#: skycultures/translations.fab:1934
 msgctxt "Genitive name of constellation"
 msgid "Leporis"
 msgstr "Liebre"
 
-#: skycultures/translations.fab:1925
+#: skycultures/translations.fab:1935
 msgctxt "Genitive name of constellation"
 msgid "Librae"
 msgstr "Libra"
 
-#: skycultures/translations.fab:1926
+#: skycultures/translations.fab:1936
 msgctxt "Genitive name of constellation"
 msgid "Lupi"
 msgstr "Lobo"
 
-#: skycultures/translations.fab:1927
+#: skycultures/translations.fab:1937
 msgctxt "Genitive name of constellation"
 msgid "Lyncis"
 msgstr "Lince"
 
-#: skycultures/translations.fab:1928
+#: skycultures/translations.fab:1938
 msgctxt "Genitive name of constellation"
 msgid "Lyrae"
 msgstr "Lira"
 
-#: skycultures/translations.fab:1929
+#: skycultures/translations.fab:1939
 msgctxt "Genitive name of constellation"
 msgid "Mensae"
 msgstr "Mesa"
 
-#: skycultures/translations.fab:1930
+#: skycultures/translations.fab:1940
 msgctxt "Genitive name of constellation"
 msgid "Microscopii"
 msgstr "Microscopio"
 
-#: skycultures/translations.fab:1931
+#: skycultures/translations.fab:1941
 msgctxt "Genitive name of constellation"
 msgid "Monocerotis"
 msgstr "Unicornio"
 
-#: skycultures/translations.fab:1932
+#: skycultures/translations.fab:1942
 msgctxt "Genitive name of constellation"
 msgid "Muscae"
 msgstr "Muscae"
 
-#: skycultures/translations.fab:1933
+#: skycultures/translations.fab:1943
 msgctxt "Genitive name of constellation"
 msgid "Normae"
 msgstr "Norma"
 
-#: skycultures/translations.fab:1934
+#: skycultures/translations.fab:1944
 msgctxt "Genitive name of constellation"
 msgid "Octantis"
 msgstr "Octante"
 
-#: skycultures/translations.fab:1935
+#: skycultures/translations.fab:1945
 msgctxt "Genitive name of constellation"
 msgid "Ophiuchi"
 msgstr "Ofiuco"
 
-#: skycultures/translations.fab:1936
+#: skycultures/translations.fab:1946
 msgctxt "Genitive name of constellation"
 msgid "Orionis"
 msgstr "Orión"
 
-#: skycultures/translations.fab:1937
+#: skycultures/translations.fab:1947
 msgctxt "Genitive name of constellation"
 msgid "Pavonis"
 msgstr "Pavo"
 
-#: skycultures/translations.fab:1938
+#: skycultures/translations.fab:1948
 msgctxt "Genitive name of constellation"
 msgid "Pegasi"
 msgstr "Pegaso"
 
-#: skycultures/translations.fab:1939
+#: skycultures/translations.fab:1949
 msgctxt "Genitive name of constellation"
 msgid "Persei"
 msgstr "Perseo"
 
-#: skycultures/translations.fab:1940
+#: skycultures/translations.fab:1950
 msgctxt "Genitive name of constellation"
 msgid "Phoenicis"
 msgstr "Fénix"
 
-#: skycultures/translations.fab:1941
+#: skycultures/translations.fab:1951
 msgctxt "Genitive name of constellation"
 msgid "Pictoris"
 msgstr "Caballete del Pintor"
 
-#: skycultures/translations.fab:1942
+#: skycultures/translations.fab:1952
 msgctxt "Genitive name of constellation"
 msgid "Piscium"
 msgstr "Peces"
 
-#: skycultures/translations.fab:1943
+#: skycultures/translations.fab:1953
 msgctxt "Genitive name of constellation"
 msgid "Piscis Austrini"
 msgstr "Pez del Sur"
 
-#: skycultures/translations.fab:1944
+#: skycultures/translations.fab:1954
 msgctxt "Genitive name of constellation"
 msgid "Puppis"
 msgstr "Popa"
 
-#: skycultures/translations.fab:1945
+#: skycultures/translations.fab:1955
 msgctxt "Genitive name of constellation"
 msgid "Pyxidis"
 msgstr "Brújula"
 
-#: skycultures/translations.fab:1946
+#: skycultures/translations.fab:1956
 msgctxt "Genitive name of constellation"
 msgid "Reticuli"
 msgstr "Reticuli"
 
-#: skycultures/translations.fab:1947
+#: skycultures/translations.fab:1957
 msgctxt "Genitive name of constellation"
 msgid "Sagittae"
 msgstr "Flecha"
 
-#: skycultures/translations.fab:1948
+#: skycultures/translations.fab:1958
 msgctxt "Genitive name of constellation"
 msgid "Sagittarii"
 msgstr "Arquero"
 
-#: skycultures/translations.fab:1949
+#: skycultures/translations.fab:1959
 msgctxt "Genitive name of constellation"
 msgid "Scorpii"
 msgstr "Escorpión"
 
-#: skycultures/translations.fab:1950
+#: skycultures/translations.fab:1960
 msgctxt "Genitive name of constellation"
 msgid "Sculptoris"
 msgstr "Sculptoris"
 
-#: skycultures/translations.fab:1951
+#: skycultures/translations.fab:1961
 msgctxt "Genitive name of constellation"
 msgid "Scuti"
 msgstr "Escudo"
 
-#: skycultures/translations.fab:1952
+#: skycultures/translations.fab:1962
 msgctxt "Genitive name of constellation"
 msgid "Serpentis"
 msgstr "Serpiente"
 
-#: skycultures/translations.fab:1953
+#: skycultures/translations.fab:1963
 msgctxt "Genitive name of constellation"
 msgid "Sextantis"
 msgstr "Sextante"
 
-#: skycultures/translations.fab:1954
+#: skycultures/translations.fab:1964
 msgctxt "Genitive name of constellation"
 msgid "Tauri"
 msgstr "Taurus"
 
-#: skycultures/translations.fab:1955
+#: skycultures/translations.fab:1965
 msgctxt "Genitive name of constellation"
 msgid "Telescopii"
 msgstr "Telescopio"
 
-#: skycultures/translations.fab:1956
+#: skycultures/translations.fab:1966
 msgctxt "Genitive name of constellation"
 msgid "Trianguli"
 msgstr "Triángulo"
 
-#: skycultures/translations.fab:1957
+#: skycultures/translations.fab:1967
 msgctxt "Genitive name of constellation"
 msgid "Trianguli Australis"
 msgstr "Trianguli Australis"
 
-#: skycultures/translations.fab:1958
+#: skycultures/translations.fab:1968
 msgctxt "Genitive name of constellation"
 msgid "Tucanae"
 msgstr "Tucán"
 
-#: skycultures/translations.fab:1959
+#: skycultures/translations.fab:1969
 msgctxt "Genitive name of constellation"
 msgid "Ursae Majoris"
 msgstr "Ursae Majoris"
 
-#: skycultures/translations.fab:1960
+#: skycultures/translations.fab:1970
 msgctxt "Genitive name of constellation"
 msgid "Ursae Minoris"
 msgstr "Ursae Minoris"
 
-#: skycultures/translations.fab:1961
+#: skycultures/translations.fab:1971
 msgctxt "Genitive name of constellation"
 msgid "Velorum"
 msgstr "Vela"
 
-#: skycultures/translations.fab:1962
+#: skycultures/translations.fab:1972
 msgctxt "Genitive name of constellation"
 msgid "Virginis"
 msgstr "Virgo"
 
-#: skycultures/translations.fab:1963
+#: skycultures/translations.fab:1973
 msgctxt "Genitive name of constellation"
 msgid "Volantis"
 msgstr "Pez Volador"
 
-#: skycultures/translations.fab:1964
+#: skycultures/translations.fab:1974
 msgctxt "Genitive name of constellation"
 msgid "Vulpeculae"
 msgstr "Vulpecula"
@@ -9542,38 +9573,6 @@ msgstr "El gran pez"
 msgid "The other fish"
 msgstr "El otro pez"
 
-#: skycultures/al-sufi/star_names.fab:2
-msgid "UMi_1"
-msgstr "UMi_1"
-
-#: skycultures/al-sufi/star_names.fab:3
-msgid "UMi_2"
-msgstr "UMi_2"
-
-#: skycultures/al-sufi/star_names.fab:4
-msgid "UMi_3"
-msgstr "UMi_3"
-
-#: skycultures/al-sufi/star_names.fab:5
-msgid "UMi_4"
-msgstr "UMi_4"
-
-#: skycultures/al-sufi/star_names.fab:6
-msgid "UMi_5"
-msgstr "UMi_5"
-
-#: skycultures/al-sufi/star_names.fab:7
-msgid "UMi_6"
-msgstr "UMi_6"
-
-#: skycultures/al-sufi/star_names.fab:8
-msgid "UMi_7"
-msgstr "UMi_7"
-
-#: skycultures/al-sufi/star_names.fab:9
-msgid "UMi_a_01"
-msgstr "UMi_a_01"
-
 #. TRANSLATORS: The Kid (Baby male goat) is the name of Polaris in Arabic.
 #: skycultures/al-sufi/star_names.fab:12
 msgid "The star on the end of the tail: it is the Kid"
@@ -9614,146 +9613,6 @@ msgid ""
 msgstr ""
 "‎La ‎‎estrella‎‎ que yace en línea recta con las estrellas en el lado "
 "trasero [del rectángulo] y al sur de ellas‎"
-
-#: skycultures/al-sufi/star_names.fab:26
-msgid "UMa_1"
-msgstr "UMa_1"
-
-#: skycultures/al-sufi/star_names.fab:27
-msgid "UMa_2"
-msgstr "UMa_2"
-
-#: skycultures/al-sufi/star_names.fab:28
-msgid "UMa_3"
-msgstr "UMa_3"
-
-#: skycultures/al-sufi/star_names.fab:29
-msgid "UMa_4"
-msgstr "UMa_4"
-
-#: skycultures/al-sufi/star_names.fab:30
-msgid "UMa_5"
-msgstr "UMa_5"
-
-#: skycultures/al-sufi/star_names.fab:31
-msgid "UMa_6"
-msgstr "UMa_6"
-
-#: skycultures/al-sufi/star_names.fab:32
-msgid "UMa_7"
-msgstr "UMa_7"
-
-#: skycultures/al-sufi/star_names.fab:33
-msgid "UMa_8"
-msgstr "UMa_8"
-
-#: skycultures/al-sufi/star_names.fab:34
-msgid "UMa_9"
-msgstr "UMa_9"
-
-#: skycultures/al-sufi/star_names.fab:35
-msgid "UMa_10"
-msgstr "UMa_10"
-
-#: skycultures/al-sufi/star_names.fab:36
-msgid "UMa_11"
-msgstr "UMa_11"
-
-#: skycultures/al-sufi/star_names.fab:37
-msgid "UMa_12"
-msgstr "UMa_12"
-
-#: skycultures/al-sufi/star_names.fab:38
-msgid "UMa_13"
-msgstr "UMa_13"
-
-#: skycultures/al-sufi/star_names.fab:39
-msgid "UMa_14"
-msgstr "UMa_14"
-
-#: skycultures/al-sufi/star_names.fab:40
-msgid "UMa_15"
-msgstr "UMa_15"
-
-#: skycultures/al-sufi/star_names.fab:41
-msgid "UMa_16"
-msgstr "UMa_16"
-
-#: skycultures/al-sufi/star_names.fab:42
-msgid "UMa_17"
-msgstr "UMa_17"
-
-#: skycultures/al-sufi/star_names.fab:43
-msgid "UMa_18"
-msgstr "UMa_18"
-
-#: skycultures/al-sufi/star_names.fab:44
-msgid "UMa_19"
-msgstr "UMa_19"
-
-#: skycultures/al-sufi/star_names.fab:45
-msgid "UMa_20"
-msgstr "UMa_20"
-
-#: skycultures/al-sufi/star_names.fab:46
-msgid "UMa_21"
-msgstr "UMa_21"
-
-#: skycultures/al-sufi/star_names.fab:47
-msgid "UMa_22"
-msgstr "UMa_22"
-
-#: skycultures/al-sufi/star_names.fab:48
-msgid "UMa_23"
-msgstr "UMa_23"
-
-#: skycultures/al-sufi/star_names.fab:49
-msgid "UMa_24"
-msgstr "UMa_24"
-
-#: skycultures/al-sufi/star_names.fab:50
-msgid "UMa_25"
-msgstr "UMa_25"
-
-#: skycultures/al-sufi/star_names.fab:51
-msgid "UMa_26"
-msgstr "UMa_26"
-
-#: skycultures/al-sufi/star_names.fab:52
-msgid "UMa_27"
-msgstr "UMa_27"
-
-#: skycultures/al-sufi/star_names.fab:53
-msgid "UMa_a_01"
-msgstr "UMa_a_01"
-
-#: skycultures/al-sufi/star_names.fab:54
-msgid "UMa_a_02"
-msgstr "UMa_a_02"
-
-#: skycultures/al-sufi/star_names.fab:55
-msgid "UMa_a_03"
-msgstr "UMa_a_03"
-
-#: skycultures/al-sufi/star_names.fab:56
-msgid "UMa_a_04"
-msgstr "UMa_a_04"
-
-#: skycultures/al-sufi/star_names.fab:57
-msgid "UMa_a_05"
-msgstr "UMa_a_05"
-
-#: skycultures/al-sufi/star_names.fab:58
-msgid "UMa_a_06"
-msgstr "UMa_a_06"
-
-#: skycultures/al-sufi/star_names.fab:59
-msgid "UMa_a_07"
-msgstr "UMa_a_07"
-
-#: skycultures/al-sufi/star_names.fab:60
-msgid "UMa_a_08"
-msgstr "UMa_a_08"
 
 #: skycultures/al-sufi/star_names.fab:62
 msgid "The star on the end of the snout"
@@ -10012,130 +9871,6 @@ msgstr "Al-Saydaq"
 msgid "Nua'ish"
 msgstr "Nua'ish"
 
-#: skycultures/al-sufi/star_names.fab:113
-msgid "Dra_1"
-msgstr "Dra_1"
-
-#: skycultures/al-sufi/star_names.fab:114
-msgid "Dra_2"
-msgstr "Dra_2"
-
-#: skycultures/al-sufi/star_names.fab:115
-msgid "Dra_3"
-msgstr "Dra_3"
-
-#: skycultures/al-sufi/star_names.fab:116
-msgid "Dra_4"
-msgstr "Dra_4"
-
-#: skycultures/al-sufi/star_names.fab:117
-msgid "Dra_5"
-msgstr "Dra_5"
-
-#: skycultures/al-sufi/star_names.fab:118
-msgid "Dra_6"
-msgstr "Dra_6"
-
-#: skycultures/al-sufi/star_names.fab:119
-msgid "Dra_7"
-msgstr "Dra_7"
-
-#: skycultures/al-sufi/star_names.fab:120
-msgid "Dra_8"
-msgstr "Dra_8"
-
-#: skycultures/al-sufi/star_names.fab:121
-msgid "Dra_9"
-msgstr "Dra_9"
-
-#: skycultures/al-sufi/star_names.fab:122
-msgid "Dra_10"
-msgstr "Dra_10"
-
-#: skycultures/al-sufi/star_names.fab:123
-msgid "Dra_11"
-msgstr "Dra_11"
-
-#: skycultures/al-sufi/star_names.fab:124
-msgid "Dra_12"
-msgstr "Dra_12"
-
-#: skycultures/al-sufi/star_names.fab:125
-msgid "Dra_13"
-msgstr "Dra_13"
-
-#: skycultures/al-sufi/star_names.fab:126
-msgid "Dra_14"
-msgstr "Dra_14"
-
-#: skycultures/al-sufi/star_names.fab:127
-msgid "Dra_15"
-msgstr "Dra_15"
-
-#: skycultures/al-sufi/star_names.fab:128
-msgid "Dra_16"
-msgstr "Dra_16"
-
-#: skycultures/al-sufi/star_names.fab:129
-msgid "Dra_17"
-msgstr "Dra_17"
-
-#: skycultures/al-sufi/star_names.fab:130
-msgid "Dra_18"
-msgstr "Dra_18"
-
-#: skycultures/al-sufi/star_names.fab:131
-msgid "Dra_19"
-msgstr "Dra_19"
-
-#: skycultures/al-sufi/star_names.fab:132
-msgid "Dra_20"
-msgstr "Dra_20"
-
-#: skycultures/al-sufi/star_names.fab:133
-msgid "Dra_21"
-msgstr "Dra_21"
-
-#: skycultures/al-sufi/star_names.fab:134
-msgid "Dra_22"
-msgstr "Dra_22"
-
-#: skycultures/al-sufi/star_names.fab:135
-msgid "Dra_23"
-msgstr "Dra_23"
-
-#: skycultures/al-sufi/star_names.fab:136
-msgid "Dra_24"
-msgstr "Dra_24"
-
-#: skycultures/al-sufi/star_names.fab:137
-msgid "Dra_25"
-msgstr "Dra_25"
-
-#: skycultures/al-sufi/star_names.fab:138
-msgid "Dra_26"
-msgstr "Dra_26"
-
-#: skycultures/al-sufi/star_names.fab:139
-msgid "Dra_27"
-msgstr "Dra_27"
-
-#: skycultures/al-sufi/star_names.fab:140
-msgid "Dra_28"
-msgstr "Dra_28"
-
-#: skycultures/al-sufi/star_names.fab:141
-msgid "Dra_29"
-msgstr "Dra_29"
-
-#: skycultures/al-sufi/star_names.fab:142
-msgid "Dra_30"
-msgstr "Dra_30"
-
-#: skycultures/al-sufi/star_names.fab:143
-msgid "Dra_31"
-msgstr "Dra_31"
-
 #: skycultures/al-sufi/star_names.fab:145
 msgid "The star on the tongue"
 msgstr "La estrella en la lengua"
@@ -10315,58 +10050,6 @@ msgstr "El camello bebé"
 msgid "The male hyena"
 msgstr "La hiena macho"
 
-#: skycultures/al-sufi/star_names.fab:182
-msgid "Cep_1"
-msgstr "Cep_1"
-
-#: skycultures/al-sufi/star_names.fab:183
-msgid "Cep_2"
-msgstr "Cep_2"
-
-#: skycultures/al-sufi/star_names.fab:184
-msgid "Cep_3"
-msgstr "Cep_3"
-
-#: skycultures/al-sufi/star_names.fab:185
-msgid "Cep_4"
-msgstr "Cep_4"
-
-#: skycultures/al-sufi/star_names.fab:186
-msgid "Cep_5"
-msgstr "Cep_5"
-
-#: skycultures/al-sufi/star_names.fab:187
-msgid "Cep_6"
-msgstr "Cep_6"
-
-#: skycultures/al-sufi/star_names.fab:188
-msgid "Cep_7"
-msgstr "Cep_7"
-
-#: skycultures/al-sufi/star_names.fab:189
-msgid "Cep_8"
-msgstr "Cep_8"
-
-#: skycultures/al-sufi/star_names.fab:190
-msgid "Cep_9"
-msgstr "Cep_9"
-
-#: skycultures/al-sufi/star_names.fab:191
-msgid "Cep_10"
-msgstr "Cep_10"
-
-#: skycultures/al-sufi/star_names.fab:192
-msgid "Cep_11"
-msgstr "Cep_11"
-
-#: skycultures/al-sufi/star_names.fab:193
-msgid "Cep_a_01"
-msgstr "Cep_a_01"
-
-#: skycultures/al-sufi/star_names.fab:194
-msgid "Cep_a_02"
-msgstr "Cep_a_02"
-
 #: skycultures/al-sufi/star_names.fab:196
 msgid "The star on the right leg"
 msgstr "La estrella en la pierna derecha"
@@ -10432,98 +10115,6 @@ msgstr "‎El perro pastor [del norte]‎"
 #: skycultures/al-sufi/star_names.fab:212
 msgid "The horse forehead star"
 msgstr "‎La ‎‎estrella‎‎ de la frente del caballo‎"
-
-#: skycultures/al-sufi/star_names.fab:215
-msgid "Boo_1"
-msgstr "Boo_1"
-
-#: skycultures/al-sufi/star_names.fab:216
-msgid "Boo_2"
-msgstr "Boo_2"
-
-#: skycultures/al-sufi/star_names.fab:217
-msgid "Boo_3"
-msgstr "Boo_3"
-
-#: skycultures/al-sufi/star_names.fab:218
-msgid "Boo_4"
-msgstr "Boo_4"
-
-#: skycultures/al-sufi/star_names.fab:219
-msgid "Boo_5"
-msgstr "Boo_5"
-
-#: skycultures/al-sufi/star_names.fab:220
-msgid "Boo_6"
-msgstr "Boo_6"
-
-#: skycultures/al-sufi/star_names.fab:221
-msgid "Boo_7"
-msgstr "Boo_7"
-
-#: skycultures/al-sufi/star_names.fab:222
-msgid "Boo_8"
-msgstr "Boo_8"
-
-#: skycultures/al-sufi/star_names.fab:223
-msgid "Boo_9"
-msgstr "Boo_9"
-
-#: skycultures/al-sufi/star_names.fab:224
-msgid "Boo_10"
-msgstr "Boo_10"
-
-#: skycultures/al-sufi/star_names.fab:225
-msgid "Boo_11"
-msgstr "Boo_11"
-
-#: skycultures/al-sufi/star_names.fab:226
-msgid "Boo_12"
-msgstr "Boo_12"
-
-#: skycultures/al-sufi/star_names.fab:227
-msgid "Boo_13"
-msgstr "Boo_13"
-
-#: skycultures/al-sufi/star_names.fab:228
-msgid "Boo_14"
-msgstr "Boo_14"
-
-#: skycultures/al-sufi/star_names.fab:229
-msgid "Boo_15"
-msgstr "Boo_15"
-
-#: skycultures/al-sufi/star_names.fab:230
-msgid "Boo_16"
-msgstr "Boo_16"
-
-#: skycultures/al-sufi/star_names.fab:231
-msgid "Boo_17"
-msgstr "Boo_17"
-
-#: skycultures/al-sufi/star_names.fab:232
-msgid "Boo_18"
-msgstr "Boo_18"
-
-#: skycultures/al-sufi/star_names.fab:233
-msgid "Boo_19"
-msgstr "Boo_19"
-
-#: skycultures/al-sufi/star_names.fab:234
-msgid "Boo_20"
-msgstr "Boo_20"
-
-#: skycultures/al-sufi/star_names.fab:235
-msgid "Boo_21"
-msgstr "Boo_21"
-
-#: skycultures/al-sufi/star_names.fab:236
-msgid "Boo_22"
-msgstr "Boo_22"
-
-#: skycultures/al-sufi/star_names.fab:237
-msgid "Boo_a_01"
-msgstr "Boo_a_01"
 
 #: skycultures/al-sufi/star_names.fab:239
 msgid "The most advanced of the three in the left arm"
@@ -10732,38 +10323,6 @@ msgstr "Bnadera de la alta"
 msgid "Flag of Al-Fakkah"
 msgstr "Bandera de Al-Fakkah"
 
-#: skycultures/al-sufi/star_names.fab:273
-msgid "CrB_1"
-msgstr "CrB_1"
-
-#: skycultures/al-sufi/star_names.fab:274
-msgid "CrB_2"
-msgstr "CrB_2"
-
-#: skycultures/al-sufi/star_names.fab:275
-msgid "CrB_3"
-msgstr "CrB_3"
-
-#: skycultures/al-sufi/star_names.fab:276
-msgid "CrB_4"
-msgstr "CrB_4"
-
-#: skycultures/al-sufi/star_names.fab:277
-msgid "CrB_5"
-msgstr "CrB_5"
-
-#: skycultures/al-sufi/star_names.fab:278
-msgid "CrB_6"
-msgstr "CrB_6"
-
-#: skycultures/al-sufi/star_names.fab:279
-msgid "CrB_7"
-msgstr "CrB_7"
-
-#: skycultures/al-sufi/star_names.fab:280
-msgid "CrB_8"
-msgstr "CrB_8"
-
 #: skycultures/al-sufi/star_names.fab:282
 msgid "The bright star in the crown"
 msgstr "La estrella brillante en la corona"
@@ -10808,126 +10367,6 @@ msgstr "‎La ‎‎estrella‎‎ al final de la apertura de este medio círcul
 #: skycultures/al-sufi/star_names.fab:292
 msgid "The bright star of Al-Fakkah"
 msgstr "La estrella brillante de Al-Fakkah"
-
-#: skycultures/al-sufi/star_names.fab:295
-msgid "Her_1"
-msgstr "Her_1"
-
-#: skycultures/al-sufi/star_names.fab:296
-msgid "Her_2"
-msgstr "Her_2"
-
-#: skycultures/al-sufi/star_names.fab:297
-msgid "Her_3"
-msgstr "Her_3"
-
-#: skycultures/al-sufi/star_names.fab:298
-msgid "Her_4"
-msgstr "Her_4"
-
-#: skycultures/al-sufi/star_names.fab:299
-msgid "Her_5"
-msgstr "Her_5"
-
-#: skycultures/al-sufi/star_names.fab:300
-msgid "Her_6"
-msgstr "Her_6"
-
-#: skycultures/al-sufi/star_names.fab:301
-msgid "Her_7"
-msgstr "Her_7"
-
-#: skycultures/al-sufi/star_names.fab:302
-msgid "Her_8"
-msgstr "Her_8"
-
-#: skycultures/al-sufi/star_names.fab:303
-msgid "Her_9"
-msgstr "Her_9"
-
-#: skycultures/al-sufi/star_names.fab:304
-msgid "Her_10"
-msgstr "Her_10"
-
-#: skycultures/al-sufi/star_names.fab:305
-msgid "Her_11"
-msgstr "Her_11"
-
-#: skycultures/al-sufi/star_names.fab:306
-msgid "Her_12"
-msgstr "Her_12"
-
-#: skycultures/al-sufi/star_names.fab:307
-msgid "Her_13"
-msgstr "Her_13"
-
-#: skycultures/al-sufi/star_names.fab:308
-msgid "Her_14"
-msgstr "Her_14"
-
-#: skycultures/al-sufi/star_names.fab:309
-msgid "Her_15"
-msgstr "Her_15"
-
-#: skycultures/al-sufi/star_names.fab:310
-msgid "Her_16"
-msgstr "Her_16"
-
-#: skycultures/al-sufi/star_names.fab:311
-msgid "Her_17"
-msgstr "Her_17"
-
-#: skycultures/al-sufi/star_names.fab:312
-msgid "Her_18"
-msgstr "Her_18"
-
-#: skycultures/al-sufi/star_names.fab:313
-msgid "Her_19"
-msgstr "Her_19"
-
-#: skycultures/al-sufi/star_names.fab:314
-msgid "Her_20"
-msgstr "Her_20"
-
-#: skycultures/al-sufi/star_names.fab:315
-msgid "Her_21"
-msgstr "Her_21"
-
-#: skycultures/al-sufi/star_names.fab:316
-msgid "Her_22"
-msgstr "Her_22"
-
-#: skycultures/al-sufi/star_names.fab:317
-msgid "Her_23"
-msgstr "Her_23"
-
-#: skycultures/al-sufi/star_names.fab:318
-msgid "Her_24"
-msgstr "Her_24"
-
-#: skycultures/al-sufi/star_names.fab:319
-msgid "Her_25"
-msgstr "Her_25"
-
-#: skycultures/al-sufi/star_names.fab:320
-msgid "Her_26"
-msgstr "Her_26"
-
-#: skycultures/al-sufi/star_names.fab:321
-msgid "Her_27"
-msgstr "Her_27"
-
-#: skycultures/al-sufi/star_names.fab:322
-msgid "Her_28"
-msgstr "Her_28"
-
-#: skycultures/al-sufi/star_names.fab:323
-msgid "Her_29"
-msgstr "Her_29"
-
-#: skycultures/al-sufi/star_names.fab:324
-msgid "Her_a_01"
-msgstr "Her_a_01"
 
 #: skycultures/al-sufi/star_names.fab:327
 msgid "The star on the right shoulder by the armpit"
@@ -11044,46 +10483,6 @@ msgstr "Primer perro del pastor [del sur]"
 msgid "The line"
 msgstr "La línea"
 
-#: skycultures/al-sufi/star_names.fab:361
-msgid "Lyr_1"
-msgstr "Lyr_1"
-
-#: skycultures/al-sufi/star_names.fab:362
-msgid "Lyr_2"
-msgstr "Lyr_2"
-
-#: skycultures/al-sufi/star_names.fab:363
-msgid "Lyr_3"
-msgstr "Lyr_3"
-
-#: skycultures/al-sufi/star_names.fab:364
-msgid "Lyr_4"
-msgstr "Lyr_4"
-
-#: skycultures/al-sufi/star_names.fab:365
-msgid "Lyr_5"
-msgstr "Lyr_5"
-
-#: skycultures/al-sufi/star_names.fab:366
-msgid "Lyr_6"
-msgstr "Lyr_6"
-
-#: skycultures/al-sufi/star_names.fab:367
-msgid "Lyr_7"
-msgstr "Lyr_7"
-
-#: skycultures/al-sufi/star_names.fab:368
-msgid "Lyr_8"
-msgstr "Lyr_8"
-
-#: skycultures/al-sufi/star_names.fab:369
-msgid "Lyr_9"
-msgstr "Lyr_9"
-
-#: skycultures/al-sufi/star_names.fab:370
-msgid "Lyr_10"
-msgstr "Lyr_10"
-
 #: skycultures/al-sufi/star_names.fab:372
 msgid ""
 "The bright star on the carrying cloth, called Lyra, and it is the landing "
@@ -11122,82 +10521,6 @@ msgstr "‎La más septentrional de las dos estrellas avanzadas en el travesaño
 #: skycultures/al-sufi/star_names.fab:380
 msgid "The northernmost of the two rear stars in the crossbar"
 msgstr "‎La más septentrional de las dos estrellas traseras en el travesaño‎"
-
-#: skycultures/al-sufi/star_names.fab:384
-msgid "Cyg_1"
-msgstr "Cyg_1"
-
-#: skycultures/al-sufi/star_names.fab:385
-msgid "Cyg_2"
-msgstr "Cyg_2"
-
-#: skycultures/al-sufi/star_names.fab:386
-msgid "Cyg_3"
-msgstr "Cyg_3"
-
-#: skycultures/al-sufi/star_names.fab:387
-msgid "Cyg_4"
-msgstr "Cyg_4"
-
-#: skycultures/al-sufi/star_names.fab:388
-msgid "Cyg_5"
-msgstr "Cyg_5"
-
-#: skycultures/al-sufi/star_names.fab:389
-msgid "Cyg_6"
-msgstr "Cyg_6"
-
-#: skycultures/al-sufi/star_names.fab:390
-msgid "Cyg_7"
-msgstr "Cyg_7"
-
-#: skycultures/al-sufi/star_names.fab:391
-msgid "Cyg_8"
-msgstr "Cyg_8"
-
-#: skycultures/al-sufi/star_names.fab:392
-msgid "Cyg_9"
-msgstr "Cyg_9"
-
-#: skycultures/al-sufi/star_names.fab:393
-msgid "Cyg_10"
-msgstr "Cyg_10"
-
-#: skycultures/al-sufi/star_names.fab:394
-msgid "Cyg_11"
-msgstr "Cyg_11"
-
-#: skycultures/al-sufi/star_names.fab:395
-msgid "Cyg_12"
-msgstr "Cyg_12"
-
-#: skycultures/al-sufi/star_names.fab:396
-msgid "Cyg_13"
-msgstr "Cyg_13"
-
-#: skycultures/al-sufi/star_names.fab:397
-msgid "Cyg_14"
-msgstr "Cyg_14"
-
-#: skycultures/al-sufi/star_names.fab:398
-msgid "Cyg_15"
-msgstr "Cyg_15"
-
-#: skycultures/al-sufi/star_names.fab:399
-msgid "Cyg_16"
-msgstr "Cyg_16"
-
-#: skycultures/al-sufi/star_names.fab:400
-msgid "Cyg_17"
-msgstr "Cyg_17"
-
-#: skycultures/al-sufi/star_names.fab:401
-msgid "Cyg_a_01"
-msgstr "Cyg_a_01"
-
-#: skycultures/al-sufi/star_names.fab:402
-msgid "Cyg_a_02"
-msgstr "Cyg_a_02"
 
 #: skycultures/al-sufi/star_names.fab:404
 msgid "The star on the beak"
@@ -11265,58 +10588,6 @@ msgstr "‎La más meridional de las dos estrellas bajo el ala izquierda‎"
 msgid "The rear knight"
 msgstr "El caballero trasero"
 
-#: skycultures/al-sufi/star_names.fab:427
-msgid "Cas_1"
-msgstr "Cas_1"
-
-#: skycultures/al-sufi/star_names.fab:428
-msgid "Cas_2"
-msgstr "Cas_2"
-
-#: skycultures/al-sufi/star_names.fab:429
-msgid "Cas_3"
-msgstr "Cas_3"
-
-#: skycultures/al-sufi/star_names.fab:430
-msgid "Cas_4"
-msgstr "Cas_4"
-
-#: skycultures/al-sufi/star_names.fab:431
-msgid "Cas_5"
-msgstr "Cas_5"
-
-#: skycultures/al-sufi/star_names.fab:432
-msgid "Cas_6"
-msgstr "Cas_6"
-
-#: skycultures/al-sufi/star_names.fab:433
-msgid "Cas_7"
-msgstr "Cas_7"
-
-#: skycultures/al-sufi/star_names.fab:434
-msgid "Cas_8"
-msgstr "Cas_8"
-
-#: skycultures/al-sufi/star_names.fab:435
-msgid "Cas_9"
-msgstr "Cas_9"
-
-#: skycultures/al-sufi/star_names.fab:436
-msgid "Cas_10"
-msgstr "Cas_10"
-
-#: skycultures/al-sufi/star_names.fab:437
-msgid "Cas_11"
-msgstr "Cas_11"
-
-#: skycultures/al-sufi/star_names.fab:438
-msgid "Cas_12"
-msgstr "Cas_12"
-
-#: skycultures/al-sufi/star_names.fab:439
-msgid "Cas_13"
-msgstr "Cas_13"
-
 #: skycultures/al-sufi/star_names.fab:443
 msgid "The one north of that, on the belt"
 msgstr "La que está al norte de esa, en el cinturón‎"
@@ -11362,118 +10633,6 @@ msgstr ""
 #: skycultures/al-sufi/star_names.fab:453
 msgid "The star at the end of the chair backrest"
 msgstr "La estrella al final del respaldo de la silla"
-
-#: skycultures/al-sufi/star_names.fab:456
-msgid "Per_2"
-msgstr "Per_2"
-
-#: skycultures/al-sufi/star_names.fab:457
-msgid "Per_3"
-msgstr "Per_3"
-
-#: skycultures/al-sufi/star_names.fab:458
-msgid "Per_4"
-msgstr "Per_4"
-
-#: skycultures/al-sufi/star_names.fab:459
-msgid "Per_5"
-msgstr "Per_5"
-
-#: skycultures/al-sufi/star_names.fab:460
-msgid "Per_6"
-msgstr "Per_6"
-
-#: skycultures/al-sufi/star_names.fab:461
-msgid "Per_7"
-msgstr "Per_7"
-
-#: skycultures/al-sufi/star_names.fab:462
-msgid "Per_8"
-msgstr "Per_8"
-
-#: skycultures/al-sufi/star_names.fab:463
-msgid "Per_9"
-msgstr "Per_9"
-
-#: skycultures/al-sufi/star_names.fab:464
-msgid "Per_10"
-msgstr "Per_10"
-
-#: skycultures/al-sufi/star_names.fab:465
-msgid "Per_11"
-msgstr "Per_11"
-
-#: skycultures/al-sufi/star_names.fab:466
-msgid "Per_12"
-msgstr "Per_12"
-
-#: skycultures/al-sufi/star_names.fab:467
-msgid "Per_13"
-msgstr "Per_13"
-
-#: skycultures/al-sufi/star_names.fab:468
-msgid "Per_14"
-msgstr "Per_14"
-
-#: skycultures/al-sufi/star_names.fab:469
-msgid "Per_15"
-msgstr "Per_15"
-
-#: skycultures/al-sufi/star_names.fab:470
-msgid "Per_16"
-msgstr "Per_16"
-
-#: skycultures/al-sufi/star_names.fab:471
-msgid "Per_17"
-msgstr "Per_17"
-
-#: skycultures/al-sufi/star_names.fab:472
-msgid "Per_18"
-msgstr "Per_18"
-
-#: skycultures/al-sufi/star_names.fab:473
-msgid "Per_19"
-msgstr "Per_19"
-
-#: skycultures/al-sufi/star_names.fab:474
-msgid "Per_20"
-msgstr "Per_20"
-
-#: skycultures/al-sufi/star_names.fab:475
-msgid "Per_21"
-msgstr "Per_21"
-
-#: skycultures/al-sufi/star_names.fab:476
-msgid "Per_22"
-msgstr "Per_22"
-
-#: skycultures/al-sufi/star_names.fab:477
-msgid "Per_23"
-msgstr "Per_23"
-
-#: skycultures/al-sufi/star_names.fab:478
-msgid "Per_24"
-msgstr "Per_24"
-
-#: skycultures/al-sufi/star_names.fab:479
-msgid "Per_25"
-msgstr "Per_25"
-
-#: skycultures/al-sufi/star_names.fab:480
-msgid "Per_26"
-msgstr "Per_26"
-
-#: skycultures/al-sufi/star_names.fab:481
-msgid "Per_a_01"
-msgstr "Per_a_01"
-
-#: skycultures/al-sufi/star_names.fab:482
-msgid "Per_a_02"
-msgstr "Per_a_02"
-
-#: skycultures/al-sufi/star_names.fab:483
-msgid "Per_a_03"
-msgstr "Per_a_03"
 
 #: skycultures/al-sufi/star_names.fab:489
 msgid "The star on the place between the shoulders"
@@ -11578,58 +10737,6 @@ msgstr "El caracal (segunda narrativa)"
 msgid "The shoulder [of Al-Thurayya]"
 msgstr "‎El hombro [de Al-Thurayya]‎"
 
-#: skycultures/al-sufi/star_names.fab:525
-msgid "Aur_1"
-msgstr "Aur_1"
-
-#: skycultures/al-sufi/star_names.fab:526
-msgid "Aur_2"
-msgstr "Aur_2"
-
-#: skycultures/al-sufi/star_names.fab:527
-msgid "Aur_3"
-msgstr "Aur_3"
-
-#: skycultures/al-sufi/star_names.fab:528
-msgid "Aur_4"
-msgstr "Aur_4"
-
-#: skycultures/al-sufi/star_names.fab:529
-msgid "Aur_5"
-msgstr "Aur_5"
-
-#: skycultures/al-sufi/star_names.fab:530
-msgid "Aur_6"
-msgstr "Aur_6"
-
-#: skycultures/al-sufi/star_names.fab:531
-msgid "Aur_7"
-msgstr "Aur_7"
-
-#: skycultures/al-sufi/star_names.fab:532
-msgid "Aur_8"
-msgstr "Aur_8"
-
-#: skycultures/al-sufi/star_names.fab:533
-msgid "Aur_9"
-msgstr "Aur_9"
-
-#: skycultures/al-sufi/star_names.fab:534
-msgid "Aur_10"
-msgstr "Aur_10"
-
-#: skycultures/al-sufi/star_names.fab:535
-msgid "Aur_11"
-msgstr "Aur_11"
-
-#: skycultures/al-sufi/star_names.fab:536
-msgid "Aur_12"
-msgstr "Aur_12"
-
-#: skycultures/al-sufi/star_names.fab:537
-msgid "Aur_13"
-msgstr "Aur_13"
-
 #: skycultures/al-sufi/star_names.fab:539
 msgid "The southernmost of the two on the head"
 msgstr "La más meridional de las dos en la cabeza‎"
@@ -11702,122 +10809,6 @@ msgstr "Ayyuq Al-Thurayya"
 #: skycultures/al-sufi/star_names.fab:560
 msgid "The goats owner"
 msgstr "‎El dueño de las cabras‎"
-
-#: skycultures/al-sufi/star_names.fab:564
-msgid "Oph_1"
-msgstr "Oph_1"
-
-#: skycultures/al-sufi/star_names.fab:565
-msgid "Oph_2"
-msgstr "Oph_2"
-
-#: skycultures/al-sufi/star_names.fab:566
-msgid "Oph_3"
-msgstr "Oph_3"
-
-#: skycultures/al-sufi/star_names.fab:567
-msgid "Oph_4"
-msgstr "Oph_4"
-
-#: skycultures/al-sufi/star_names.fab:568
-msgid "Oph_5"
-msgstr "Oph_5"
-
-#: skycultures/al-sufi/star_names.fab:569
-msgid "Oph_6"
-msgstr "Oph_6"
-
-#: skycultures/al-sufi/star_names.fab:570
-msgid "Oph_7"
-msgstr "Oph_7"
-
-#: skycultures/al-sufi/star_names.fab:571
-msgid "Oph_8"
-msgstr "Oph_8"
-
-#: skycultures/al-sufi/star_names.fab:572
-msgid "Oph_9"
-msgstr "Oph_9"
-
-#: skycultures/al-sufi/star_names.fab:573
-msgid "Oph_10"
-msgstr "Oph_10"
-
-#: skycultures/al-sufi/star_names.fab:574
-msgid "Oph_11"
-msgstr "Oph_11"
-
-#: skycultures/al-sufi/star_names.fab:575
-msgid "Oph_12"
-msgstr "Oph_12"
-
-#: skycultures/al-sufi/star_names.fab:576
-msgid "Oph_13"
-msgstr "Oph_13"
-
-#: skycultures/al-sufi/star_names.fab:577
-msgid "Oph_14"
-msgstr "Oph_14"
-
-#: skycultures/al-sufi/star_names.fab:578
-msgid "Oph_15"
-msgstr "Oph_15"
-
-#: skycultures/al-sufi/star_names.fab:579
-msgid "Oph_16"
-msgstr "Oph_16"
-
-#: skycultures/al-sufi/star_names.fab:580
-msgid "Oph_17"
-msgstr "Oph_17"
-
-#: skycultures/al-sufi/star_names.fab:581
-msgid "Oph_18"
-msgstr "Oph_18"
-
-#: skycultures/al-sufi/star_names.fab:582
-msgid "Oph_19"
-msgstr "Oph_19"
-
-#: skycultures/al-sufi/star_names.fab:583
-msgid "Oph_20"
-msgstr "Oph_20"
-
-#: skycultures/al-sufi/star_names.fab:584
-msgid "Oph_21"
-msgstr "Oph_21"
-
-#: skycultures/al-sufi/star_names.fab:585
-msgid "Oph_22"
-msgstr "Oph_22"
-
-#: skycultures/al-sufi/star_names.fab:586
-msgid "Oph_23"
-msgstr "Oph_23"
-
-#: skycultures/al-sufi/star_names.fab:587
-msgid "Oph_24"
-msgstr "Oph_24"
-
-#: skycultures/al-sufi/star_names.fab:588
-msgid "Oph_a_01"
-msgstr "Oph_a_01"
-
-#: skycultures/al-sufi/star_names.fab:589
-msgid "Oph_a_02"
-msgstr "Oph_a_02"
-
-#: skycultures/al-sufi/star_names.fab:590
-msgid "Oph_a_03"
-msgstr "Oph_a_03"
-
-#: skycultures/al-sufi/star_names.fab:591
-msgid "Oph_a_04"
-msgstr "Oph_a_04"
-
-#: skycultures/al-sufi/star_names.fab:592
-msgid "Oph_a_05"
-msgstr "Oph_a_05"
 
 #: skycultures/al-sufi/star_names.fab:595
 msgid "The more advanced of the two stars on the right shoulder"
@@ -11925,78 +10916,6 @@ msgstr "El pastor [del sur]"
 msgid "Second dog of the [southern] shepherd"
 msgstr "Segundo perro del pastor [del sur]"
 
-#: skycultures/al-sufi/star_names.fab:628
-msgid "Ser_1"
-msgstr "Ser_1"
-
-#: skycultures/al-sufi/star_names.fab:629
-msgid "Ser_2"
-msgstr "Ser_2"
-
-#: skycultures/al-sufi/star_names.fab:630
-msgid "Ser_3"
-msgstr "Ser_3"
-
-#: skycultures/al-sufi/star_names.fab:631
-msgid "Ser_4"
-msgstr "Ser_4"
-
-#: skycultures/al-sufi/star_names.fab:632
-msgid "Ser_5"
-msgstr "Ser_5"
-
-#: skycultures/al-sufi/star_names.fab:633
-msgid "Ser_6"
-msgstr "Ser_6"
-
-#: skycultures/al-sufi/star_names.fab:634
-msgid "Ser_7"
-msgstr "Ser_7"
-
-#: skycultures/al-sufi/star_names.fab:635
-msgid "Ser_8"
-msgstr "Ser_8"
-
-#: skycultures/al-sufi/star_names.fab:636
-msgid "Ser_9"
-msgstr "Ser_9"
-
-#: skycultures/al-sufi/star_names.fab:637
-msgid "Ser_10"
-msgstr "Ser_10"
-
-#: skycultures/al-sufi/star_names.fab:638
-msgid "Ser_11"
-msgstr "Ser_11"
-
-#: skycultures/al-sufi/star_names.fab:639
-msgid "Ser_12"
-msgstr "Ser_12"
-
-#: skycultures/al-sufi/star_names.fab:640
-msgid "Ser_13"
-msgstr "Ser_13"
-
-#: skycultures/al-sufi/star_names.fab:641
-msgid "Ser_14"
-msgstr "Ser_14"
-
-#: skycultures/al-sufi/star_names.fab:642
-msgid "Ser_15"
-msgstr "Ser_15"
-
-#: skycultures/al-sufi/star_names.fab:643
-msgid "Ser_16"
-msgstr "Ser_16"
-
-#: skycultures/al-sufi/star_names.fab:644
-msgid "Ser_17"
-msgstr "Ser_17"
-
-#: skycultures/al-sufi/star_names.fab:645
-msgid "Ser_18"
-msgstr "Ser_18"
-
 #: skycultures/al-sufi/star_names.fab:647
 msgid "Stars on the quadrilateral in the head:  the one on the end of the jaw"
 msgstr ""
@@ -12066,26 +10985,6 @@ msgstr "La que está detrás de esta, del mismo modo en la cola"
 msgid "The star on the tip of the tail"
 msgstr "La estrella en la punta de la cola"
 
-#: skycultures/al-sufi/star_names.fab:667
-msgid "Sge_1"
-msgstr "Sge_1"
-
-#: skycultures/al-sufi/star_names.fab:668
-msgid "Sge_2"
-msgstr "Sge_2"
-
-#: skycultures/al-sufi/star_names.fab:669
-msgid "Sge_3"
-msgstr "Sge_3"
-
-#: skycultures/al-sufi/star_names.fab:670
-msgid "Sge_4"
-msgstr "Sge_4"
-
-#: skycultures/al-sufi/star_names.fab:671
-msgid "Sge_5"
-msgstr "Sge_5"
-
 #: skycultures/al-sufi/star_names.fab:673
 msgid "The lone star on the arrow-head"
 msgstr "‎La ‎‎estrella‎‎ solitaria en la cabeza de la flecha‎"
@@ -12107,62 +11006,6 @@ msgstr "La más avanzada de las tres"
 #: skycultures/al-sufi/star_names.fab:677
 msgid "The star on the end of the notch"
 msgstr "‎La ‎‎estrella‎‎ al final de la muesca‎"
-
-#: skycultures/al-sufi/star_names.fab:681
-msgid "Aql_2"
-msgstr "Aql_2"
-
-#: skycultures/al-sufi/star_names.fab:682
-msgid "Aql_3"
-msgstr "Aql_3"
-
-#: skycultures/al-sufi/star_names.fab:683
-msgid "Aql_4"
-msgstr "Aql_4"
-
-#: skycultures/al-sufi/star_names.fab:684
-msgid "Aql_5"
-msgstr "Aql_5"
-
-#: skycultures/al-sufi/star_names.fab:685
-msgid "Aql_6"
-msgstr "Aql_6"
-
-#: skycultures/al-sufi/star_names.fab:686
-msgid "Aql_7"
-msgstr "Aql_7"
-
-#: skycultures/al-sufi/star_names.fab:687
-msgid "Aql_8"
-msgstr "Aql_8"
-
-#: skycultures/al-sufi/star_names.fab:688
-msgid "Aql_9"
-msgstr "Aql_9"
-
-#: skycultures/al-sufi/star_names.fab:689
-msgid "Aql_a_01"
-msgstr "Aql_a_01"
-
-#: skycultures/al-sufi/star_names.fab:690
-msgid "Aql_a_02"
-msgstr "Aql_a_02"
-
-#: skycultures/al-sufi/star_names.fab:691
-msgid "Aql_a_03"
-msgstr "Aql_a_03"
-
-#: skycultures/al-sufi/star_names.fab:692
-msgid "Aql_a_04"
-msgstr "Aql_a_04"
-
-#: skycultures/al-sufi/star_names.fab:693
-msgid "Aql_a_05"
-msgstr "Aql_a_05"
-
-#: skycultures/al-sufi/star_names.fab:694
-msgid "Aql_a_06"
-msgstr "Aql_a_06"
 
 #: skycultures/al-sufi/star_names.fab:696
 msgid "The star in the middle of the head"
@@ -12218,46 +11061,6 @@ msgstr "La que está al sur de nuevo de esta última"
 msgid "The star most in advance of all"
 msgstr "La estrella más avanzada de todas"
 
-#: skycultures/al-sufi/star_names.fab:713
-msgid "Del_1"
-msgstr "Del_1"
-
-#: skycultures/al-sufi/star_names.fab:714
-msgid "Del_2"
-msgstr "Del_2"
-
-#: skycultures/al-sufi/star_names.fab:715
-msgid "Del_3"
-msgstr "Del_3"
-
-#: skycultures/al-sufi/star_names.fab:716
-msgid "Del_4"
-msgstr "Del_4"
-
-#: skycultures/al-sufi/star_names.fab:717
-msgid "Del_5"
-msgstr "Del_5"
-
-#: skycultures/al-sufi/star_names.fab:718
-msgid "Del_6"
-msgstr "Del_6"
-
-#: skycultures/al-sufi/star_names.fab:719
-msgid "Del_7"
-msgstr "Del_7"
-
-#: skycultures/al-sufi/star_names.fab:720
-msgid "Del_8"
-msgstr "Del_8"
-
-#: skycultures/al-sufi/star_names.fab:721
-msgid "Del_9"
-msgstr "Del_9"
-
-#: skycultures/al-sufi/star_names.fab:722
-msgid "Del_10"
-msgstr "Del_10"
-
 #: skycultures/al-sufi/star_names.fab:724
 msgid "The most advanced of the three stars in the tail"
 msgstr "La más avanzada de las tres estrellas en la cola"
@@ -12296,22 +11099,6 @@ msgstr "‎La más avanzada de las otras dos estrellas del norte‎"
 msgid "The remaining, rearmost one"
 msgstr "La restante, la más retrasada"
 
-#: skycultures/al-sufi/star_names.fab:736
-msgid "Equ_1"
-msgstr "Equ_1"
-
-#: skycultures/al-sufi/star_names.fab:737
-msgid "Equ_2"
-msgstr "Equ_2"
-
-#: skycultures/al-sufi/star_names.fab:738
-msgid "Equ_3"
-msgstr "Equ_3"
-
-#: skycultures/al-sufi/star_names.fab:739
-msgid "Equ_4"
-msgstr "Equ_4"
-
 #: skycultures/al-sufi/star_names.fab:741
 msgid "The more advanced of the two stars in the head"
 msgstr "La más avanzada de las dos estrellas en la cabeza"
@@ -12319,86 +11106,6 @@ msgstr "La más avanzada de las dos estrellas en la cabeza"
 #: skycultures/al-sufi/star_names.fab:743
 msgid "The more advanced of the two stars in the mouth"
 msgstr "La más avanzada de las dos estrellas en la boca"
-
-#: skycultures/al-sufi/star_names.fab:747
-msgid "Peg_1"
-msgstr "Peg_1"
-
-#: skycultures/al-sufi/star_names.fab:748
-msgid "Peg_2"
-msgstr "Peg_2"
-
-#: skycultures/al-sufi/star_names.fab:749
-msgid "Peg_3"
-msgstr "Peg_3"
-
-#: skycultures/al-sufi/star_names.fab:750
-msgid "Peg_4"
-msgstr "Peg_4"
-
-#: skycultures/al-sufi/star_names.fab:751
-msgid "Peg_5"
-msgstr "Peg_5"
-
-#: skycultures/al-sufi/star_names.fab:752
-msgid "Peg_6"
-msgstr "Peg_6"
-
-#: skycultures/al-sufi/star_names.fab:753
-msgid "Peg_7"
-msgstr "Peg_7"
-
-#: skycultures/al-sufi/star_names.fab:754
-msgid "Peg_8"
-msgstr "Peg_8"
-
-#: skycultures/al-sufi/star_names.fab:755
-msgid "Peg_9"
-msgstr "Peg_9"
-
-#: skycultures/al-sufi/star_names.fab:756
-msgid "Peg_10"
-msgstr "Peg_10"
-
-#: skycultures/al-sufi/star_names.fab:757
-msgid "Peg_11"
-msgstr "Peg_11"
-
-#: skycultures/al-sufi/star_names.fab:758
-msgid "Peg_12"
-msgstr "Peg_12"
-
-#: skycultures/al-sufi/star_names.fab:759
-msgid "Peg_13"
-msgstr "Peg_13"
-
-#: skycultures/al-sufi/star_names.fab:760
-msgid "Peg_14"
-msgstr "Peg_14"
-
-#: skycultures/al-sufi/star_names.fab:761
-msgid "Peg_15"
-msgstr "Peg_15"
-
-#: skycultures/al-sufi/star_names.fab:762
-msgid "Peg_16"
-msgstr "Peg_16"
-
-#: skycultures/al-sufi/star_names.fab:763
-msgid "Peg_17"
-msgstr "Peg_17"
-
-#: skycultures/al-sufi/star_names.fab:764
-msgid "Peg_18"
-msgstr "Peg_18"
-
-#: skycultures/al-sufi/star_names.fab:765
-msgid "Peg_19"
-msgstr "Peg_19"
-
-#: skycultures/al-sufi/star_names.fab:766
-msgid "Peg_20"
-msgstr "Peg_20"
 
 #: skycultures/al-sufi/star_names.fab:768
 msgid ""
@@ -12463,98 +11170,6 @@ msgstr "‎La ‎‎estrella‎‎ en el casco derecho‎"
 msgid "The star in the left hock"
 msgstr "La estrella en el casco izquierdo"
 
-#: skycultures/al-sufi/star_names.fab:790
-msgid "And_1"
-msgstr "And_1"
-
-#: skycultures/al-sufi/star_names.fab:791
-msgid "And_2"
-msgstr "And_2"
-
-#: skycultures/al-sufi/star_names.fab:792
-msgid "And_3"
-msgstr "And_3"
-
-#: skycultures/al-sufi/star_names.fab:793
-msgid "And_4"
-msgstr "And_4"
-
-#: skycultures/al-sufi/star_names.fab:794
-msgid "And_5"
-msgstr "And_5"
-
-#: skycultures/al-sufi/star_names.fab:795
-msgid "And_6"
-msgstr "And_6"
-
-#: skycultures/al-sufi/star_names.fab:796
-msgid "And_7"
-msgstr "And_7"
-
-#: skycultures/al-sufi/star_names.fab:797
-msgid "And_8"
-msgstr "And_8"
-
-#: skycultures/al-sufi/star_names.fab:798
-msgid "And_9"
-msgstr "And_9"
-
-#: skycultures/al-sufi/star_names.fab:799
-msgid "And_10"
-msgstr "And_10"
-
-#: skycultures/al-sufi/star_names.fab:800
-msgid "And_11"
-msgstr "And_11"
-
-#: skycultures/al-sufi/star_names.fab:801
-msgid "And_12"
-msgstr "And_12"
-
-#: skycultures/al-sufi/star_names.fab:802
-msgid "And_13"
-msgstr "And_13"
-
-#: skycultures/al-sufi/star_names.fab:803
-msgid "And_14"
-msgstr "And_14"
-
-#: skycultures/al-sufi/star_names.fab:804
-msgid "And_15"
-msgstr "And_15"
-
-#: skycultures/al-sufi/star_names.fab:805
-msgid "And_16"
-msgstr "And_16"
-
-#: skycultures/al-sufi/star_names.fab:806
-msgid "And_17"
-msgstr "And_17"
-
-#: skycultures/al-sufi/star_names.fab:807
-msgid "And_18"
-msgstr "And_18"
-
-#: skycultures/al-sufi/star_names.fab:808
-msgid "And_19"
-msgstr "And_19"
-
-#: skycultures/al-sufi/star_names.fab:809
-msgid "And_20"
-msgstr "And_20"
-
-#: skycultures/al-sufi/star_names.fab:810
-msgid "And_21"
-msgstr "And_21"
-
-#: skycultures/al-sufi/star_names.fab:811
-msgid "And_22"
-msgstr "And_22"
-
-#: skycultures/al-sufi/star_names.fab:812
-msgid "And_23"
-msgstr "And_23"
-
 #: skycultures/al-sufi/star_names.fab:814
 msgid "The star in the place between the shoulders"
 msgstr "La estrella entre los hombros"
@@ -12617,22 +11232,6 @@ msgstr "Abdomen del pez"
 msgid "The caracal (first narrative)"
 msgstr "La caracal (primera narración)‎"
 
-#: skycultures/al-sufi/star_names.fab:842
-msgid "Tri_1"
-msgstr "Tri_1"
-
-#: skycultures/al-sufi/star_names.fab:843
-msgid "Tri_2"
-msgstr "Tri_2"
-
-#: skycultures/al-sufi/star_names.fab:844
-msgid "Tri_3"
-msgstr "Tri_3"
-
-#: skycultures/al-sufi/star_names.fab:845
-msgid "Tri_4"
-msgstr "Tri_4"
-
 #: skycultures/al-sufi/star_names.fab:847
 msgid "The star in the apex of the triangle"
 msgstr "‎La ‎‎estrella‎‎ en el ápice del triángulo‎"
@@ -12640,78 +11239,6 @@ msgstr "‎La ‎‎estrella‎‎ en el ápice del triángulo‎"
 #: skycultures/al-sufi/star_names.fab:848
 msgid "The most advanced of the three on the base"
 msgstr "La más avanzada de las tres en la base‎"
-
-#: skycultures/al-sufi/star_names.fab:853
-msgid "Ari_1"
-msgstr "Ari_1"
-
-#: skycultures/al-sufi/star_names.fab:854
-msgid "Ari_2"
-msgstr "Ari_2"
-
-#: skycultures/al-sufi/star_names.fab:855
-msgid "Ari_3"
-msgstr "Ari_3"
-
-#: skycultures/al-sufi/star_names.fab:856
-msgid "Ari_4"
-msgstr "Ari_4"
-
-#: skycultures/al-sufi/star_names.fab:857
-msgid "Ari_5"
-msgstr "Ari_5"
-
-#: skycultures/al-sufi/star_names.fab:858
-msgid "Ari_6"
-msgstr "Ari_6"
-
-#: skycultures/al-sufi/star_names.fab:859
-msgid "Ari_7"
-msgstr "Ari_7"
-
-#: skycultures/al-sufi/star_names.fab:860
-msgid "Ari_8"
-msgstr "Ari_8"
-
-#: skycultures/al-sufi/star_names.fab:861
-msgid "Ari_9"
-msgstr "Ari_9"
-
-#: skycultures/al-sufi/star_names.fab:862
-msgid "Ari_10"
-msgstr "Ari_10"
-
-#: skycultures/al-sufi/star_names.fab:863
-msgid "Ari_11"
-msgstr "Ari_11"
-
-#: skycultures/al-sufi/star_names.fab:864
-msgid "Ari_12"
-msgstr "Ari_12"
-
-#: skycultures/al-sufi/star_names.fab:865
-msgid "Ari_13"
-msgstr "Ari_13"
-
-#: skycultures/al-sufi/star_names.fab:866
-msgid "Ari_a_01"
-msgstr "Ari_a_01"
-
-#: skycultures/al-sufi/star_names.fab:867
-msgid "Ari_a_02"
-msgstr "Ari_a_02"
-
-#: skycultures/al-sufi/star_names.fab:868
-msgid "Ari_a_03"
-msgstr "Ari_a_03"
-
-#: skycultures/al-sufi/star_names.fab:869
-msgid "Ari_a_04"
-msgstr "Ari_a_04"
-
-#: skycultures/al-sufi/star_names.fab:870
-msgid "Ari_a_05"
-msgstr "Ari_a_05"
 
 #: skycultures/al-sufi/star_names.fab:872
 msgid "The more advanced of the two stars on the horn"
@@ -12774,182 +11301,6 @@ msgstr "La del medio de estas tres‎"
 #: skycultures/al-sufi/star_names.fab:891
 msgid "The butting [horn]"
 msgstr "‎El trasero [cuerno]‎"
-
-#: skycultures/al-sufi/star_names.fab:894
-msgid "Tau_1"
-msgstr "Tau_1"
-
-#: skycultures/al-sufi/star_names.fab:895
-msgid "Tau_2"
-msgstr "Tau_2"
-
-#: skycultures/al-sufi/star_names.fab:896
-msgid "Tau_3"
-msgstr "Tau_3"
-
-#: skycultures/al-sufi/star_names.fab:897
-msgid "Tau_4"
-msgstr "Tau_4"
-
-#: skycultures/al-sufi/star_names.fab:898
-msgid "Tau_5"
-msgstr "Tau_5"
-
-#: skycultures/al-sufi/star_names.fab:899
-msgid "Tau_6"
-msgstr "Tau_6"
-
-#: skycultures/al-sufi/star_names.fab:900
-msgid "Tau_7"
-msgstr "Tau_7"
-
-#: skycultures/al-sufi/star_names.fab:901
-msgid "Tau_8"
-msgstr "Tau_8"
-
-#: skycultures/al-sufi/star_names.fab:902
-msgid "Tau_9"
-msgstr "Tau_9"
-
-#: skycultures/al-sufi/star_names.fab:903
-msgid "Tau_10"
-msgstr "Tau_10"
-
-#: skycultures/al-sufi/star_names.fab:904
-msgid "Tau_11"
-msgstr "Tau_11"
-
-#: skycultures/al-sufi/star_names.fab:905
-msgid "Tau_12"
-msgstr "Tau_12"
-
-#: skycultures/al-sufi/star_names.fab:906
-msgid "Tau_13"
-msgstr "Tau_13"
-
-#: skycultures/al-sufi/star_names.fab:907
-msgid "Tau_14"
-msgstr "Tau_14"
-
-#: skycultures/al-sufi/star_names.fab:908
-msgid "Tau_15"
-msgstr "Tau_15"
-
-#: skycultures/al-sufi/star_names.fab:909
-msgid "Tau_16"
-msgstr "Tau_16"
-
-#: skycultures/al-sufi/star_names.fab:910
-msgid "Tau_17"
-msgstr "Tau_17"
-
-#: skycultures/al-sufi/star_names.fab:911
-msgid "Tau_18"
-msgstr "Tau_18"
-
-#: skycultures/al-sufi/star_names.fab:912
-msgid "Tau_19"
-msgstr "Tau_19"
-
-#: skycultures/al-sufi/star_names.fab:913
-msgid "Tau_20"
-msgstr "Tau_20"
-
-#: skycultures/al-sufi/star_names.fab:914
-msgid "Tau_*"
-msgstr "Tau_*"
-
-#: skycultures/al-sufi/star_names.fab:915
-msgid "Tau_21"
-msgstr "Tau_21"
-
-#: skycultures/al-sufi/star_names.fab:916
-msgid "Tau_22"
-msgstr "Tau_22"
-
-#: skycultures/al-sufi/star_names.fab:917
-msgid "Tau_23"
-msgstr "Tau_23"
-
-#: skycultures/al-sufi/star_names.fab:918
-msgid "Tau_24"
-msgstr "Tau_24"
-
-#: skycultures/al-sufi/star_names.fab:919
-msgid "Tau_25"
-msgstr "Tau_25"
-
-#: skycultures/al-sufi/star_names.fab:920
-msgid "Tau_26"
-msgstr "Tau_26"
-
-#: skycultures/al-sufi/star_names.fab:921
-msgid "Tau_27"
-msgstr "Tau_27"
-
-#: skycultures/al-sufi/star_names.fab:922
-msgid "Tau_28"
-msgstr "Tau_28"
-
-#: skycultures/al-sufi/star_names.fab:923
-msgid "Tau_29"
-msgstr "Tau_29"
-
-#: skycultures/al-sufi/star_names.fab:924
-msgid "Tau_30"
-msgstr "Tau_30"
-
-#: skycultures/al-sufi/star_names.fab:925
-msgid "Tau_31"
-msgstr "Tau_31"
-
-#: skycultures/al-sufi/star_names.fab:926
-msgid "Tau_32"
-msgstr "Tau_32"
-
-#: skycultures/al-sufi/star_names.fab:927
-msgid "Tau_a_01"
-msgstr "Tau_a_01"
-
-#: skycultures/al-sufi/star_names.fab:928
-msgid "Tau_a_02"
-msgstr "Tau_a_02"
-
-#: skycultures/al-sufi/star_names.fab:929
-msgid "Tau_a_03"
-msgstr "Tau_a_03"
-
-#: skycultures/al-sufi/star_names.fab:930
-msgid "Tau_a_04"
-msgstr "Tau_a_04"
-
-#: skycultures/al-sufi/star_names.fab:931
-msgid "Tau_a_05"
-msgstr "Tau_a_05"
-
-#: skycultures/al-sufi/star_names.fab:932
-msgid "Tau_a_06"
-msgstr "Tau_a_06"
-
-#: skycultures/al-sufi/star_names.fab:933
-msgid "Tau_a_07"
-msgstr "Tau_a_07"
-
-#: skycultures/al-sufi/star_names.fab:934
-msgid "Tau_a_08"
-msgstr "Tau_a_08"
-
-#: skycultures/al-sufi/star_names.fab:935
-msgid "Tau_a_09"
-msgstr "Tau_a_09"
-
-#: skycultures/al-sufi/star_names.fab:936
-msgid "Tau_a_10"
-msgstr "Tau_a_10"
-
-#: skycultures/al-sufi/star_names.fab:937
-msgid "Tau_a_11"
-msgstr "Tau_a_11"
 
 #: skycultures/al-sufi/star_names.fab:939
 msgid "The northernmost of the four stars in the cut-off"
@@ -13128,106 +11479,6 @@ msgstr "La seguidora"
 msgid "The special camel"
 msgstr "El camello especial"
 
-#: skycultures/al-sufi/star_names.fab:992
-msgid "Gem_1"
-msgstr "Gem_1"
-
-#: skycultures/al-sufi/star_names.fab:993
-msgid "Gem_2"
-msgstr "Gem_2"
-
-#: skycultures/al-sufi/star_names.fab:994
-msgid "Gem_3"
-msgstr "Gem_3"
-
-#: skycultures/al-sufi/star_names.fab:995
-msgid "Gem_4"
-msgstr "Gem_4"
-
-#: skycultures/al-sufi/star_names.fab:996
-msgid "Gem_5"
-msgstr "Gem_5"
-
-#: skycultures/al-sufi/star_names.fab:997
-msgid "Gem_6"
-msgstr "Gem_6"
-
-#: skycultures/al-sufi/star_names.fab:998
-msgid "Gem_7"
-msgstr "Gem_7"
-
-#: skycultures/al-sufi/star_names.fab:999
-msgid "Gem_8"
-msgstr "Gem_8"
-
-#: skycultures/al-sufi/star_names.fab:1000
-msgid "Gem_9"
-msgstr "Gem_9"
-
-#: skycultures/al-sufi/star_names.fab:1001
-msgid "Gem_10"
-msgstr "Gem_10"
-
-#: skycultures/al-sufi/star_names.fab:1002
-msgid "Gem_11"
-msgstr "Gem_11"
-
-#: skycultures/al-sufi/star_names.fab:1003
-msgid "Gem_12"
-msgstr "Gem_12"
-
-#: skycultures/al-sufi/star_names.fab:1004
-msgid "Gem_13"
-msgstr "Gem_13"
-
-#: skycultures/al-sufi/star_names.fab:1005
-msgid "Gem_14"
-msgstr "Gem_14"
-
-#: skycultures/al-sufi/star_names.fab:1006
-msgid "Gem_15"
-msgstr "Gem_15"
-
-#: skycultures/al-sufi/star_names.fab:1007
-msgid "Gem_16"
-msgstr "Gem_16"
-
-#: skycultures/al-sufi/star_names.fab:1008
-msgid "Gem_17"
-msgstr "Gem_17"
-
-#: skycultures/al-sufi/star_names.fab:1009
-msgid "Gem_18"
-msgstr "Gem_18"
-
-#: skycultures/al-sufi/star_names.fab:1010
-msgid "Gem_a_01"
-msgstr "Gem_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1011
-msgid "Gem_a_02"
-msgstr "Gem_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1012
-msgid "Gem_a_03"
-msgstr "Gem_a_03"
-
-#: skycultures/al-sufi/star_names.fab:1013
-msgid "Gem_a_04"
-msgstr "Gem_a_04"
-
-#: skycultures/al-sufi/star_names.fab:1014
-msgid "Gem_a_05"
-msgstr "Gem_a_05"
-
-#: skycultures/al-sufi/star_names.fab:1015
-msgid "Gem_a_06"
-msgstr "Gem_a_06"
-
-#: skycultures/al-sufi/star_names.fab:1016
-msgid "Gem_a_07"
-msgstr "Gem_a_07"
-
 #: skycultures/al-sufi/star_names.fab:1018
 msgid "The star on the head of the advance twin"
 msgstr "‎La ‎‎estrella‎‎ en la cabeza del gemelo adelantado‎"
@@ -13338,54 +11589,6 @@ msgstr ""
 "‎La ‎‎estrella‎‎ ‎‎brillante‎‎ en la parte trasera de las tres antes "
 "mencionadas‎"
 
-#: skycultures/al-sufi/star_names.fab:1045
-msgid "Cnc_2"
-msgstr "Cnc_2"
-
-#: skycultures/al-sufi/star_names.fab:1046
-msgid "Cnc_3"
-msgstr "Cnc_3"
-
-#: skycultures/al-sufi/star_names.fab:1047
-msgid "Cnc_4"
-msgstr "Cnc_4"
-
-#: skycultures/al-sufi/star_names.fab:1048
-msgid "Cnc_5"
-msgstr "Cnc_5"
-
-#: skycultures/al-sufi/star_names.fab:1049
-msgid "Cnc_6"
-msgstr "Cnc_6"
-
-#: skycultures/al-sufi/star_names.fab:1050
-msgid "Cnc_7"
-msgstr "Cnc_7"
-
-#: skycultures/al-sufi/star_names.fab:1051
-msgid "Cnc_8"
-msgstr "Cnc_8"
-
-#: skycultures/al-sufi/star_names.fab:1052
-msgid "Cnc_9"
-msgstr "Cnc_9"
-
-#: skycultures/al-sufi/star_names.fab:1053
-msgid "Cnc_a_01"
-msgstr "Cnc_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1054
-msgid "Cnc_a_02"
-msgstr "Cnc_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1055
-msgid "Cnc_a_03"
-msgstr "Cnc_a_03"
-
-#: skycultures/al-sufi/star_names.fab:1056
-msgid "Cnc_a_04"
-msgstr "Cnc_a_04"
-
 #: skycultures/al-sufi/star_names.fab:1058
 msgid ""
 "The northernmost of the two stars in advance of the quadrilateral containing"
@@ -13439,146 +11642,6 @@ msgstr ""
 #: skycultures/al-sufi/star_names.fab:1069
 msgid "The rearmost of these [two]"
 msgstr "La más trasera de estas [dos]"
-
-#: skycultures/al-sufi/star_names.fab:1072
-msgid "Leo_1"
-msgstr "Leo_1"
-
-#: skycultures/al-sufi/star_names.fab:1073
-msgid "Leo_2"
-msgstr "Leo_2"
-
-#: skycultures/al-sufi/star_names.fab:1074
-msgid "Leo_3"
-msgstr "Leo_3"
-
-#: skycultures/al-sufi/star_names.fab:1075
-msgid "Leo_4"
-msgstr "Leo_4"
-
-#: skycultures/al-sufi/star_names.fab:1076
-msgid "Leo_5"
-msgstr "Leo_5"
-
-#: skycultures/al-sufi/star_names.fab:1077
-msgid "Leo_6"
-msgstr "Leo_6"
-
-#: skycultures/al-sufi/star_names.fab:1078
-msgid "Leo_7"
-msgstr "Leo_7"
-
-#: skycultures/al-sufi/star_names.fab:1079
-msgid "Leo_8"
-msgstr "Leo_8"
-
-#: skycultures/al-sufi/star_names.fab:1080
-msgid "Leo_9"
-msgstr "Leo_9"
-
-#: skycultures/al-sufi/star_names.fab:1081
-msgid "Leo_10"
-msgstr "Leo_10"
-
-#: skycultures/al-sufi/star_names.fab:1082
-msgid "Leo_11"
-msgstr "Leo_11"
-
-#: skycultures/al-sufi/star_names.fab:1083
-msgid "Leo_12"
-msgstr "Leo_12"
-
-#: skycultures/al-sufi/star_names.fab:1084
-msgid "Leo_13"
-msgstr "Leo_13"
-
-#: skycultures/al-sufi/star_names.fab:1085
-msgid "Leo_14"
-msgstr "Leo_14"
-
-#: skycultures/al-sufi/star_names.fab:1086
-msgid "Leo_15"
-msgstr "Leo_15"
-
-#: skycultures/al-sufi/star_names.fab:1087
-msgid "Leo_16"
-msgstr "Leo_16"
-
-#: skycultures/al-sufi/star_names.fab:1088
-msgid "Leo_17"
-msgstr "Leo_17"
-
-#: skycultures/al-sufi/star_names.fab:1089
-msgid "Leo_18"
-msgstr "Leo_18"
-
-#: skycultures/al-sufi/star_names.fab:1090
-msgid "Leo_19"
-msgstr "Leo_19"
-
-#: skycultures/al-sufi/star_names.fab:1091
-msgid "Leo_20"
-msgstr "Leo_20"
-
-#: skycultures/al-sufi/star_names.fab:1092
-msgid "Leo_21"
-msgstr "Leo_21"
-
-#: skycultures/al-sufi/star_names.fab:1093
-msgid "Leo_22"
-msgstr "Leo_22"
-
-#: skycultures/al-sufi/star_names.fab:1094
-msgid "Leo_23"
-msgstr "Leo_23"
-
-#: skycultures/al-sufi/star_names.fab:1095
-msgid "Leo_24"
-msgstr "Leo_24"
-
-#: skycultures/al-sufi/star_names.fab:1096
-msgid "Leo_25"
-msgstr "Leo_25"
-
-#: skycultures/al-sufi/star_names.fab:1097
-msgid "Leo_26"
-msgstr "Leo_26"
-
-#: skycultures/al-sufi/star_names.fab:1098
-msgid "Leo_27"
-msgstr "Leo_27"
-
-#: skycultures/al-sufi/star_names.fab:1099
-msgid "Leo_a_01"
-msgstr "Leo_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1100
-msgid "Leo_a_02"
-msgstr "Leo_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1101
-msgid "Leo_a_03"
-msgstr "Leo_a_03"
-
-#: skycultures/al-sufi/star_names.fab:1102
-msgid "Leo_a_04"
-msgstr "Leo_a_04"
-
-#: skycultures/al-sufi/star_names.fab:1103
-msgid "Leo_a_05"
-msgstr "Leo_a_05"
-
-#: skycultures/al-sufi/star_names.fab:1104
-msgid "Leo_a_06"
-msgstr "Leo_a_06"
-
-#: skycultures/al-sufi/star_names.fab:1105
-msgid "Leo_a_07"
-msgstr "Leo_a_07"
-
-#: skycultures/al-sufi/star_names.fab:1106
-msgid "Leo_a_08"
-msgstr "Leo_a_08"
 
 #: skycultures/al-sufi/star_names.fab:1108
 #: skycultures/al-sufi/star_names.fab:1632
@@ -13698,134 +11761,6 @@ msgstr "La última de ellas, con forma de hoja de hiedra"
 msgid "Star of weather change"
 msgstr "Estrella de cambio del tiempo"
 
-#: skycultures/al-sufi/star_names.fab:1147
-msgid "Vir_1"
-msgstr "Vir_1"
-
-#: skycultures/al-sufi/star_names.fab:1148
-msgid "Vir_2"
-msgstr "Vir_2"
-
-#: skycultures/al-sufi/star_names.fab:1149
-msgid "Vir_3"
-msgstr "Vir_3"
-
-#: skycultures/al-sufi/star_names.fab:1150
-msgid "Vir_4"
-msgstr "Vir_4"
-
-#: skycultures/al-sufi/star_names.fab:1151
-msgid "Vir_5"
-msgstr "Vir_5"
-
-#: skycultures/al-sufi/star_names.fab:1152
-msgid "Vir_6"
-msgstr "Vir_6"
-
-#: skycultures/al-sufi/star_names.fab:1153
-msgid "Vir_7"
-msgstr "Vir_7"
-
-#: skycultures/al-sufi/star_names.fab:1154
-msgid "Vir_8"
-msgstr "Vir_8"
-
-#: skycultures/al-sufi/star_names.fab:1155
-msgid "Vir_9"
-msgstr "Vir_9"
-
-#: skycultures/al-sufi/star_names.fab:1156
-msgid "Vir_10"
-msgstr "Vir_10"
-
-#: skycultures/al-sufi/star_names.fab:1157
-msgid "Vir_11"
-msgstr "Vir_11"
-
-#: skycultures/al-sufi/star_names.fab:1158
-msgid "Vir_12"
-msgstr "Vir_12"
-
-#: skycultures/al-sufi/star_names.fab:1159
-msgid "Vir_13"
-msgstr "Vir_13"
-
-#: skycultures/al-sufi/star_names.fab:1160
-msgid "Vir_14"
-msgstr "Vir_14"
-
-#: skycultures/al-sufi/star_names.fab:1161
-msgid "Vir_15"
-msgstr "Vir_15"
-
-#: skycultures/al-sufi/star_names.fab:1162
-msgid "Vir_16"
-msgstr "Vir_16"
-
-#: skycultures/al-sufi/star_names.fab:1163
-msgid "Vir_17"
-msgstr "Vir_17"
-
-#: skycultures/al-sufi/star_names.fab:1164
-msgid "Vir_18"
-msgstr "Vir_18"
-
-#: skycultures/al-sufi/star_names.fab:1165
-msgid "Vir_19"
-msgstr "Vir_19"
-
-#: skycultures/al-sufi/star_names.fab:1166
-msgid "Vir_20"
-msgstr "Vir_20"
-
-#: skycultures/al-sufi/star_names.fab:1167
-msgid "Vir_21"
-msgstr "Vir_21"
-
-#: skycultures/al-sufi/star_names.fab:1168
-msgid "Vir_22"
-msgstr "Vir_22"
-
-#: skycultures/al-sufi/star_names.fab:1169
-msgid "Vir_23"
-msgstr "Vir_23"
-
-#: skycultures/al-sufi/star_names.fab:1170
-msgid "Vir_24"
-msgstr "Vir_24"
-
-#: skycultures/al-sufi/star_names.fab:1171
-msgid "Vir_25"
-msgstr "Vir_25"
-
-#: skycultures/al-sufi/star_names.fab:1172
-msgid "Vir_26"
-msgstr "Vir_26"
-
-#: skycultures/al-sufi/star_names.fab:1173
-msgid "Vir_a_01"
-msgstr "Vir_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1174
-msgid "Vir_a_02"
-msgstr "Vir_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1175
-msgid "Vir_a_03"
-msgstr "Vir_a_03"
-
-#: skycultures/al-sufi/star_names.fab:1176
-msgid "Vir_a_04"
-msgstr "Vir_a_04"
-
-#: skycultures/al-sufi/star_names.fab:1177
-msgid "Vir_a_05"
-msgstr "Vir_a_05"
-
-#: skycultures/al-sufi/star_names.fab:1178
-msgid "Vir_a_06"
-msgstr "Vir_a_06"
-
 #: skycultures/al-sufi/star_names.fab:1180
 msgid "The southernmost of the two stars in the top of the skull"
 msgstr "‎La más meridional de las dos estrellas arriba de la calavera"
@@ -13929,74 +11864,6 @@ msgstr ""
 msgid "The middle one of these, which is a double star"
 msgstr "La del medio de estas, que es una estrella doble"
 
-#: skycultures/al-sufi/star_names.fab:1217
-msgid "Lib_1"
-msgstr "Lib_1"
-
-#: skycultures/al-sufi/star_names.fab:1218
-msgid "Lib_2"
-msgstr "Lib_2"
-
-#: skycultures/al-sufi/star_names.fab:1219
-msgid "Lib_3"
-msgstr "Lib_3"
-
-#: skycultures/al-sufi/star_names.fab:1220
-msgid "Lib_4"
-msgstr "Lib_4"
-
-#: skycultures/al-sufi/star_names.fab:1221
-msgid "Lib_5"
-msgstr "Lib_5"
-
-#: skycultures/al-sufi/star_names.fab:1222
-msgid "Lib_6"
-msgstr "Lib_6"
-
-#: skycultures/al-sufi/star_names.fab:1223
-msgid "Lib_7"
-msgstr "Lib_7"
-
-#: skycultures/al-sufi/star_names.fab:1224
-msgid "Lib_8"
-msgstr "Lib_8"
-
-#: skycultures/al-sufi/star_names.fab:1225
-msgid "Lib_a_01"
-msgstr "Lib_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1226
-msgid "Lib_a_02"
-msgstr "Lib_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1227
-msgid "Lib_a_03"
-msgstr "Lib_a_03"
-
-#: skycultures/al-sufi/star_names.fab:1228
-msgid "Lib_a_04"
-msgstr "Lib_a_04"
-
-#: skycultures/al-sufi/star_names.fab:1229
-msgid "Lib_a_05"
-msgstr "Lib_a_05"
-
-#: skycultures/al-sufi/star_names.fab:1230
-msgid "Lib_a_06"
-msgstr "Lib_a_06"
-
-#: skycultures/al-sufi/star_names.fab:1231
-msgid "Lib_a_07"
-msgstr "Lib_a_07"
-
-#: skycultures/al-sufi/star_names.fab:1232
-msgid "Lib_a_08"
-msgstr "Lib_a_08"
-
-#: skycultures/al-sufi/star_names.fab:1233
-msgid "Lib_a_09"
-msgstr "Lib_a_09"
-
 #: skycultures/al-sufi/star_names.fab:1235
 msgid "The brighter one of the two stars on the tip of the southern claw"
 msgstr ""
@@ -14054,102 +11921,6 @@ msgstr "La más avanzada de las tres estrellas al sur de la garra del sur"
 #: skycultures/al-sufi/star_names.fab:1250
 msgid "The northernmost of the other, rear two"
 msgstr "La más meridional de la otra, las dos retrasadas"
-
-#: skycultures/al-sufi/star_names.fab:1255
-msgid "Sco_1"
-msgstr "Sco_1"
-
-#: skycultures/al-sufi/star_names.fab:1256
-msgid "Sco_2"
-msgstr "Sco_2"
-
-#: skycultures/al-sufi/star_names.fab:1257
-msgid "Sco_3"
-msgstr "Sco_3"
-
-#: skycultures/al-sufi/star_names.fab:1258
-msgid "Sco_4"
-msgstr "Sco_4"
-
-#: skycultures/al-sufi/star_names.fab:1259
-msgid "Sco_5"
-msgstr "Sco_5"
-
-#: skycultures/al-sufi/star_names.fab:1260
-msgid "Sco_6"
-msgstr "Sco_6"
-
-#: skycultures/al-sufi/star_names.fab:1261
-msgid "Sco_7"
-msgstr "Sco_7"
-
-#: skycultures/al-sufi/star_names.fab:1262
-msgid "Sco_8"
-msgstr "Sco_8"
-
-#: skycultures/al-sufi/star_names.fab:1263
-msgid "Sco_9"
-msgstr "Sco_9"
-
-#: skycultures/al-sufi/star_names.fab:1264
-msgid "Sco_10"
-msgstr "Sco_10"
-
-#: skycultures/al-sufi/star_names.fab:1265
-msgid "Sco_11"
-msgstr "Sco_11"
-
-#: skycultures/al-sufi/star_names.fab:1266
-msgid "Sco_12"
-msgstr "Sco_12"
-
-#: skycultures/al-sufi/star_names.fab:1267
-msgid "Sco_13"
-msgstr "Sco_13"
-
-#: skycultures/al-sufi/star_names.fab:1268
-msgid "Sco_14"
-msgstr "Sco_14"
-
-#: skycultures/al-sufi/star_names.fab:1269
-msgid "Sco_15"
-msgstr "Sco_15"
-
-#: skycultures/al-sufi/star_names.fab:1270
-msgid "Sco_16"
-msgstr "Sco_16"
-
-#: skycultures/al-sufi/star_names.fab:1271
-msgid "Sco_17"
-msgstr "Sco_17"
-
-#: skycultures/al-sufi/star_names.fab:1272
-msgid "Sco_18"
-msgstr "Sco_18"
-
-#: skycultures/al-sufi/star_names.fab:1273
-msgid "Sco_19"
-msgstr "Sco_19"
-
-#: skycultures/al-sufi/star_names.fab:1274
-msgid "Sco_20"
-msgstr "Sco_20"
-
-#: skycultures/al-sufi/star_names.fab:1275
-msgid "Sco_21"
-msgstr "Sco_21"
-
-#: skycultures/al-sufi/star_names.fab:1276
-msgid "Sco_a_01"
-msgstr "Sco_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1277
-msgid "Sco_a_02"
-msgstr "Sco_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1278
-msgid "Sco_a_03"
-msgstr "Sco_a_03"
 
 #: skycultures/al-sufi/star_names.fab:1280
 msgid "The northernmost of the three bright stars in the forehead"
@@ -14234,130 +12005,6 @@ msgstr "‎La ‎‎estrella‎‎ nebulosa en la parte trasera del aguijón"
 #: skycultures/al-sufi/star_names.fab:1302
 msgid "The most advanced of the two stars to the north of the sting"
 msgstr "‎La más avanzada de las dos estrellas al norte del aguijón"
-
-#: skycultures/al-sufi/star_names.fab:1308
-msgid "Sgr_1"
-msgstr "Sgr_1"
-
-#: skycultures/al-sufi/star_names.fab:1309
-msgid "Sgr_2"
-msgstr "Sgr_2"
-
-#: skycultures/al-sufi/star_names.fab:1310
-msgid "Sgr_3"
-msgstr "Sgr_3"
-
-#: skycultures/al-sufi/star_names.fab:1311
-msgid "Sgr_4"
-msgstr "Sgr_4"
-
-#: skycultures/al-sufi/star_names.fab:1312
-msgid "Sgr_5"
-msgstr "Sgr_5"
-
-#: skycultures/al-sufi/star_names.fab:1313
-msgid "Sgr_6"
-msgstr "Sgr_6"
-
-#: skycultures/al-sufi/star_names.fab:1314
-msgid "Sgr_7"
-msgstr "Sgr_7"
-
-#: skycultures/al-sufi/star_names.fab:1315
-msgid "Sgr_8"
-msgstr "Sgr_8"
-
-#: skycultures/al-sufi/star_names.fab:1316
-msgid "Sgr_9"
-msgstr "Sgr_9"
-
-#: skycultures/al-sufi/star_names.fab:1317
-msgid "Sgr_10"
-msgstr "Sgr_10"
-
-#: skycultures/al-sufi/star_names.fab:1318
-msgid "Sgr_11"
-msgstr "Sgr_11"
-
-#: skycultures/al-sufi/star_names.fab:1319
-msgid "Sgr_12"
-msgstr "Sgr_12"
-
-#: skycultures/al-sufi/star_names.fab:1320
-msgid "Sgr_13"
-msgstr "Sgr_13"
-
-#: skycultures/al-sufi/star_names.fab:1321
-msgid "Sgr_14"
-msgstr "Sgr_14"
-
-#: skycultures/al-sufi/star_names.fab:1322
-msgid "Sgr_15"
-msgstr "Sgr_15"
-
-#: skycultures/al-sufi/star_names.fab:1323
-msgid "Sgr_16"
-msgstr "Sgr_16"
-
-#: skycultures/al-sufi/star_names.fab:1324
-msgid "Sgr_17"
-msgstr "Sgr_17"
-
-#: skycultures/al-sufi/star_names.fab:1325
-msgid "Sgr_18"
-msgstr "Sgr_18"
-
-#: skycultures/al-sufi/star_names.fab:1326
-msgid "Sgr_19"
-msgstr "Sgr_19"
-
-#: skycultures/al-sufi/star_names.fab:1327
-msgid "Sgr_20"
-msgstr "Sgr_20"
-
-#: skycultures/al-sufi/star_names.fab:1328
-msgid "Sgr_21"
-msgstr "Sgr_21"
-
-#: skycultures/al-sufi/star_names.fab:1329
-msgid "Sgr_22"
-msgstr "Sgr_22"
-
-#: skycultures/al-sufi/star_names.fab:1330
-msgid "Sgr_23"
-msgstr "Sgr_23"
-
-#: skycultures/al-sufi/star_names.fab:1331
-msgid "Sgr_24"
-msgstr "Sgr_24"
-
-#: skycultures/al-sufi/star_names.fab:1332
-msgid "Sgr_25"
-msgstr "Sgr_25"
-
-#: skycultures/al-sufi/star_names.fab:1333
-msgid "Sgr_26"
-msgstr "Sgr_26"
-
-#: skycultures/al-sufi/star_names.fab:1334
-msgid "Sgr_27"
-msgstr "Sgr_27"
-
-#: skycultures/al-sufi/star_names.fab:1335
-msgid "Sgr_28"
-msgstr "Sgr_28"
-
-#: skycultures/al-sufi/star_names.fab:1336
-msgid "Sgr_29"
-msgstr "Sgr_29"
-
-#: skycultures/al-sufi/star_names.fab:1337
-msgid "Sgr_30"
-msgstr "Sgr_30"
-
-#: skycultures/al-sufi/star_names.fab:1338
-msgid "Sgr_31"
-msgstr "Sgr_31"
 
 #: skycultures/al-sufi/star_names.fab:1340
 msgid "The star on the point of the arrow"
@@ -14457,118 +12104,6 @@ msgstr "La estrella avanzada en el lado del sur"
 msgid "The rear star on the southern side"
 msgstr "La estrella trasera en el lado del sur"
 
-#: skycultures/al-sufi/star_names.fab:1373
-msgid "Cap_1"
-msgstr "Cap_1"
-
-#: skycultures/al-sufi/star_names.fab:1374
-msgid "Cap_2"
-msgstr "Cap_2"
-
-#: skycultures/al-sufi/star_names.fab:1375
-msgid "Cap_3"
-msgstr "Cap_3"
-
-#: skycultures/al-sufi/star_names.fab:1376
-msgid "Cap_4"
-msgstr "Cap_4"
-
-#: skycultures/al-sufi/star_names.fab:1377
-msgid "Cap_5"
-msgstr "Cap_5"
-
-#: skycultures/al-sufi/star_names.fab:1378
-msgid "Cap_6"
-msgstr "Cap_6"
-
-#: skycultures/al-sufi/star_names.fab:1379
-msgid "Cap_7"
-msgstr "Cap_7"
-
-#: skycultures/al-sufi/star_names.fab:1380
-msgid "Cap_8"
-msgstr "Cap_8"
-
-#: skycultures/al-sufi/star_names.fab:1381
-msgid "Cap_9"
-msgstr "Cap_9"
-
-#: skycultures/al-sufi/star_names.fab:1382
-msgid "Cap_10"
-msgstr "Cap_10"
-
-#: skycultures/al-sufi/star_names.fab:1383
-msgid "Cap_11"
-msgstr "Cap_11"
-
-#: skycultures/al-sufi/star_names.fab:1384
-msgid "Cap_12"
-msgstr "Cap_12"
-
-#: skycultures/al-sufi/star_names.fab:1385
-msgid "Cap_13"
-msgstr "Cap_13"
-
-#: skycultures/al-sufi/star_names.fab:1386
-msgid "Cap_14"
-msgstr "Cap_14"
-
-#: skycultures/al-sufi/star_names.fab:1387
-msgid "Cap_15"
-msgstr "Cap_15"
-
-#: skycultures/al-sufi/star_names.fab:1388
-msgid "Cap_16"
-msgstr "Cap_16"
-
-#: skycultures/al-sufi/star_names.fab:1389
-msgid "Cap_17"
-msgstr "Cap_17"
-
-#: skycultures/al-sufi/star_names.fab:1390
-msgid "Cap_18"
-msgstr "Cap_18"
-
-#: skycultures/al-sufi/star_names.fab:1391
-msgid "Cap_19"
-msgstr "Cap_19"
-
-#: skycultures/al-sufi/star_names.fab:1392
-msgid "Cap_20"
-msgstr "Cap_20"
-
-#: skycultures/al-sufi/star_names.fab:1393
-msgid "Cap_21"
-msgstr "Cap_21"
-
-#: skycultures/al-sufi/star_names.fab:1394
-msgid "Cap_22"
-msgstr "Cap_22"
-
-#: skycultures/al-sufi/star_names.fab:1395
-msgid "Cap_23"
-msgstr "Cap_23"
-
-#: skycultures/al-sufi/star_names.fab:1396
-msgid "Cap_24"
-msgstr "Cap_24"
-
-#: skycultures/al-sufi/star_names.fab:1397
-msgid "Cap_25"
-msgstr "Cap_25"
-
-#: skycultures/al-sufi/star_names.fab:1398
-msgid "Cap_26"
-msgstr "Cap_26"
-
-#: skycultures/al-sufi/star_names.fab:1399
-msgid "Cap_27"
-msgstr "Cap_27"
-
-#: skycultures/al-sufi/star_names.fab:1400
-msgid "Cap_28"
-msgstr "Cap_28"
-
 #: skycultures/al-sufi/star_names.fab:1402
 msgid "The northernmost of the three stars in the rear horn"
 msgstr "‎La más septentrional de las tres estrellas en el cuerno trasero"
@@ -14649,186 +12184,6 @@ msgstr "La más septentrional de ellas, en el extremo de la aleta de cola‎"
 #: skycultures/al-sufi/star_names.fab:1431
 msgid "The sheep of the lucky star of the slaughterer"
 msgstr "‎La oveja de la ‎‎estrella‎‎ de la suerte del matadero‎"
-
-#: skycultures/al-sufi/star_names.fab:1434
-msgid "Aqr_1"
-msgstr "Aqr_1"
-
-#: skycultures/al-sufi/star_names.fab:1435
-msgid "Aqr_2"
-msgstr "Aqr_2"
-
-#: skycultures/al-sufi/star_names.fab:1436
-msgid "Aqr_3"
-msgstr "Aqr_3"
-
-#: skycultures/al-sufi/star_names.fab:1437
-msgid "Aqr_4"
-msgstr "Aqr_4"
-
-#: skycultures/al-sufi/star_names.fab:1438
-msgid "Aqr_5"
-msgstr "Aqr_5"
-
-#: skycultures/al-sufi/star_names.fab:1439
-msgid "Aqr_6"
-msgstr "Aqr_6"
-
-#: skycultures/al-sufi/star_names.fab:1440
-msgid "Aqr_7"
-msgstr "Aqr_7"
-
-#: skycultures/al-sufi/star_names.fab:1441
-msgid "Aqr_8"
-msgstr "Aqr_8"
-
-#: skycultures/al-sufi/star_names.fab:1442
-msgid "Aqr_9"
-msgstr "Aqr_9"
-
-#: skycultures/al-sufi/star_names.fab:1443
-msgid "Aqr_10"
-msgstr "Aqr_10"
-
-#: skycultures/al-sufi/star_names.fab:1444
-msgid "Aqr_11"
-msgstr "Aqr_11"
-
-#: skycultures/al-sufi/star_names.fab:1445
-msgid "Aqr_12"
-msgstr "Aqr_12"
-
-#: skycultures/al-sufi/star_names.fab:1446
-msgid "Aqr_13"
-msgstr "Aqr_13"
-
-#: skycultures/al-sufi/star_names.fab:1447
-msgid "Aqr_14"
-msgstr "Aqr_14"
-
-#: skycultures/al-sufi/star_names.fab:1448
-msgid "Aqr_15"
-msgstr "Aqr_15"
-
-#: skycultures/al-sufi/star_names.fab:1449
-msgid "Aqr_16"
-msgstr "Aqr_16"
-
-#: skycultures/al-sufi/star_names.fab:1450
-msgid "Aqr_17"
-msgstr "Aqr_17"
-
-#: skycultures/al-sufi/star_names.fab:1451
-msgid "Aqr_18"
-msgstr "Aqr_18"
-
-#: skycultures/al-sufi/star_names.fab:1452
-msgid "Aqr_19"
-msgstr "Aqr_19"
-
-#: skycultures/al-sufi/star_names.fab:1453
-msgid "Aqr_20"
-msgstr "Aqr_20"
-
-#: skycultures/al-sufi/star_names.fab:1454
-msgid "Aqr_21"
-msgstr "Aqr_21"
-
-#: skycultures/al-sufi/star_names.fab:1455
-msgid "Aqr_22"
-msgstr "Aqr_22"
-
-#: skycultures/al-sufi/star_names.fab:1456
-msgid "Aqr_23"
-msgstr "Aqr_23"
-
-#: skycultures/al-sufi/star_names.fab:1457
-msgid "Aqr_24"
-msgstr "Aqr_24"
-
-#: skycultures/al-sufi/star_names.fab:1458
-msgid "Aqr_25"
-msgstr "Aqr_25"
-
-#: skycultures/al-sufi/star_names.fab:1459
-msgid "Aqr_26"
-msgstr "Aqr_26"
-
-#: skycultures/al-sufi/star_names.fab:1460
-msgid "Aqr_27"
-msgstr "Aqr_27"
-
-#: skycultures/al-sufi/star_names.fab:1461
-msgid "Aqr_28"
-msgstr "Aqr_28"
-
-#: skycultures/al-sufi/star_names.fab:1462
-msgid "Aqr_29"
-msgstr "Aqr_29"
-
-#: skycultures/al-sufi/star_names.fab:1463
-msgid "Aqr_30"
-msgstr "Aqr_30"
-
-#: skycultures/al-sufi/star_names.fab:1464
-msgid "Aqr_31"
-msgstr "Aqr_31"
-
-#: skycultures/al-sufi/star_names.fab:1465
-msgid "Aqr_32"
-msgstr "Aqr_32"
-
-#: skycultures/al-sufi/star_names.fab:1466
-msgid "Aqr_33"
-msgstr "Aqr_33"
-
-#: skycultures/al-sufi/star_names.fab:1467
-msgid "Aqr_34"
-msgstr "Aqr_34"
-
-#: skycultures/al-sufi/star_names.fab:1468
-msgid "Aqr_35"
-msgstr "Aqr_35"
-
-#: skycultures/al-sufi/star_names.fab:1469
-msgid "Aqr_36"
-msgstr "Aqr_36"
-
-#: skycultures/al-sufi/star_names.fab:1470
-msgid "Aqr_37"
-msgstr "Aqr_37"
-
-#: skycultures/al-sufi/star_names.fab:1471
-msgid "Aqr_38"
-msgstr "Aqr_38"
-
-#: skycultures/al-sufi/star_names.fab:1472
-msgid "Aqr_39"
-msgstr "Aqr_39"
-
-#: skycultures/al-sufi/star_names.fab:1473
-msgid "Aqr_40"
-msgstr "Aqr_40"
-
-#: skycultures/al-sufi/star_names.fab:1474
-msgid "Aqr_41"
-msgstr "Aqr_41"
-
-#: skycultures/al-sufi/star_names.fab:1475
-msgid "Aqr_42"
-msgstr "Aqr_42"
-
-#: skycultures/al-sufi/star_names.fab:1476
-msgid "Aqr_a_01"
-msgstr "Aqr_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1477
-msgid "Aqr_a_02"
-msgstr "Aqr_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1478
-msgid "Aqr_a_03"
-msgstr "Aqr_a_03"
 
 #: skycultures/al-sufi/star_names.fab:1480
 msgid "The star on the head of Aquarius"
@@ -14979,158 +12334,6 @@ msgstr "La primera rana"
 msgid "The male ostrich"
 msgstr "El avestruz macho"
 
-#: skycultures/al-sufi/star_names.fab:1530
-msgid "Psc_1"
-msgstr "Psc_1"
-
-#: skycultures/al-sufi/star_names.fab:1531
-msgid "Psc_2"
-msgstr "Psc_2"
-
-#: skycultures/al-sufi/star_names.fab:1532
-msgid "Psc_3"
-msgstr "Psc_3"
-
-#: skycultures/al-sufi/star_names.fab:1533
-msgid "Psc_4"
-msgstr "Psc_4"
-
-#: skycultures/al-sufi/star_names.fab:1534
-msgid "Psc_5"
-msgstr "Psc_5"
-
-#: skycultures/al-sufi/star_names.fab:1535
-msgid "Psc_6"
-msgstr "Psc_6"
-
-#: skycultures/al-sufi/star_names.fab:1536
-msgid "Psc_7"
-msgstr "Psc_7"
-
-#: skycultures/al-sufi/star_names.fab:1537
-msgid "Psc_8"
-msgstr "Psc_8"
-
-#: skycultures/al-sufi/star_names.fab:1538
-msgid "Psc_9"
-msgstr "Psc_9"
-
-#: skycultures/al-sufi/star_names.fab:1539
-msgid "Psc_10"
-msgstr "Psc_10"
-
-#: skycultures/al-sufi/star_names.fab:1540
-msgid "Psc_11"
-msgstr "Psc_11"
-
-#: skycultures/al-sufi/star_names.fab:1541
-msgid "Psc_12"
-msgstr "Psc_12"
-
-#: skycultures/al-sufi/star_names.fab:1542
-msgid "Psc_13"
-msgstr "Psc_13"
-
-#: skycultures/al-sufi/star_names.fab:1543
-msgid "Psc_14"
-msgstr "Psc_14"
-
-#: skycultures/al-sufi/star_names.fab:1544
-msgid "Psc_15"
-msgstr "Psc_15"
-
-#: skycultures/al-sufi/star_names.fab:1545
-msgid "Psc_16"
-msgstr "Psc_16"
-
-#: skycultures/al-sufi/star_names.fab:1546
-msgid "Psc_17"
-msgstr "Psc_17"
-
-#: skycultures/al-sufi/star_names.fab:1547
-msgid "Psc_18"
-msgstr "Psc_18"
-
-#: skycultures/al-sufi/star_names.fab:1548
-msgid "Psc_19"
-msgstr "Psc_19"
-
-#: skycultures/al-sufi/star_names.fab:1549
-msgid "Psc_20"
-msgstr "Psc_20"
-
-#: skycultures/al-sufi/star_names.fab:1550
-msgid "Psc_21"
-msgstr "Psc_21"
-
-#: skycultures/al-sufi/star_names.fab:1551
-msgid "Psc_22"
-msgstr "Psc_22"
-
-#: skycultures/al-sufi/star_names.fab:1552
-msgid "Psc_23"
-msgstr "Psc_23"
-
-#: skycultures/al-sufi/star_names.fab:1553
-msgid "Psc_24"
-msgstr "Psc_24"
-
-#: skycultures/al-sufi/star_names.fab:1554
-msgid "Psc_25"
-msgstr "Psc_25"
-
-#: skycultures/al-sufi/star_names.fab:1555
-msgid "Psc_26"
-msgstr "Psc_26"
-
-#: skycultures/al-sufi/star_names.fab:1556
-msgid "Psc_27"
-msgstr "Psc_27"
-
-#: skycultures/al-sufi/star_names.fab:1557
-msgid "Psc_28"
-msgstr "Psc_28"
-
-#: skycultures/al-sufi/star_names.fab:1558
-msgid "Psc_29"
-msgstr "Psc_29"
-
-#: skycultures/al-sufi/star_names.fab:1559
-msgid "Psc_30"
-msgstr "Psc_30"
-
-#: skycultures/al-sufi/star_names.fab:1560
-msgid "Psc_31"
-msgstr "Psc_31"
-
-#: skycultures/al-sufi/star_names.fab:1561
-msgid "Psc_32"
-msgstr "Psc_32"
-
-#: skycultures/al-sufi/star_names.fab:1562
-msgid "Psc_33"
-msgstr "Psc_33"
-
-#: skycultures/al-sufi/star_names.fab:1563
-msgid "Psc_34"
-msgstr "Psc_34"
-
-#: skycultures/al-sufi/star_names.fab:1564
-msgid "Psc_a_01"
-msgstr "Psc_a_01"
-
-#: skycultures/al-sufi/star_names.fab:1565
-msgid "Psc_a_02"
-msgstr "Psc_a_02"
-
-#: skycultures/al-sufi/star_names.fab:1566
-msgid "Psc_a_03"
-msgstr "Psc_a_03"
-
-#: skycultures/al-sufi/star_names.fab:1567
-msgid "Psc_a_04"
-msgstr "Psc_a_04"
-
 #: skycultures/al-sufi/star_names.fab:1569
 msgid "The star in the mouth of the advance fish"
 msgstr "‎La ‎‎estrella en la boca del pez avanzado"
@@ -15228,94 +12431,6 @@ msgstr "‎La ‎‎estrella‎‎ más avanzada en el lado sur‎"
 msgid "The rearmost one on the southern side"
 msgstr "La estrella más trasera en el lado del sur"
 
-#: skycultures/al-sufi/star_names.fab:1609
-msgid "Cet_1"
-msgstr "Cet_1"
-
-#: skycultures/al-sufi/star_names.fab:1610
-msgid "Cet_2"
-msgstr "Cet_2"
-
-#: skycultures/al-sufi/star_names.fab:1611
-msgid "Cet_3"
-msgstr "Cet_3"
-
-#: skycultures/al-sufi/star_names.fab:1612
-msgid "Cet_4"
-msgstr "Cet_4"
-
-#: skycultures/al-sufi/star_names.fab:1613
-msgid "Cet_5"
-msgstr "Cet_5"
-
-#: skycultures/al-sufi/star_names.fab:1614
-msgid "Cet_6"
-msgstr "Cet_6"
-
-#: skycultures/al-sufi/star_names.fab:1615
-msgid "Cet_7"
-msgstr "Cet_7"
-
-#: skycultures/al-sufi/star_names.fab:1616
-msgid "Cet_8"
-msgstr "Cet_8"
-
-#: skycultures/al-sufi/star_names.fab:1617
-msgid "Cet_9"
-msgstr "Cet_9"
-
-#: skycultures/al-sufi/star_names.fab:1618
-msgid "Cet_10"
-msgstr "Cet_10"
-
-#: skycultures/al-sufi/star_names.fab:1619
-msgid "Cet_11"
-msgstr "Cet_11"
-
-#: skycultures/al-sufi/star_names.fab:1620
-msgid "Cet_12"
-msgstr "Cet_12"
-
-#: skycultures/al-sufi/star_names.fab:1621
-msgid "Cet_13"
-msgstr "Cet_13"
-
-#: skycultures/al-sufi/star_names.fab:1622
-msgid "Cet_14"
-msgstr "Cet_14"
-
-#: skycultures/al-sufi/star_names.fab:1623
-msgid "Cet_15"
-msgstr "Cet_15"
-
-#: skycultures/al-sufi/star_names.fab:1624
-msgid "Cet_16"
-msgstr "Cet_16"
-
-#: skycultures/al-sufi/star_names.fab:1625
-msgid "Cet_17"
-msgstr "Cet_17"
-
-#: skycultures/al-sufi/star_names.fab:1626
-msgid "Cet_18"
-msgstr "Cet_18"
-
-#: skycultures/al-sufi/star_names.fab:1627
-msgid "Cet_19"
-msgstr "Cet_19"
-
-#: skycultures/al-sufi/star_names.fab:1628
-msgid "Cet_20"
-msgstr "Cet_20"
-
-#: skycultures/al-sufi/star_names.fab:1629
-msgid "Cet_21"
-msgstr "Cet_21"
-
-#: skycultures/al-sufi/star_names.fab:1630
-msgid "Cet_22"
-msgstr "Cet_22"
-
 #: skycultures/al-sufi/star_names.fab:1633
 msgid "The rearmost, on the end of the jaw of the three stars in the snout"
 msgstr ""
@@ -15389,158 +12504,6 @@ msgstr "La que está al final de la aleta trasera del sur‎"
 #: skycultures/al-sufi/star_names.fab:1655
 msgid "The second frog"
 msgstr "La segunda rana"
-
-#: skycultures/al-sufi/star_names.fab:1658
-msgid "Ori_1"
-msgstr "Ori_1"
-
-#: skycultures/al-sufi/star_names.fab:1659
-msgid "Ori_2"
-msgstr "Ori_2"
-
-#: skycultures/al-sufi/star_names.fab:1660
-msgid "Ori_3"
-msgstr "Ori_3"
-
-#: skycultures/al-sufi/star_names.fab:1661
-msgid "Ori_4"
-msgstr "Ori_4"
-
-#: skycultures/al-sufi/star_names.fab:1662
-msgid "Ori_5"
-msgstr "Ori_5"
-
-#: skycultures/al-sufi/star_names.fab:1663
-msgid "Ori_6"
-msgstr "Ori_6"
-
-#: skycultures/al-sufi/star_names.fab:1664
-msgid "Ori_7"
-msgstr "Ori_7"
-
-#: skycultures/al-sufi/star_names.fab:1665
-msgid "Ori_8"
-msgstr "Ori_8"
-
-#: skycultures/al-sufi/star_names.fab:1666
-msgid "Ori_9"
-msgstr "Ori_9"
-
-#: skycultures/al-sufi/star_names.fab:1667
-msgid "Ori_10"
-msgstr "Ori_10"
-
-#: skycultures/al-sufi/star_names.fab:1668
-msgid "Ori_11"
-msgstr "Ori_11"
-
-#: skycultures/al-sufi/star_names.fab:1669
-msgid "Ori_12"
-msgstr "Ori_12"
-
-#: skycultures/al-sufi/star_names.fab:1670
-msgid "Ori_13"
-msgstr "Ori_13"
-
-#: skycultures/al-sufi/star_names.fab:1671
-msgid "Ori_14"
-msgstr "Ori_14"
-
-#: skycultures/al-sufi/star_names.fab:1672
-msgid "Ori_15"
-msgstr "Ori_15"
-
-#: skycultures/al-sufi/star_names.fab:1673
-msgid "Ori_16"
-msgstr "Ori_16"
-
-#: skycultures/al-sufi/star_names.fab:1674
-msgid "Ori_17"
-msgstr "Ori_17"
-
-#: skycultures/al-sufi/star_names.fab:1675
-msgid "Ori_18"
-msgstr "Ori_18"
-
-#: skycultures/al-sufi/star_names.fab:1676
-msgid "Ori_19"
-msgstr "Ori_19"
-
-#: skycultures/al-sufi/star_names.fab:1677
-msgid "Ori_20"
-msgstr "Ori_20"
-
-#: skycultures/al-sufi/star_names.fab:1678
-msgid "Ori_21"
-msgstr "Ori_21"
-
-#: skycultures/al-sufi/star_names.fab:1679
-msgid "Ori_22"
-msgstr "Ori_22"
-
-#: skycultures/al-sufi/star_names.fab:1680
-msgid "Ori_23"
-msgstr "Ori_23"
-
-#: skycultures/al-sufi/star_names.fab:1681
-msgid "Ori_24"
-msgstr "Ori_24"
-
-#: skycultures/al-sufi/star_names.fab:1682
-msgid "Ori_25"
-msgstr "Ori_25"
-
-#: skycultures/al-sufi/star_names.fab:1683
-msgid "Ori_26"
-msgstr "Ori_26"
-
-#: skycultures/al-sufi/star_names.fab:1684
-msgid "Ori_27"
-msgstr "Ori_27"
-
-#: skycultures/al-sufi/star_names.fab:1685
-msgid "Ori_28"
-msgstr "Ori_28"
-
-#: skycultures/al-sufi/star_names.fab:1686
-msgid "Ori_29"
-msgstr "Ori_29"
-
-#: skycultures/al-sufi/star_names.fab:1687
-msgid "Ori_30"
-msgstr "Ori_30"
-
-#: skycultures/al-sufi/star_names.fab:1688
-msgid "Ori_31"
-msgstr "Ori_31"
-
-#: skycultures/al-sufi/star_names.fab:1689
-msgid "Ori_32"
-msgstr "Ori_32"
-
-#: skycultures/al-sufi/star_names.fab:1690
-msgid "Ori_33"
-msgstr "Ori_33"
-
-#: skycultures/al-sufi/star_names.fab:1691
-msgid "Ori_34"
-msgstr "Ori_34"
-
-#: skycultures/al-sufi/star_names.fab:1692
-msgid "Ori_35"
-msgstr "Ori_35"
-
-#: skycultures/al-sufi/star_names.fab:1693
-msgid "Ori_36"
-msgstr "Ori_36"
-
-#: skycultures/al-sufi/star_names.fab:1694
-msgid "Ori_37"
-msgstr "Ori_37"
-
-#: skycultures/al-sufi/star_names.fab:1695
-msgid "Ori_38"
-msgstr "Ori_38"
 
 #: skycultures/al-sufi/star_names.fab:1697
 msgid "The nebulous star in the head of Orion, the three close stars"
@@ -15705,142 +12668,6 @@ msgstr "Al-Mirzam"
 msgid "Leg of Al-Jawza"
 msgstr "Pierna de Al-Jawza"
 
-#: skycultures/al-sufi/star_names.fab:1754
-msgid "Eri_1"
-msgstr "Eri_1"
-
-#: skycultures/al-sufi/star_names.fab:1755
-msgid "Eri_2"
-msgstr "Eri_2"
-
-#: skycultures/al-sufi/star_names.fab:1756
-msgid "Eri_3"
-msgstr "Eri_3"
-
-#: skycultures/al-sufi/star_names.fab:1757
-msgid "Eri_4"
-msgstr "Eri_4"
-
-#: skycultures/al-sufi/star_names.fab:1758
-msgid "Eri_5"
-msgstr "Eri_5"
-
-#: skycultures/al-sufi/star_names.fab:1759
-msgid "Eri_6"
-msgstr "Eri_6"
-
-#: skycultures/al-sufi/star_names.fab:1760
-msgid "Eri_7"
-msgstr "Eri_7"
-
-#: skycultures/al-sufi/star_names.fab:1761
-msgid "Eri_8"
-msgstr "Eri_8"
-
-#: skycultures/al-sufi/star_names.fab:1762
-msgid "Eri_9"
-msgstr "Eri_9"
-
-#: skycultures/al-sufi/star_names.fab:1763
-msgid "Eri_10"
-msgstr "Eri_10"
-
-#: skycultures/al-sufi/star_names.fab:1764
-msgid "Eri_11"
-msgstr "Eri_11"
-
-#: skycultures/al-sufi/star_names.fab:1765
-msgid "Eri_12"
-msgstr "Eri_12"
-
-#: skycultures/al-sufi/star_names.fab:1766
-msgid "Eri_13"
-msgstr "Eri_13"
-
-#: skycultures/al-sufi/star_names.fab:1767
-msgid "Eri_14"
-msgstr "Eri_14"
-
-#: skycultures/al-sufi/star_names.fab:1768
-msgid "Eri_15"
-msgstr "Eri_15"
-
-#: skycultures/al-sufi/star_names.fab:1769
-msgid "Eri_16"
-msgstr "Eri_16"
-
-#: skycultures/al-sufi/star_names.fab:1770
-msgid "Eri_17"
-msgstr "Eri_17"
-
-#: skycultures/al-sufi/star_names.fab:1771
-msgid "Eri_18"
-msgstr "Eri_18"
-
-#: skycultures/al-sufi/star_names.fab:1772
-msgid "Eri_19"
-msgstr "Eri_19"
-
-#: skycultures/al-sufi/star_names.fab:1773
-msgid "Eri_20"
-msgstr "Eri_20"
-
-#: skycultures/al-sufi/star_names.fab:1774
-msgid "Eri_21"
-msgstr "Eri_21"
-
-#: skycultures/al-sufi/star_names.fab:1775
-msgid "Eri_22"
-msgstr "Eri_22"
-
-#: skycultures/al-sufi/star_names.fab:1776
-msgid "Eri_23"
-msgstr "Eri_23"
-
-#: skycultures/al-sufi/star_names.fab:1777
-msgid "Eri_24"
-msgstr "Eri_24"
-
-#: skycultures/al-sufi/star_names.fab:1778
-msgid "Eri_25"
-msgstr "Eri_25"
-
-#: skycultures/al-sufi/star_names.fab:1779
-msgid "Eri_26"
-msgstr "Eri_26"
-
-#: skycultures/al-sufi/star_names.fab:1780
-msgid "Eri_27"
-msgstr "Eri_27"
-
-#: skycultures/al-sufi/star_names.fab:1781
-msgid "Eri_28"
-msgstr "Eri_28"
-
-#: skycultures/al-sufi/star_names.fab:1782
-msgid "Eri_29"
-msgstr "Eri_29"
-
-#: skycultures/al-sufi/star_names.fab:1783
-msgid "Eri_30"
-msgstr "Eri_30"
-
-#: skycultures/al-sufi/star_names.fab:1784
-msgid "Eri_31"
-msgstr "Eri_31"
-
-#: skycultures/al-sufi/star_names.fab:1785
-msgid "Eri_32"
-msgstr "Eri_32"
-
-#: skycultures/al-sufi/star_names.fab:1786
-msgid "Eri_33"
-msgstr "Eri_33"
-
-#: skycultures/al-sufi/star_names.fab:1787
-msgid "Eri_34"
-msgstr "Eri_34"
-
 #: skycultures/al-sufi/star_names.fab:1789
 msgid ""
 "The star after the one in the foot of Orion, at the beginning of the river"
@@ -15932,54 +12759,6 @@ msgid "The last star of the river, the bright one, called 'The male ostrich'"
 msgstr ""
 "‎La última ‎‎estrella‎‎ del río, la ‎‎brillante,‎‎ llamada 'El avestruz "
 "macho'‎"
-
-#: skycultures/al-sufi/star_names.fab:1827
-msgid "Lep_1"
-msgstr "Lep_1"
-
-#: skycultures/al-sufi/star_names.fab:1828
-msgid "Lep_2"
-msgstr "Lep_2"
-
-#: skycultures/al-sufi/star_names.fab:1829
-msgid "Lep_3"
-msgstr "Lep_3"
-
-#: skycultures/al-sufi/star_names.fab:1830
-msgid "Lep_4"
-msgstr "Lep_4"
-
-#: skycultures/al-sufi/star_names.fab:1831
-msgid "Lep_5"
-msgstr "Lep_5"
-
-#: skycultures/al-sufi/star_names.fab:1832
-msgid "Lep_6"
-msgstr "Lep_6"
-
-#: skycultures/al-sufi/star_names.fab:1833
-msgid "Lep_7"
-msgstr "Lep_7"
-
-#: skycultures/al-sufi/star_names.fab:1834
-msgid "Lep_8"
-msgstr "Lep_8"
-
-#: skycultures/al-sufi/star_names.fab:1835
-msgid "Lep_9"
-msgstr "Lep_9"
-
-#: skycultures/al-sufi/star_names.fab:1836
-msgid "Lep_10"
-msgstr "Lep_10"
-
-#: skycultures/al-sufi/star_names.fab:1837
-msgid "Lep_11"
-msgstr "Lep_11"
-
-#: skycultures/al-sufi/star_names.fab:1838
-msgid "Lep_12"
-msgstr "Lep_12"
 
 #: skycultures/al-sufi/star_names.fab:1840
 msgid ""
@@ -16242,14 +13021,6 @@ msgstr "El Mirzam de Shi'raa"
 msgid "The dog"
 msgstr "El perro"
 
-#: skycultures/al-sufi/star_names.fab:1923
-msgid "CMi_1"
-msgstr "CMi_1"
-
-#: skycultures/al-sufi/star_names.fab:1924
-msgid "CMi_2"
-msgstr "CMi_2"
-
 #. TRANSLATORS: Al-Mirzam is a proper name meaning the star of sound of
 #. thunder.
 #: skycultures/al-sufi/star_names.fab:1927
@@ -16265,186 +13036,6 @@ msgid ""
 msgstr ""
 "‎La ‎‎estrella‎‎ ‎‎brillante‎‎ justo sobre los cuartos traseros, llamada 'El"
 " shi'raa del norte o lagrimal'‎"
-
-#: skycultures/al-sufi/star_names.fab:1932
-msgid "Arg_1"
-msgstr "Arg_1"
-
-#: skycultures/al-sufi/star_names.fab:1933
-msgid "Arg_2"
-msgstr "Arg_2"
-
-#: skycultures/al-sufi/star_names.fab:1934
-msgid "Arg_3"
-msgstr "Arg_3"
-
-#: skycultures/al-sufi/star_names.fab:1935
-msgid "Arg_4"
-msgstr "Arg_4"
-
-#: skycultures/al-sufi/star_names.fab:1936
-msgid "Arg_5"
-msgstr "Arg_5"
-
-#: skycultures/al-sufi/star_names.fab:1937
-msgid "Arg_6"
-msgstr "Arg_6"
-
-#: skycultures/al-sufi/star_names.fab:1938
-msgid "Arg_7"
-msgstr "Arg_7"
-
-#: skycultures/al-sufi/star_names.fab:1939
-msgid "Arg_8"
-msgstr "Arg_8"
-
-#: skycultures/al-sufi/star_names.fab:1940
-msgid "Arg_9"
-msgstr "Arg_9"
-
-#: skycultures/al-sufi/star_names.fab:1941
-msgid "Arg_10"
-msgstr "Arg_10"
-
-#: skycultures/al-sufi/star_names.fab:1942
-msgid "Arg_11"
-msgstr "Arg_11"
-
-#: skycultures/al-sufi/star_names.fab:1943
-msgid "Arg_12"
-msgstr "Arg_12"
-
-#: skycultures/al-sufi/star_names.fab:1944
-msgid "Arg_13"
-msgstr "Arg_13"
-
-#: skycultures/al-sufi/star_names.fab:1945
-msgid "Arg_14"
-msgstr "Arg_14"
-
-#: skycultures/al-sufi/star_names.fab:1946
-msgid "Arg_15"
-msgstr "Arg_15"
-
-#: skycultures/al-sufi/star_names.fab:1947
-msgid "Arg_16"
-msgstr "Arg_16"
-
-#: skycultures/al-sufi/star_names.fab:1948
-msgid "Arg_17"
-msgstr "Arg_17"
-
-#: skycultures/al-sufi/star_names.fab:1949
-msgid "Arg_18"
-msgstr "Arg_18"
-
-#: skycultures/al-sufi/star_names.fab:1950
-msgid "Arg_19"
-msgstr "Arg_19"
-
-#: skycultures/al-sufi/star_names.fab:1951
-msgid "Arg_20"
-msgstr "Arg_20"
-
-#: skycultures/al-sufi/star_names.fab:1952
-msgid "Arg_21"
-msgstr "Arg_21"
-
-#: skycultures/al-sufi/star_names.fab:1953
-msgid "Arg_22"
-msgstr "Arg_22"
-
-#: skycultures/al-sufi/star_names.fab:1954
-msgid "Arg_23"
-msgstr "Arg_23"
-
-#: skycultures/al-sufi/star_names.fab:1955
-msgid "Arg_24"
-msgstr "Arg_24"
-
-#: skycultures/al-sufi/star_names.fab:1956
-msgid "Arg_25"
-msgstr "Arg_25"
-
-#: skycultures/al-sufi/star_names.fab:1957
-msgid "Arg_26"
-msgstr "Arg_26"
-
-#: skycultures/al-sufi/star_names.fab:1958
-msgid "Arg_27"
-msgstr "Arg_27"
-
-#: skycultures/al-sufi/star_names.fab:1959
-msgid "Arg_28"
-msgstr "Arg_28"
-
-#: skycultures/al-sufi/star_names.fab:1960
-msgid "Arg_29"
-msgstr "Arg_29"
-
-#: skycultures/al-sufi/star_names.fab:1961
-msgid "Arg_30"
-msgstr "Arg_30"
-
-#: skycultures/al-sufi/star_names.fab:1962
-msgid "Arg_31"
-msgstr "Arg_31"
-
-#: skycultures/al-sufi/star_names.fab:1963
-msgid "Arg_32"
-msgstr "Arg_32"
-
-#: skycultures/al-sufi/star_names.fab:1964
-msgid "Arg_33"
-msgstr "Arg_33"
-
-#: skycultures/al-sufi/star_names.fab:1965
-msgid "Arg_34"
-msgstr "Arg_34"
-
-#: skycultures/al-sufi/star_names.fab:1966
-msgid "Arg_35"
-msgstr "Arg_35"
-
-#: skycultures/al-sufi/star_names.fab:1967
-msgid "Arg_36"
-msgstr "Arg_36"
-
-#: skycultures/al-sufi/star_names.fab:1968
-msgid "Arg_37"
-msgstr "Arg_37"
-
-#: skycultures/al-sufi/star_names.fab:1969
-msgid "Arg_38"
-msgstr "Arg_38"
-
-#: skycultures/al-sufi/star_names.fab:1970
-msgid "Arg_39"
-msgstr "Arg_39"
-
-#: skycultures/al-sufi/star_names.fab:1971
-msgid "Arg_40"
-msgstr "Arg_40"
-
-#: skycultures/al-sufi/star_names.fab:1972
-msgid "Arg_41"
-msgstr "Arg_41"
-
-#: skycultures/al-sufi/star_names.fab:1973
-msgid "Arg_42"
-msgstr "Arg_42"
-
-#: skycultures/al-sufi/star_names.fab:1974
-msgid "Arg_43"
-msgstr "Arg_43"
-
-#: skycultures/al-sufi/star_names.fab:1975
-msgid "Arg_44"
-msgstr "Arg_44"
-
-#: skycultures/al-sufi/star_names.fab:1976
-msgid "Arg_45"
-msgstr "Arg_45"
 
 #: skycultures/al-sufi/star_names.fab:1978
 msgid "The more advanced of the two stars at the end of the ship"
@@ -16578,114 +13169,6 @@ msgstr ""
 msgid "The other, rearmost star"
 msgstr "La otra estrella más retrasada"
 
-#: skycultures/al-sufi/star_names.fab:2026
-msgid "Hya_1"
-msgstr "Hya_1"
-
-#: skycultures/al-sufi/star_names.fab:2027
-msgid "Hya_2"
-msgstr "Hya_2"
-
-#: skycultures/al-sufi/star_names.fab:2028
-msgid "Hya_3"
-msgstr "Hya_3"
-
-#: skycultures/al-sufi/star_names.fab:2029
-msgid "Hya_4"
-msgstr "Hya_4"
-
-#: skycultures/al-sufi/star_names.fab:2030
-msgid "Hya_5"
-msgstr "Hya_5"
-
-#: skycultures/al-sufi/star_names.fab:2031
-msgid "Hya_6"
-msgstr "Hya_6"
-
-#: skycultures/al-sufi/star_names.fab:2032
-msgid "Hya_7"
-msgstr "Hya_7"
-
-#: skycultures/al-sufi/star_names.fab:2033
-msgid "Hya_8"
-msgstr "Hya_8"
-
-#: skycultures/al-sufi/star_names.fab:2034
-msgid "Hya_9"
-msgstr "Hya_9"
-
-#: skycultures/al-sufi/star_names.fab:2035
-msgid "Hya_10"
-msgstr "Hya_10"
-
-#: skycultures/al-sufi/star_names.fab:2036
-msgid "Hya_11"
-msgstr "Hya_11"
-
-#: skycultures/al-sufi/star_names.fab:2037
-msgid "Hya_12"
-msgstr "Hya_12"
-
-#: skycultures/al-sufi/star_names.fab:2038
-msgid "Hya_13"
-msgstr "Hya_13"
-
-#: skycultures/al-sufi/star_names.fab:2039
-msgid "Hya_14"
-msgstr "Hya_14"
-
-#: skycultures/al-sufi/star_names.fab:2040
-msgid "Hya_15"
-msgstr "Hya_15"
-
-#: skycultures/al-sufi/star_names.fab:2041
-msgid "Hya_16"
-msgstr "Hya_16"
-
-#: skycultures/al-sufi/star_names.fab:2042
-msgid "Hya_17"
-msgstr "Hya_17"
-
-#: skycultures/al-sufi/star_names.fab:2043
-msgid "Hya_18"
-msgstr "Hya_18"
-
-#: skycultures/al-sufi/star_names.fab:2044
-msgid "Hya_19"
-msgstr "Hya_19"
-
-#: skycultures/al-sufi/star_names.fab:2045
-msgid "Hya_20"
-msgstr "Hya_20"
-
-#: skycultures/al-sufi/star_names.fab:2046
-msgid "Hya_21"
-msgstr "Hya_21"
-
-#: skycultures/al-sufi/star_names.fab:2047
-msgid "Hya_22"
-msgstr "Hya_22"
-
-#: skycultures/al-sufi/star_names.fab:2048
-msgid "Hya_23"
-msgstr "Hya_23"
-
-#: skycultures/al-sufi/star_names.fab:2049
-msgid "Hya_24"
-msgstr "Hya_24"
-
-#: skycultures/al-sufi/star_names.fab:2050
-msgid "Hya_25"
-msgstr "Hya_25"
-
-#: skycultures/al-sufi/star_names.fab:2051
-msgid "Hya_a_01"
-msgstr "Hya_a_01"
-
-#: skycultures/al-sufi/star_names.fab:2052
-msgid "Hya_a_02"
-msgstr "Hya_a_02"
-
 #: skycultures/al-sufi/star_names.fab:2054
 msgid ""
 "The southernmost of the two advance ones, which is on the nostrils of the "
@@ -16780,34 +13263,6 @@ msgstr ""
 "La estrella a cierta distancia de la parte trasera de las que están en el "
 "cuello"
 
-#: skycultures/al-sufi/star_names.fab:2086
-msgid "Crt_1"
-msgstr "Crt_1"
-
-#: skycultures/al-sufi/star_names.fab:2087
-msgid "Crt_2"
-msgstr "Crt_2"
-
-#: skycultures/al-sufi/star_names.fab:2088
-msgid "Crt_3"
-msgstr "Crt_3"
-
-#: skycultures/al-sufi/star_names.fab:2089
-msgid "Crt_4"
-msgstr "Crt_4"
-
-#: skycultures/al-sufi/star_names.fab:2090
-msgid "Crt_5"
-msgstr "Crt_5"
-
-#: skycultures/al-sufi/star_names.fab:2091
-msgid "Crt_6"
-msgstr "Crt_6"
-
-#: skycultures/al-sufi/star_names.fab:2092
-msgid "Crt_7"
-msgstr "Crt_7"
-
 #: skycultures/al-sufi/star_names.fab:2094
 msgid "The star in the base of bowl, which is [applied in] common to Hydra"
 msgstr "La estrella en la base del cuenco, que se [aplica en] común a Hydra"
@@ -16832,34 +13287,6 @@ msgstr "La estrella en el mango sur"
 msgid "The star on the northern handle"
 msgstr "La estrella en el mango norte"
 
-#: skycultures/al-sufi/star_names.fab:2104
-msgid "Crv_1"
-msgstr "Crv_1"
-
-#: skycultures/al-sufi/star_names.fab:2105
-msgid "Crv_2"
-msgstr "Crv_2"
-
-#: skycultures/al-sufi/star_names.fab:2106
-msgid "Crv_3"
-msgstr "Crv_3"
-
-#: skycultures/al-sufi/star_names.fab:2107
-msgid "Crv_4"
-msgstr "Crv_4"
-
-#: skycultures/al-sufi/star_names.fab:2108
-msgid "Crv_5"
-msgstr "Crv_5"
-
-#: skycultures/al-sufi/star_names.fab:2109
-msgid "Crv_6"
-msgstr "Crv_6"
-
-#: skycultures/al-sufi/star_names.fab:2110
-msgid "Crv_7"
-msgstr "Crv_7"
-
 #: skycultures/al-sufi/star_names.fab:2112
 msgid "The star in the beak, which is [applied in] common to Hydra"
 msgstr "La estrella en el pico, que se [aplica en] común a Hydra"
@@ -16880,150 +13307,6 @@ msgstr "La más avanzada de las dos estrellas en el alerón trasero"
 msgid "The star on the end of the leg, which is [applied in] common to Hydra"
 msgstr ""
 "La estrella en el extremo de la pierna, que se [aplica en] común a Hydra"
-
-#: skycultures/al-sufi/star_names.fab:2122
-msgid "Cen_1"
-msgstr "Cen_1"
-
-#: skycultures/al-sufi/star_names.fab:2123
-msgid "Cen_2"
-msgstr "Cen_2"
-
-#: skycultures/al-sufi/star_names.fab:2124
-msgid "Cen_3"
-msgstr "Cen_3"
-
-#: skycultures/al-sufi/star_names.fab:2125
-msgid "Cen_4"
-msgstr "Cen_4"
-
-#: skycultures/al-sufi/star_names.fab:2126
-msgid "Cen_5"
-msgstr "Cen_5"
-
-#: skycultures/al-sufi/star_names.fab:2127
-msgid "Cen_6"
-msgstr "Cen_6"
-
-#: skycultures/al-sufi/star_names.fab:2128
-msgid "Cen_7"
-msgstr "Cen_7"
-
-#: skycultures/al-sufi/star_names.fab:2129
-msgid "Cen_8"
-msgstr "Cen_8"
-
-#: skycultures/al-sufi/star_names.fab:2130
-msgid "Cen_9"
-msgstr "Cen_9"
-
-#: skycultures/al-sufi/star_names.fab:2131
-msgid "Cen_10"
-msgstr "Cen_10"
-
-#: skycultures/al-sufi/star_names.fab:2132
-msgid "Cen_11"
-msgstr "Cen_11"
-
-#: skycultures/al-sufi/star_names.fab:2133
-msgid "Cen_12"
-msgstr "Cen_12"
-
-#: skycultures/al-sufi/star_names.fab:2134
-msgid "Cen_13"
-msgstr "Cen_13"
-
-#: skycultures/al-sufi/star_names.fab:2135
-msgid "Cen_14"
-msgstr "Cen_14"
-
-#: skycultures/al-sufi/star_names.fab:2136
-msgid "Cen_15"
-msgstr "Cen_15"
-
-#: skycultures/al-sufi/star_names.fab:2137
-msgid "Cen_16"
-msgstr "Cen_16"
-
-#: skycultures/al-sufi/star_names.fab:2138
-msgid "Cen_17"
-msgstr "Cen_17"
-
-#: skycultures/al-sufi/star_names.fab:2139
-msgid "Cen_18"
-msgstr "Cen_18"
-
-#: skycultures/al-sufi/star_names.fab:2140
-msgid "Cen_19"
-msgstr "Cen_19"
-
-#: skycultures/al-sufi/star_names.fab:2141
-msgid "Cen_20"
-msgstr "Cen_20"
-
-#: skycultures/al-sufi/star_names.fab:2143
-msgid "Cen_22"
-msgstr "Cen_22"
-
-#: skycultures/al-sufi/star_names.fab:2144
-msgid "Cen_23"
-msgstr "Cen_23"
-
-#: skycultures/al-sufi/star_names.fab:2145
-msgid "Cen_24"
-msgstr "Cen_24"
-
-#: skycultures/al-sufi/star_names.fab:2146
-msgid "Cen_25"
-msgstr "Cen_25"
-
-#: skycultures/al-sufi/star_names.fab:2147
-msgid "Cen_26"
-msgstr "Cen_26"
-
-#: skycultures/al-sufi/star_names.fab:2148
-msgid "Cen_27"
-msgstr "Cen_27"
-
-#: skycultures/al-sufi/star_names.fab:2149
-msgid "Cen_28"
-msgstr "Cen_28"
-
-#: skycultures/al-sufi/star_names.fab:2150
-msgid "Cen_29"
-msgstr "Cen_29"
-
-#: skycultures/al-sufi/star_names.fab:2151
-msgid "Cen_30"
-msgstr "Cen_30"
-
-#: skycultures/al-sufi/star_names.fab:2152
-msgid "Cen_31"
-msgstr "Cen_31"
-
-#: skycultures/al-sufi/star_names.fab:2153
-msgid "Cen_32"
-msgstr "Cen_32"
-
-#: skycultures/al-sufi/star_names.fab:2154
-msgid "Cen_33"
-msgstr "Cen_33"
-
-#: skycultures/al-sufi/star_names.fab:2155
-msgid "Cen_34"
-msgstr "Cen_34"
-
-#: skycultures/al-sufi/star_names.fab:2156
-msgid "Cen_35"
-msgstr "Cen_35"
-
-#: skycultures/al-sufi/star_names.fab:2157
-msgid "Cen_36"
-msgstr "Cen_36"
-
-#: skycultures/al-sufi/star_names.fab:2158
-msgid "Cen_37"
-msgstr "Cen_37"
 
 #: skycultures/al-sufi/star_names.fab:2160
 msgid "The southernmost of the four stars in the head"
@@ -17138,82 +13421,6 @@ msgstr "Al-Wazn"
 msgid "Hadari"
 msgstr "Hadari"
 
-#: skycultures/al-sufi/star_names.fab:2204
-msgid "Lup_1"
-msgstr "Lup_1"
-
-#: skycultures/al-sufi/star_names.fab:2205
-msgid "Lup_2"
-msgstr "Lup_2"
-
-#: skycultures/al-sufi/star_names.fab:2206
-msgid "Lup_3"
-msgstr "Lup_3"
-
-#: skycultures/al-sufi/star_names.fab:2207
-msgid "Lup_4"
-msgstr "Lup_4"
-
-#: skycultures/al-sufi/star_names.fab:2208
-msgid "Lup_5"
-msgstr "Lup_5"
-
-#: skycultures/al-sufi/star_names.fab:2209
-msgid "Lup_6"
-msgstr "Lup_6"
-
-#: skycultures/al-sufi/star_names.fab:2210
-msgid "Lup_7"
-msgstr "Lup_7"
-
-#: skycultures/al-sufi/star_names.fab:2211
-msgid "Lup_8"
-msgstr "Lup_8"
-
-#: skycultures/al-sufi/star_names.fab:2212
-msgid "Lup_9"
-msgstr "Lup_9"
-
-#: skycultures/al-sufi/star_names.fab:2213
-msgid "Lup_10"
-msgstr "Lup_10"
-
-#: skycultures/al-sufi/star_names.fab:2214
-msgid "Lup_11"
-msgstr "Lup_11"
-
-#: skycultures/al-sufi/star_names.fab:2215
-msgid "Lup_12"
-msgstr "Lup_12"
-
-#: skycultures/al-sufi/star_names.fab:2216
-msgid "Lup_13"
-msgstr "Lup_13"
-
-#: skycultures/al-sufi/star_names.fab:2217
-msgid "Lup_14"
-msgstr "Lup_14"
-
-#: skycultures/al-sufi/star_names.fab:2218
-msgid "Lup_15"
-msgstr "Lup_15"
-
-#: skycultures/al-sufi/star_names.fab:2219
-msgid "Lup_16"
-msgstr "Lup_16"
-
-#: skycultures/al-sufi/star_names.fab:2220
-msgid "Lup_17"
-msgstr "Lup_17"
-
-#: skycultures/al-sufi/star_names.fab:2221
-msgid "Lup_18"
-msgstr "Lup_18"
-
-#: skycultures/al-sufi/star_names.fab:2222
-msgid "Lup_19"
-msgstr "Lup_19"
-
 #: skycultures/al-sufi/star_names.fab:2224
 msgid "The star at the end of the hind leg, by the [right] hand of Centaurus"
 msgstr ""
@@ -17268,34 +13475,6 @@ msgid "The southernmost of the two stars in the front leg, on the hand"
 msgstr ""
 "La más al meridional de las dos estrellas en la pierna delantera, en la mano"
 
-#: skycultures/al-sufi/star_names.fab:2245
-msgid "Ara_1"
-msgstr "Ara_1"
-
-#: skycultures/al-sufi/star_names.fab:2246
-msgid "Ara_2"
-msgstr "Ara_2"
-
-#: skycultures/al-sufi/star_names.fab:2247
-msgid "Ara_3"
-msgstr "Ara_3"
-
-#: skycultures/al-sufi/star_names.fab:2248
-msgid "Ara_4"
-msgstr "Ara_4"
-
-#: skycultures/al-sufi/star_names.fab:2249
-msgid "Ara_5"
-msgstr "Ara_5"
-
-#: skycultures/al-sufi/star_names.fab:2250
-msgid "Ara_6"
-msgstr "Ara_6"
-
-#: skycultures/al-sufi/star_names.fab:2251
-msgid "Ara_7"
-msgstr "Ara_7"
-
 #: skycultures/al-sufi/star_names.fab:2253
 msgid "The northernmost of the two stars in the base"
 msgstr "La más septentrional de las dos estrellas en la base"
@@ -17319,58 +13498,6 @@ msgstr "La más septentrional de estas dos"
 #: skycultures/al-sufi/star_names.fab:2259
 msgid "The star on the end of the burning-apparatus"
 msgstr "La estrella al final del aparato ardiente"
-
-#: skycultures/al-sufi/star_names.fab:2262
-msgid "CrA_1"
-msgstr "CrA_1"
-
-#: skycultures/al-sufi/star_names.fab:2263
-msgid "CrA_2"
-msgstr "CrA_2"
-
-#: skycultures/al-sufi/star_names.fab:2264
-msgid "CrA_3"
-msgstr "CrA_3"
-
-#: skycultures/al-sufi/star_names.fab:2265
-msgid "CrA_4"
-msgstr "CrA_4"
-
-#: skycultures/al-sufi/star_names.fab:2266
-msgid "CrA_5"
-msgstr "CrA_5"
-
-#: skycultures/al-sufi/star_names.fab:2267
-msgid "CrA_6"
-msgstr "CrA_6"
-
-#: skycultures/al-sufi/star_names.fab:2268
-msgid "CrA_7"
-msgstr "CrA_7"
-
-#: skycultures/al-sufi/star_names.fab:2269
-msgid "CrA_8"
-msgstr "CrA_8"
-
-#: skycultures/al-sufi/star_names.fab:2270
-msgid "CrA_9"
-msgstr "CrA_9"
-
-#: skycultures/al-sufi/star_names.fab:2271
-msgid "CrA_10"
-msgstr "CrA_10"
-
-#: skycultures/al-sufi/star_names.fab:2272
-msgid "CrA_11"
-msgstr "CrA_11"
-
-#: skycultures/al-sufi/star_names.fab:2273
-msgid "CrA_12"
-msgstr "CrA_12"
-
-#: skycultures/al-sufi/star_names.fab:2274
-msgid "CrA_13"
-msgstr "CrA_13"
 
 #: skycultures/al-sufi/star_names.fab:2276
 msgid ""
@@ -17420,50 +13547,6 @@ msgstr "La estrella bastante distante en avanzada de esta"
 msgid "The last one, which is south of the aforementioned star"
 msgstr "La última, que está al sur de la estrella antes mencionada"
 
-#: skycultures/al-sufi/star_names.fab:2291
-msgid "PsA_1"
-msgstr "PsA_1"
-
-#: skycultures/al-sufi/star_names.fab:2292
-msgid "PsA_2"
-msgstr "PsA_2"
-
-#: skycultures/al-sufi/star_names.fab:2293
-msgid "PsA_3"
-msgstr "PsA_3"
-
-#: skycultures/al-sufi/star_names.fab:2294
-msgid "PsA_4"
-msgstr "PsA_4"
-
-#: skycultures/al-sufi/star_names.fab:2295
-msgid "PsA_5"
-msgstr "PsA_5"
-
-#: skycultures/al-sufi/star_names.fab:2296
-msgid "PsA_6"
-msgstr "PsA_6"
-
-#: skycultures/al-sufi/star_names.fab:2297
-msgid "PsA_7"
-msgstr "PsA_7"
-
-#: skycultures/al-sufi/star_names.fab:2298
-msgid "PsA_8"
-msgstr "PsA_8"
-
-#: skycultures/al-sufi/star_names.fab:2299
-msgid "PsA_9"
-msgstr "PsA_9"
-
-#: skycultures/al-sufi/star_names.fab:2300
-msgid "PsA_10"
-msgstr "PsA_10"
-
-#: skycultures/al-sufi/star_names.fab:2301
-msgid "PsA_11"
-msgstr "PsA_11"
-
 #: skycultures/al-sufi/star_names.fab:2303
 msgid "The most advanced of the three stars on the southern rim of the head"
 msgstr "La más avanzada de las tres estrellas en el borde sur de la cabeza"
@@ -17488,10 +13571,6 @@ msgstr "La última de las tres estrellas en la columna norte"
 msgid "Tassel of the lion"
 msgstr "Borla del león"
 
-#: skycultures/al-sufi/dso_names.fab:3 skycultures/al-sufi/dso_names.fab:6
-msgid "Per_1"
-msgstr "Per_1"
-
 #: skycultures/al-sufi/dso_names.fab:4 skycultures/al-sufi/dso_names.fab:7
 msgid "The nebulous mass on the right hand"
 msgstr "La masa nebulosa en la mano derecha"
@@ -17500,18 +13579,10 @@ msgstr "La masa nebulosa en la mano derecha"
 msgid "wrist of Al-Thurayya"
 msgstr "muñeca de Al-Thurayya"
 
-#: skycultures/al-sufi/dso_names.fab:9
-msgid "Cen_21"
-msgstr "Cen_21"
-
 #: skycultures/al-sufi/dso_names.fab:10
 msgid "The star on the place where the back joins [the horse's body]"
 msgstr ""
 "La estrella en el lugar donde la espalda se une [al cuerpo del caballo]"
-
-#: skycultures/al-sufi/dso_names.fab:11
-msgid "Cnc_1"
-msgstr "Cnc_1"
 
 #: skycultures/al-sufi/dso_names.fab:12
 msgid "The middle of the nebulous mass in the chest, called Praesepe"
@@ -58902,10 +54973,6 @@ msgstr "Estrella de Eridu"
 #: skycultures/mulapin/constellation_names.eng.fab:50
 msgid "Goddess Ninmakh"
 msgstr "Diosa Ninmakh"
-
-#: skycultures/mulapin/constellation_names.eng.fab:51
-msgid "Mouse"
-msgstr "Ratón"
 
 #: skycultures/mulapin/constellation_names.eng.fab:52
 msgid "Harrow"
