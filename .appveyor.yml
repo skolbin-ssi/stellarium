@@ -29,14 +29,14 @@ environment:
     qtver: 5.9
     qtbin: msvc2015_64
     msvcname: Visual Studio 14 2015 Win64
-    packaging: true
+    packaging: false
     suffix: Win64
   - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
     platform: Win32
     qtver: 5.9
     qtbin: msvc2015
     msvcname: Visual Studio 14 2015
-    packaging: true
+    packaging: false
     suffix: Win32
   - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
     platform: x64

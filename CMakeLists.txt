@@ -194,8 +194,8 @@ ADD_DEFINITIONS(-D_USE_MATH_DEFINES)
 
 # flags shared for gcc-like compilers (also MinGW/Clang)
 # Qt 5.7 requires C++11 support
-SET(STEL_GCC_C_FLAGS "-Wall -Wextra -Wno-unused-parameter")
-SET(STEL_GCC_CXX_FLAGS "-Wall -Wextra -Wno-unused-parameter")
+SET(STEL_GCC_C_FLAGS "-Wall -Wextra -Wno-unused-parameter -Wno-unknown-pragmas")
+SET(STEL_GCC_CXX_FLAGS "-Wall -Wextra -Wno-unused-parameter -Wno-unknown-pragmas")
 # Intel C/C++ compilers do not have an option -Wno-unused-results
 IF(NOT "${CMAKE_CXX_COMPILER_ID}" MATCHES "Intel")
      SET(STEL_GCC_C_FLAGS "${STEL_GCC_C_FLAGS} -Wno-unused-result")
@@ -430,6 +430,7 @@ ADD_PLUGIN(Novae 1)
 ADD_PLUGIN(Observability 1)
 ADD_PLUGIN(Oculars 1)
 ADD_PLUGIN(Oculus 0)
+ADD_PLUGIN(OnlineQueries 1)
 ADD_PLUGIN(PointerCoordinates 1)
 ADD_PLUGIN(Pulsars 1)
 ADD_PLUGIN(Quasars 1)
