@@ -42,6 +42,7 @@
 #include "StelTextureMgr.hpp"
 #include "StelTranslator.hpp"
 #include "SolarSystem.hpp"
+#include "NebulaMgr.hpp"
 #include "StelUtils.hpp"
 #include "StelPropertyMgr.hpp"
 #include "LandscapeMgr.hpp"
@@ -85,7 +86,7 @@ StelPluginInfo OcularsStelPluginInterface::getPluginInfo() const
 	info.id = "Oculars";
 	info.displayedName = N_("Oculars");
 	info.authors = "Timothy Reaves";
-	info.contact = "https://github.com/Stellarium/stellarium";
+	info.contact = STELLARIUM_DEV_URL;
 	info.description = N_("Shows the sky as if looking through a telescope eyepiece. (Only magnification and field of view are simulated.) It can also show a sensor frame and a Telrad sight.");
 	info.version = OCULARS_PLUGIN_VERSION;
 	info.license = OCULARS_PLUGIN_LICENSE;
@@ -131,6 +132,9 @@ Oculars::Oculars()
 	, absoluteStarScaleCCD(1.0)
 	, flagMoonScaleMain(false)
 	, flagMinorBodiesScaleMain(false)
+	, flagSunScaleMain(false)
+	, flagPlanetsScaleMain(false)
+	, flagDSOPropHintMain(false)
 	, milkyWaySaturation(1.0)
 	, maxEyepieceAngle(0.0)
 	, flagRequireSelection(true)
@@ -1237,7 +1241,7 @@ void Oculars::incrementCCDIndex()
 	{
 		selectedCCDIndex = 0;
 	}
-	emit(selectedCCDChanged(selectedCCDIndex));
+	emit selectedCCDChanged(selectedCCDIndex);
 }
 
 void Oculars::incrementOcularIndex()
@@ -1259,7 +1263,7 @@ void Oculars::incrementOcularIndex()
 		if (selectedTelescopeIndex == -1)
 			selectTelescopeAtIndex(0);
 	}
-	emit(selectedOcularChanged(selectedOcularIndex));
+	emit selectedOcularChanged(selectedOcularIndex);
 }
 
 void Oculars::incrementTelescopeIndex()
@@ -1269,7 +1273,7 @@ void Oculars::incrementTelescopeIndex()
 	{
 		selectedTelescopeIndex = 0;
 	}
-	emit(selectedTelescopeChanged(selectedTelescopeIndex));
+	emit selectedTelescopeChanged(selectedTelescopeIndex);
 }
 
 void Oculars::incrementLensIndex()
@@ -1279,13 +1283,13 @@ void Oculars::incrementLensIndex()
 	{
 		selectedLensIndex = -1;
 	}
-	emit(selectedLensChanged(selectedLensIndex));
+	emit selectedLensChanged(selectedLensIndex);
 }
 
 void Oculars::disableLens()
 {
 	selectedLensIndex = -1;
-	emit(selectedLensChanged(selectedLensIndex));
+	emit selectedLensChanged(selectedLensIndex);
 }
 
 void Oculars::rotateCCD(int amount)
@@ -1302,7 +1306,8 @@ void Oculars::rotateCCD(int amount)
 	{
 		angle += 360;
 	}
-	ccd->setChipRotAngle(angle);	
+	ccd->setChipRotAngle(angle);
+	emit selectedCCDRotationAngleChanged(angle);
 }
 
 void Oculars::rotatePrism(int amount)
@@ -1320,6 +1325,7 @@ void Oculars::rotatePrism(int amount)
 		angle += 360;
 	}
 	ccd->setPrismPosAngle(angle);
+	emit selectedCCDPrismPositionAngleChanged(angle);
 }
 
 void Oculars::selectCCDAtIndex(int index)
@@ -1327,7 +1333,7 @@ void Oculars::selectCCDAtIndex(int index)
 	if (index > -1 && index < ccds.count())
 	{
 		selectedCCDIndex = index;
-		emit(selectedCCDChanged(index));
+		emit selectedCCDChanged(index);
 	}
 }
 
@@ -1339,7 +1345,7 @@ void Oculars::selectOcularAtIndex(int index)
 	if (index > -1 && index < oculars.count() && (telescopes.count() >= 0 || oculars[index]->isBinoculars()))
 	{
 		selectedOcularIndex = index;
-		emit(selectedOcularChanged(index));
+		emit selectedOcularChanged(index);
 	}
 }
 
@@ -1348,7 +1354,7 @@ void Oculars::selectTelescopeAtIndex(int index)
 	if (index > -1 && index < telescopes.count())
 	{
 		selectedTelescopeIndex = index;
-		emit(selectedTelescopeChanged(index));
+		emit selectedTelescopeChanged(index);
 	}
 }
 
@@ -1357,7 +1363,7 @@ void Oculars::selectLensAtIndex(int index)
 	if (index > -2 && index < lenses.count())
 	{
 		selectedLensIndex = index;
-		emit(selectedLensChanged(index));
+		emit selectedLensChanged(index);
 	}
 }
 
@@ -1424,7 +1430,6 @@ void Oculars::toggleCCD(bool show)
 		absoluteStarScaleCCD=skyDrawer->getAbsoluteStarScale();
 		skyDrawer->setRelativeStarScale(relativeStarScaleMain);
 		skyDrawer->setAbsoluteStarScale(absoluteStarScaleMain);
-		movementManager->setFlagTracking(false);
 		//Zoom out
 		if (getFlagInitFovUsage())
 			movementManager->zoomTo(movementManager->getInitFov());
@@ -2259,12 +2264,14 @@ void Oculars::unzoomOcular()
 	skyDrawer->setFlagNebulaMagnitudeLimit(flagLimitDSOsMain);
 	skyDrawer->setCustomPlanetMagnitudeLimit(magLimitPlanetsMain);
 	skyDrawer->setCustomNebulaMagnitudeLimit(magLimitDSOsMain);
-	movementManager->setFlagTracking(false);
 	movementManager->setFlagEnableZoomKeys(true);
 	movementManager->setFlagEnableMouseNavigation(true);
 
 	GETSTELMODULE(SolarSystem)->setFlagMoonScale(flagMoonScaleMain);
 	GETSTELMODULE(SolarSystem)->setFlagMinorBodyScale(flagMinorBodiesScaleMain);
+	GETSTELMODULE(SolarSystem)->setFlagSunScale(flagSunScaleMain);
+	GETSTELMODULE(SolarSystem)->setFlagPlanetScale(flagPlanetsScaleMain);
+	GETSTELMODULE(NebulaMgr)->setHintsProportional(flagDSOPropHintMain);
 
 	// Set the screen display
 	core->setFlipHorz(flipHorzMain);
@@ -2297,11 +2304,11 @@ void Oculars::zoom(bool zoomedIn)
 			if (flagHideGridsLines)
 			{
 				// Store current state for later resetting
-				flagGridLinesDisplayedMain	= propMgr->getStelPropertyValue("GridLinesMgr.gridlinesDisplayed").toBool();
-				flagCardinalPointsMain		= propMgr->getStelPropertyValue("LandscapeMgr.cardinalsPointsDisplayed").toBool();
-				flagConstellationLinesMain	= propMgr->getStelPropertyValue("ConstellationMgr.linesDisplayed").toBool();
+				flagGridLinesDisplayedMain		= propMgr->getStelPropertyValue("GridLinesMgr.gridlinesDisplayed").toBool();
+				flagCardinalPointsMain			= propMgr->getStelPropertyValue("LandscapeMgr.cardinalsPointsDisplayed").toBool();
+				flagConstellationLinesMain		= propMgr->getStelPropertyValue("ConstellationMgr.linesDisplayed").toBool();
 				flagConstellationBoundariesMain	= propMgr->getStelPropertyValue("ConstellationMgr.boundariesDisplayed").toBool();
-				flagAsterismLinesMain		= propMgr->getStelPropertyValue("AsterismMgr.linesDisplayed").toBool();
+				flagAsterismLinesMain			= propMgr->getStelPropertyValue("AsterismMgr.linesDisplayed").toBool();
 				flagRayHelpersLinesMain		= propMgr->getStelPropertyValue("AsterismMgr.rayHelpersDisplayed").toBool();
 			}
 
@@ -2317,9 +2324,12 @@ void Oculars::zoom(bool zoomedIn)
 			relativeStarScaleMain	= skyDrawer->getRelativeStarScale();
 			absoluteStarScaleMain	= skyDrawer->getAbsoluteStarScale();
 
-			flagMoonScaleMain		= propMgr->getStelPropertyValue("SolarSystem.flagMoonScale").toBool();
-			flagMinorBodiesScaleMain	= propMgr->getStelPropertyValue("SolarSystem.flagMinorBodyScale").toBool();
+			flagMoonScaleMain	= propMgr->getStelPropertyValue("SolarSystem.flagMoonScale").toBool();
+			flagMinorBodiesScaleMain = propMgr->getStelPropertyValue("SolarSystem.flagMinorBodyScale").toBool();
+			flagSunScaleMain	= propMgr->getStelPropertyValue("SolarSystem.flagSunScale").toBool();
+			flagPlanetsScaleMain	= propMgr->getStelPropertyValue("SolarSystem.flagPlanetScale").toBool();
 
+			flagDSOPropHintMain	= propMgr->getStelPropertyValue("NebulaMgr.hintsProportional").toBool();
 			milkyWaySaturation	= propMgr->getStelPropertyValue("MilkyWay.saturation").toDouble();
 
 			flipHorzMain = core->getFlipHorz();
@@ -2381,6 +2391,9 @@ void Oculars::zoomOcular()
 
 	GETSTELMODULE(SolarSystem)->setFlagMoonScale(false);
 	GETSTELMODULE(SolarSystem)->setFlagMinorBodyScale(false);
+	GETSTELMODULE(SolarSystem)->setFlagSunScale(false);
+	GETSTELMODULE(SolarSystem)->setFlagPlanetScale(false);
+	GETSTELMODULE(NebulaMgr)->setHintsProportional(false);
 
 	movementManager->setFlagTracking(true);
 	movementManager->setFlagEnableZoomKeys(false);
